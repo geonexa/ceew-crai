@@ -1,0 +1,30 @@
+{
+  "name": "crai-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
+    "dom-to-image": "^2.6.0",
+    "file-saver": "^2.0.5",
+    "jspdf": "^2.5.1",
+    "leaflet": "^1.9.4",
+    "leaflet-fullscreen": "^1.0.2",
+    "leaflet-geosearch": "^3.11.1",
+    "next": "14.2.3",
+    "papaparse": "^5.4.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.2.0",
+    "react-leaflet": "^4.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3"
+  }
+}
