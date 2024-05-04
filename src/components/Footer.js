@@ -30,7 +30,7 @@ const Footer = () => {
 
 
               <a href="https://clustrmaps.com/site/1byts" title="Visit tracker">
-                <img alt='Website Visitor Map' src="//www.clustrmaps.com/map_v2.png?d=uVciEhEn6_RY_CsbaIh8UZk1hUcNa3WTQ4HmMGOeuVU&cl=ffffff" /></a>
+                <Image alt='Website Visitor Map' src="//www.clustrmaps.com/map_v2.png?d=uVciEhEn6_RY_CsbaIh8UZk1hUcNa3WTQ4HmMGOeuVU&cl=ffffff" /></a>
 
             </div>
 
