@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react'
-import IndiaSubdistricts from '../../public/data/shapefiles/IndiaSubdistricts.json';
+import IndiaTehsils from '../../public/data/shapefiles/IndiaTehsils.json';
 import PlaceAttributes from "../../public/data/PlaceAttributes.json"
 import Papa from 'papaparse';
 import dynamic from 'next/dynamic';
@@ -173,7 +173,7 @@ const DecisionSupportPage = () => {
         setDistrictList(items);
         setSelectedState(value)
 
-        let filteredFeatures = IndiaSubdistricts.features.filter((feature) => feature.properties.STATE === value);
+        let filteredFeatures = IndiaTehsils.features.filter((feature) => feature.properties.STATE === value);
 
         setFilteredIndiaDistrict({
             type: "FeatureCollection",
@@ -191,7 +191,7 @@ const DecisionSupportPage = () => {
         setTalukaList(items);
         setSelectedDistrict(value)
 
-        let filteredFeatures = IndiaSubdistricts.features.filter((feature) => feature.properties.DISTRICT === value && feature.properties.STATE === selectedState);
+        let filteredFeatures = IndiaTehsils.features.filter((feature) => feature.properties.DISTRICT === value && feature.properties.STATE === selectedState);
 
         setFilteredIndiaDistrict({
             type: "FeatureCollection",
@@ -206,7 +206,7 @@ const DecisionSupportPage = () => {
         items = [...new Set(items.map((item) => item))];
         items.sort();
         setSelectedTehsil(value)
-        let filteredFeatures = IndiaSubdistricts.features.filter((feature) => feature.properties.TEHSIL === value && feature.properties.DISTRICT === selectedDistrict);
+        let filteredFeatures = IndiaTehsils.features.filter((feature) => feature.properties.TEHSIL === value && feature.properties.DISTRICT === selectedDistrict);
 
         setFilteredIndiaDistrict({
             type: "FeatureCollection",

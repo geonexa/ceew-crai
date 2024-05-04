@@ -8,7 +8,13 @@ const AboutPage = () => {
         <meta name="description" content="India Climate Resilience Atlas" />
         <title>About</title>
       </Head>
-      <div>AboutPage</div>
+      <div className='page_container'>
+        <div className='page_heading'>
+          <h2>About</h2>
+        </div>
+
+      </div>
+
     </>
 
   )

@@ -4,14 +4,20 @@ import React from 'react'
 const ContactPage = () => {
   return (
     <>
-    <Head>
+      <Head>
         <meta name="description" content="India Climate Resilience Atlas" />
         <title>Contact </title>
       </Head>
 
-      <div>ContactPage</div>
-      </>
-   
+      <div className='page_container'>
+        <div className='page_heading'>
+          <h2>Contact Us</h2>
+        </div>
+
+      </div>
+
+    </>
+
   )
 }
 

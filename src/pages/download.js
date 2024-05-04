@@ -281,7 +281,7 @@ const DataDownloadPage = () => {
               </select>
             </div>
 
-            {selectedData && selectedData[0].STATE && (
+            {selectedData && selectedData.length > 0 && selectedData[0].STATE && (
               <div className='col-md-6'>
                 <label>Select State</label>
                 <select
@@ -300,7 +300,7 @@ const DataDownloadPage = () => {
 
             )}
 
-            {selectedData && selectedData[0].DISTRICT && (
+            {selectedData && selectedData.length > 0 && selectedData[0].DISTRICT && (
               <div className='col-md-6'>
                 <label >Select District</label>
                 <select
@@ -320,7 +320,7 @@ const DataDownloadPage = () => {
             )}
 
 
-            {selectedData && selectedData[0].TEHSIL && (
+            {selectedData && selectedData.length > 0 && selectedData[0].TEHSIL && (
               <div className='col-md-6'>
                 <label>Select Tehsil</label>
                 <select

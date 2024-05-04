@@ -25,16 +25,15 @@ const Footer = () => {
 
 
 
-          <div className="footer_cta">
+          {/* <div className="footer_cta">
             <div style={{ display: "none" }}>
 
 
               <a href="https://clustrmaps.com/site/1byts" title="Visit tracker">
                 <Image alt='Website Visitor Map' src="//www.clustrmaps.com/map_v2.png?d=uVciEhEn6_RY_CsbaIh8UZk1hUcNa3WTQ4HmMGOeuVU&cl=ffffff" /></a>
-
             </div>
 
-          </div>
+          </div> */}
 
         </div>
 

@@ -1,5 +1,5 @@
 
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import SearchBar from "./SearchBar";
 import { MapContainer, GeoJSON, TileLayer, ImageOverlay } from "react-leaflet";
 import * as L from "leaflet";
@@ -12,16 +12,19 @@ import IndiaClimateZones from "../../public/images/IndiaClimateZones_1991_2020.p
 import climate_zones_legend from "../../public/images/climate_zones_legend.jpg"
 import monsoon_anomaly_legend from "../../public/images/monsoon_anomaly_legend.jpg"
 
-
 import IndiaBoundary from '../../public/data/shapefiles/IndiaBoundary.json';
-import IndiaDistricts from '../../public/data/shapefiles/IndiaDistricts.json';
-import IndiaStates from '../../public/data/shapefiles/IndiaStates.json';
-import IndiaSubdistricts from '../../public/data/shapefiles/IndiaSubdistricts.json';
+
 
 
 import ExportMapButton from './ExportMapButton';
 
-const VisualizeRiskMap = ({ selectedBasemapLayer, selectedRasterLayer, selectedDataQuery, selectedVariable, selectedAdminBoundaries, rasterLayerOpacity, mapContainerRef, selectedData }) => {
+const VisualizeRiskMap = ({ selectedBasemapLayer, selectedRasterLayer, selectedDataQuery, selectedVariable, selectedAdminBoundaries, rasterLayerOpacity, mapContainerRef, selectedData, geojsonJsonData }) => {
+
+
+
+
+
+
 
 
 
@@ -323,7 +326,7 @@ const VisualizeRiskMap = ({ selectedBasemapLayer, selectedRasterLayer, selectedD
                             attribution="Data Source: <a href='https://www.gloh2o.org/koppen/' target='_blank'>Köppen-Geiger
                             Global climate classification (1991-2020)</a>"
                             key="Irrigated_Rainfed"
-                            url={IndiaClimateZones}
+                            url={IndiaClimateZones.src}
                             fitBounds={true}
                             // interactive={true}
                             bounds={[
@@ -352,7 +355,7 @@ const VisualizeRiskMap = ({ selectedBasemapLayer, selectedRasterLayer, selectedD
 
 
 
-                {selectedDataQuery && selectedData && selectedDataQuery.DataValue === "MonsoonData" && selectedVariable && selectedAdminBoundaries !== "" && (
+                {selectedDataQuery && geojsonJsonData && selectedData && selectedDataQuery.DataValue === "MonsoonData" && selectedVariable && selectedAdminBoundaries !== "" && (
                     <>
 
                         <div className="legend_panel_container" style={{ width: "320px", bottom: "30px", padding: "5px", right: "10px", backgroundColor: "white", borderRadius: "5px" }}>
@@ -370,7 +373,7 @@ const VisualizeRiskMap = ({ selectedBasemapLayer, selectedRasterLayer, selectedD
                                 <GeoJSON
                                     key={`${selectedAdminBoundaries} + ${selectedVariable.value} + ${selectedData && selectedData.length}`}
                                     style={TalukaStyle}
-                                    data={IndiaSubdistricts.features}
+                                    data={geojsonJsonData.features}
                                     onEachFeature={TalukaOnEachfeature}
                                 />
 
@@ -383,7 +386,7 @@ const VisualizeRiskMap = ({ selectedBasemapLayer, selectedRasterLayer, selectedD
                                 <GeoJSON
                                     key={`${selectedAdminBoundaries} + ${selectedVariable.value} + ${selectedData && selectedData.length}`}
                                     style={DistrictMonsoonStyle}
-                                    data={IndiaDistricts.features}
+                                    data={geojsonJsonData.features}
                                     onEachFeature={DistrictOnEachfeature}
                                 />
 
@@ -405,7 +408,7 @@ const VisualizeRiskMap = ({ selectedBasemapLayer, selectedRasterLayer, selectedD
                                     //     fillOpacity: "0.001",
                                     //     interactive: false,
                                     // }}
-                                    data={IndiaStates.features}
+                                    data={geojsonJsonData.features}
                                 />
 
                             </>
@@ -419,7 +422,7 @@ const VisualizeRiskMap = ({ selectedBasemapLayer, selectedRasterLayer, selectedD
 
 
 
-                {selectedDataQuery && selectedData && selectedDataQuery.DataValue === "hydrometeorological_disasters" && selectedVariable && selectedAdminBoundaries !== "" && (
+                {selectedDataQuery && selectedData && geojsonJsonData && selectedDataQuery.DataValue === "hydrometeorological_disasters" && selectedVariable && selectedAdminBoundaries !== "" && (
                     <>
 
                         <div className="legend_panel_container" style={{ width: "320px", bottom: "30px", padding: "5px", right: "10px", backgroundColor: "white", borderRadius: "5px" }}>
@@ -435,7 +438,7 @@ const VisualizeRiskMap = ({ selectedBasemapLayer, selectedRasterLayer, selectedD
                                 <GeoJSON
                                     key={`${selectedAdminBoundaries} + ${selectedVariable.value} + ${selectedData && selectedData.length}`}
                                     style={DistrictHydrometeorologicalStyle}
-                                    data={IndiaDistricts.features}
+                                    data={geojsonJsonData.features}
                                     onEachFeature={DistrictOnEachfeature}
                                 />
                             </>

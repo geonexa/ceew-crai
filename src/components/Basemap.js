@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { TileLayer, GeoJSON, LayersControl, FeatureGroup, ScaleControl, useMap, useMapEvents } from 'react-leaflet'
 // import L from 'leaflet';
 import { FaHome } from "react-icons/fa";
-import { BaseMapsLayers, mapCenter, setInitialMapZoom } from '../helpers/mapFunction';
 
 
 
@@ -17,6 +16,23 @@ const BaseMap = () => {
     const map = useMap();
 
 
+
+
+
+    const mapCenter = [23, 84]
+
+const setInitialMapZoom = () => {
+    var viewportWidth = window.innerWidth;
+    var mapZoom;
+    if (viewportWidth <= [767]) {
+        mapZoom = [4];
+    } if (viewportWidth >= [768]) {
+        mapZoom = [4.3];
+    } if (viewportWidth >= [1600]) {
+        mapZoom = [5];
+    }
+    return mapZoom;
+}
 
 
 

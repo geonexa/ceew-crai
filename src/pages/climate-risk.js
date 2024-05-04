@@ -115,7 +115,7 @@ const ClimateRiskPage = () => {
   const [selectedData, setSelectedData] = useState(null);
 
 
-
+  const [geojsonJsonData, setGeojsonJsonData] = useState(null);
 
 
 
@@ -125,6 +125,9 @@ const ClimateRiskPage = () => {
         try {
           setLoading(true);
           const response = await fetch(`/api/monsoonData?type=${selectedAdminBoundaries}`);
+          const geojsonresponse = await import(`../../public/data/shapefiles/India${selectedAdminBoundaries}s.json`);
+          setGeojsonJsonData(geojsonresponse.default);
+
           const jsonData = await response.json();
           setSelectedData(jsonData);
         } catch (error) {
@@ -144,6 +147,9 @@ const ClimateRiskPage = () => {
         try {
           setLoading(true);
           const response = await fetch(`/api/hydrometeorologicalData?type=${selectedVariable.value}`);
+          const geojsonresponse = await import(`../../public/data/shapefiles/India${selectedAdminBoundaries}s.json`);
+          setGeojsonJsonData(geojsonresponse.default);
+
           const jsonData = await response.json();
           setSelectedData(jsonData);
         } catch (error) {
@@ -404,6 +410,7 @@ const ClimateRiskPage = () => {
               rasterLayerOpacity={rasterLayerOpacity}
               mapContainerRef={mapContainerRef}
               selectedData={selectedData}
+              geojsonJsonData={geojsonJsonData}
             />
 
 
