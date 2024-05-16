@@ -1,5 +1,4 @@
 import React, { useRef, useState } from 'react'
-import IndiaTehsils from '../../public/data/shapefiles/IndiaTehsils.json';
 import PlaceAttributes from "../../public/data/PlaceAttributes.json"
 import Papa from 'papaparse';
 import dynamic from 'next/dynamic';
@@ -10,63 +9,63 @@ import cyclone_legend from "../../public/images/cyclone_legend.jpg"
 import flood_legend from "../../public/images/flood_legend.jpg"
 import drought_legend from "../../public/images/drought_legend.jpg"
 
-const DecesionSupportMap = dynamic(() => import('../components/DecesionSupportMap'), {
+const DecesionSupportMap = dynamic(() => import('../components/maps/DecesionSupportMap'), {
     ssr: false,
-    loading: () =>  <MapLoader/>
+    loading: () => <MapLoader />
 });
 
 
 const MapDatasetOptions = [
     {
-      DataName: "Monsoon variability",
-      DataValue: "MonsoonData",
-      AdminBoundary: ["Tehsil", "District", "State"],
-      variables: [
-  
-        {
-          name: "Changes in June rainfall",
-          value: "june_panomaly_mean",
-        },
-        {
-          name: "Changes in July rainfally",
-          value: "july_panomaly_mean",
-        },
-        {
-          name: "Changes in  August rainfall",
-          value: "august_panomaly_mean",
-        },
-        {
-          name: "Changes in September rainfall",
-          value: "september_panomaly_mean",
-        },
-        {
-          name: "Changes in total JJAS rainfall",
-          value: "jjas_percent_anomaly_mean",
-        },
-        {
-          name: "Changes in October rainfall",
-          value: "october_panomaly_mean",
-        },
-        {
-          name: "Changes in November rainfall",
-          value: "november_panomaly_mean",
-        },
-        {
-          name: "Changes in December rainfall",
-          value: "december_panomaly_mean",
-        },
-        {
-          name: "Changes in total OND rainfall",
-          value: "ond_panomaly_mean",
-        },
-      ]
+        DataName: "Monsoon variability",
+        DataValue: "MonsoonData",
+        AdminBoundary: ["Tehsil", "District", "State"],
+        variables: [
+
+            {
+                name: "Changes in June rainfall",
+                value: "june_panomaly_mean",
+            },
+            {
+                name: "Changes in July rainfally",
+                value: "july_panomaly_mean",
+            },
+            {
+                name: "Changes in  August rainfall",
+                value: "august_panomaly_mean",
+            },
+            {
+                name: "Changes in September rainfall",
+                value: "september_panomaly_mean",
+            },
+            {
+                name: "Changes in total JJAS rainfall",
+                value: "jjas_percent_anomaly_mean",
+            },
+            {
+                name: "Changes in October rainfall",
+                value: "october_panomaly_mean",
+            },
+            {
+                name: "Changes in November rainfall",
+                value: "november_panomaly_mean",
+            },
+            {
+                name: "Changes in December rainfall",
+                value: "december_panomaly_mean",
+            },
+            {
+                name: "Changes in total OND rainfall",
+                value: "ond_panomaly_mean",
+            },
+        ]
     },
     // {
     //   DataName: "Hydrometeorological disasters",
     //   DataValue: "hydrometeorological_disasters",
     //   AdminBoundary: ["District"],
     //   variables: [
-  
+
     //     {
     //       name: "Flood pentad",
     //       value: "flood_pentad_occurrence",
@@ -85,14 +84,17 @@ const MapDatasetOptions = [
     //       legendTitel:"Frequency of cyclone",
     //       legendImg:cyclone_legend,
     //     },
-  
+
     //   ]
     // },
-  ]
+]
 
 const DecisionSupportPage = () => {
 
-    const [selectedDataQuery, setSelectedDataQuery] = useState(null);
+    const [selectedDataQuery1, setSelectedDataQuery1] = useState(null);
+    const [selectedDataQuery2, setSelectedDataQuery2] = useState(null);
+    const [selectedDataQuery3, setSelectedDataQuery3] = useState(null);
+    const [selectedDataQuery4, setSelectedDataQuery4] = useState(null);
     const [selectedVariable1, setSelectedVariable1] = useState(null);
     const [selectedVariable2, setSelectedVariable2] = useState(null);
     const [selectedVariable3, setSelectedVariable3] = useState(null);
@@ -103,7 +105,6 @@ const DecisionSupportPage = () => {
     const [selectedState, setSelectedState] = useState(null);
     const [selectedDistrict, setSelectedDistrict] = useState(null);
     const [selectedTehsil, setSelectedTehsil] = useState(null);
-    const [filteredIndiaDistrict, setFilteredIndiaDistrict] = useState(null);
     const [uploadeddata, setUploadeddata] = useState([]);
 
     const { setAlertMessage, setShowAlert } = useAlertContext();
@@ -173,12 +174,12 @@ const DecisionSupportPage = () => {
         setDistrictList(items);
         setSelectedState(value)
 
-        let filteredFeatures = IndiaTehsils.features.filter((feature) => feature.properties.STATE === value);
+        // let filteredFeatures = IndiaTehsils.features.filter((feature) => feature.properties.STATE === value);
 
-        setFilteredIndiaDistrict({
-            type: "FeatureCollection",
-            features: filteredFeatures,
-        });
+        // setFilteredIndiaDistrict({
+        //     type: "FeatureCollection",
+        //     features: filteredFeatures,
+        // });
 
     };
 
@@ -191,30 +192,30 @@ const DecisionSupportPage = () => {
         setTalukaList(items);
         setSelectedDistrict(value)
 
-        let filteredFeatures = IndiaTehsils.features.filter((feature) => feature.properties.DISTRICT === value && feature.properties.STATE === selectedState);
+        // let filteredFeatures = IndiaTehsils.features.filter((feature) => feature.properties.DISTRICT === value && feature.properties.STATE === selectedState);
 
-        setFilteredIndiaDistrict({
-            type: "FeatureCollection",
-            features: filteredFeatures,
-        });
-
-    };
-
-    const handleTalukaSelect = (event, value) => {
-
-        let items = PlaceAttributes.filter((item) => item.TEHSIL === value && item.DISTRICT === selectedDistrict);
-        items = [...new Set(items.map((item) => item))];
-        items.sort();
-        setSelectedTehsil(value)
-        let filteredFeatures = IndiaTehsils.features.filter((feature) => feature.properties.TEHSIL === value && feature.properties.DISTRICT === selectedDistrict);
-
-        setFilteredIndiaDistrict({
-            type: "FeatureCollection",
-            features: filteredFeatures,
-        });
-
+        // setFilteredIndiaDistrict({
+        //     type: "FeatureCollection",
+        //     features: filteredFeatures,
+        // });
 
     };
+
+    // const handleTalukaSelect = (event, value) => {
+
+    //     let items = PlaceAttributes.filter((item) => item.TEHSIL === value && item.DISTRICT === selectedDistrict);
+    //     items = [...new Set(items.map((item) => item))];
+    //     items.sort();
+    //     setSelectedTehsil(value)
+    //     let filteredFeatures = IndiaTehsils.features.filter((feature) => feature.properties.TEHSIL === value && feature.properties.DISTRICT === selectedDistrict);
+
+    //     setFilteredIndiaDistrict({
+    //         type: "FeatureCollection",
+    //         features: filteredFeatures,
+    //     });
+
+
+    // };
 
     const handleCancelSelection = () => {
         setUploadeddata([]); // Reset the uploaded data state
@@ -231,10 +232,10 @@ const DecisionSupportPage = () => {
 
     return (
         <>
-        <Head>
-        <meta name="description" content="India Climate Resilience Atlas" />
-        <title>Decision support</title>
-      </Head>
+            <Head>
+                <meta name="description" content="India Climate Resilience Atlas" />
+                <title>Decision support</title>
+            </Head>
 
             <div className='dasboard_page_container'>
 
@@ -248,19 +249,18 @@ const DecisionSupportPage = () => {
                                 <div className="accordion-item">
                                     <h2 className="accordion-header" id="panelsStayOpen-headingOne">
                                         <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                                            Select data
+                                            Map-1
                                         </button>
                                     </h2>
                                     <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
 
                                         <div className="accordion-body">
                                             <div className='map_layers'>
-
-                                                <label>Select Dataset</label>
-                                                <select className="form-select mb-3" onChange={(e) => {
+                                                <label>Select dataset</label>
+                                                <select className="form-select mb-2" onChange={(e) => {
                                                     const selectedDataValue = e.target.value;
                                                     const selectedData = MapDatasetOptions.find(item => item.DataValue === selectedDataValue);
-                                                    setSelectedDataQuery(selectedData);
+                                                    setSelectedDataQuery1(selectedData);
                                                 }}>
                                                     <option defaultValue>Select</option>
                                                     {MapDatasetOptions.map((item, index) => (
@@ -268,6 +268,74 @@ const DecisionSupportPage = () => {
                                                     ))}
                                                 </select>
 
+
+                                                <label>Select variable</label>
+                                                <select
+                                                    class="form-select"
+                                                    onChange={(event) => {
+                                                        const selectedOptionValue = event.target.value;
+                                                        const selectedOption = selectedDataQuery1.variables.find(variable => variable.value === selectedOptionValue);
+                                                        setSelectedVariable1(selectedOption);
+                                                    }}
+                                                    disabled={!selectedDataQuery1}
+                                                >
+                                                    <option selected>Select Variable</option>
+                                                    {selectedDataQuery1 && selectedDataQuery1.variables.map((variable, index) => (
+                                                        <option key={index} value={variable.value}>
+                                                            {variable.name}
+                                                        </option>
+                                                    ))}
+                                                </select>
+
+                                            </div>
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+
+                                <div className="accordion-item">
+                                    <h2 className="accordion-header" id="panelsStayOpen-headingOne">
+                                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                            Map-2
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+
+                                        <div className="accordion-body">
+                                            <div className='map_layers'>
+                                                <label>Select dataset</label>
+                                                <select className="form-select mb-2" onChange={(e) => {
+                                                    const selectedDataValue = e.target.value;
+                                                    const selectedData = MapDatasetOptions.find(item => item.DataValue === selectedDataValue);
+                                                    setSelectedDataQuery2(selectedData);
+                                                }}>
+                                                    <option defaultValue>Select</option>
+                                                    {MapDatasetOptions.map((item, index) => (
+                                                        <option key={index} value={item.DataValue}>{item.DataName}</option>
+                                                    ))}
+                                                </select>
+
+
+                                                <label>Select variable</label>
+                                                <select
+                                                    class="form-select"
+                                                    onChange={(event) => {
+                                                        const selectedOptionValue = event.target.value;
+                                                        const selectedOption = selectedDataQuery2.variables.find(variable => variable.value === selectedOptionValue);
+                                                        setSelectedVariable2(selectedOption);
+                                                    }}
+                                                    disabled={!selectedDataQuery2}
+                                                >
+                                                    <option selected>Select Variable</option>
+                                                    {selectedDataQuery2 && selectedDataQuery2.variables.map((variable, index) => (
+                                                        <option key={index} value={variable.value}>
+                                                            {variable.name}
+                                                        </option>
+                                                    ))}
+                                                </select>
 
                                             </div>
 
@@ -278,102 +346,104 @@ const DecisionSupportPage = () => {
                                 </div>
 
                                 <div className="accordion-item">
-                                    <h2 className="accordion-header" id="panelsStayOpen-heading2">
-                                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse2" aria-expanded="true" aria-controls="panelsStayOpen-collapse2">
-                                            Select variable
+                                    <h2 className="accordion-header" id="panelsStayOpen-headingOne">
+                                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                            Map-3
                                         </button>
                                     </h2>
-                                    <div id="panelsStayOpen-collapse2" className="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-heading2">
+                                    <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
 
                                         <div className="accordion-body">
                                             <div className='map_layers'>
-
-
-
-                                                <label>Select Map-1 Variable</label>
-                                                <select
-                                                    class="form-select mb-3"
-                                                    onChange={(event) => {
-                                                        const selectedOptionValue = event.target.value;
-                                                        const selectedOption = selectedDataQuery.variables.find(variable => variable.value === selectedOptionValue);
-                                                        setSelectedVariable1(selectedOption);
-                                                    }}
-                                                    disabled={!selectedDataQuery}
-                                                >
-                                                    <option selected>Select Variable</option>
-                                                    {selectedDataQuery && selectedDataQuery.variables.map((variable, index) => (
-                                                        <option key={index} value={variable.value}>
-                                                            {variable.name}
-                                                        </option>
+                                                <label>Select dataset</label>
+                                                <select className="form-select mb-2" onChange={(e) => {
+                                                    const selectedDataValue = e.target.value;
+                                                    const selectedData = MapDatasetOptions.find(item => item.DataValue === selectedDataValue);
+                                                    setSelectedDataQuery3(selectedData);
+                                                }}>
+                                                    <option defaultValue>Select</option>
+                                                    {MapDatasetOptions.map((item, index) => (
+                                                        <option key={index} value={item.DataValue}>{item.DataName}</option>
                                                     ))}
                                                 </select>
 
-                                                <label>Select Map-2 Variable</label>
-                                                <select
-                                                    class="form-select mb-3"
-                                                    onChange={(event) => {
-                                                        const selectedOptionValue = event.target.value;
-                                                        const selectedOption = selectedDataQuery.variables.find(variable => variable.value === selectedOptionValue);
-                                                        setSelectedVariable2(selectedOption);
-                                                    }}
-                                                    disabled={!selectedDataQuery}
-                                                >
-                                                    <option selected>Select Variable</option>
-                                                    {selectedDataQuery && selectedDataQuery.variables.map((variable, index) => (
-                                                        <option key={index} value={variable.value}>
-                                                            {variable.name}
-                                                        </option>
-                                                    ))}
-                                                </select>
 
-                                                <label>Select Map-3 Variable</label>
+                                                <label>Select variable</label>
                                                 <select
-                                                    class="form-select mb-3"
+                                                    class="form-select"
                                                     onChange={(event) => {
                                                         const selectedOptionValue = event.target.value;
-                                                        const selectedOption = selectedDataQuery.variables.find(variable => variable.value === selectedOptionValue);
+                                                        const selectedOption = selectedDataQuery3.variables.find(variable => variable.value === selectedOptionValue);
                                                         setSelectedVariable3(selectedOption);
                                                     }}
-                                                    disabled={!selectedDataQuery}
+                                                    disabled={!selectedDataQuery3}
                                                 >
                                                     <option selected>Select Variable</option>
-                                                    {selectedDataQuery && selectedDataQuery.variables.map((variable, index) => (
+                                                    {selectedDataQuery3 && selectedDataQuery3.variables.map((variable, index) => (
                                                         <option key={index} value={variable.value}>
                                                             {variable.name}
                                                         </option>
                                                     ))}
                                                 </select>
-
-                                                <label>Select Map-4 Variable</label>
-                                                <select
-                                                    class="form-select mb-3"
-                                                    onChange={(event) => {
-                                                        const selectedOptionValue = event.target.value;
-                                                        const selectedOption = selectedDataQuery.variables.find(variable => variable.value === selectedOptionValue);
-                                                        setSelectedVariable4(selectedOption);
-                                                    }}
-                                                    disabled={!selectedDataQuery}
-                                                >
-                                                    <option selected>Select Variable</option>
-                                                    {selectedDataQuery && selectedDataQuery.variables.map((variable, index) => (
-                                                        <option key={index} value={variable.value}>
-                                                            {variable.name}
-                                                        </option>
-                                                    ))}
-                                                </select>
-
-
-
-
 
                                             </div>
 
                                         </div>
 
 
+                                    </div>
+                                </div>
+
+                                <div className="accordion-item">
+                                    <h2 className="accordion-header" id="panelsStayOpen-headingOne">
+                                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                            Map-4
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+
+                                        <div className="accordion-body">
+                                            <div className='map_layers'>
+                                                <label>Select dataset</label>
+                                                <select className="form-select mb-2" onChange={(e) => {
+                                                    const selectedDataValue = e.target.value;
+                                                    const selectedData = MapDatasetOptions.find(item => item.DataValue === selectedDataValue);
+                                                    setSelectedDataQuery4(selectedData);
+                                                }}>
+                                                    <option defaultValue>Select</option>
+                                                    {MapDatasetOptions.map((item, index) => (
+                                                        <option key={index} value={item.DataValue}>{item.DataName}</option>
+                                                    ))}
+                                                </select>
+
+
+                                                <label>Select variable</label>
+                                                <select
+                                                    class="form-select"
+                                                    onChange={(event) => {
+                                                        const selectedOptionValue = event.target.value;
+                                                        const selectedOption = selectedDataQuery4.variables.find(variable => variable.value === selectedOptionValue);
+                                                        setSelectedVariable4(selectedOption);
+                                                    }}
+                                                    disabled={!selectedDataQuery4}
+                                                >
+                                                    <option selected>Select Variable</option>
+                                                    {selectedDataQuery4 && selectedDataQuery4.variables.map((variable, index) => (
+                                                        <option key={index} value={variable.value}>
+                                                            {variable.name}
+                                                        </option>
+                                                    ))}
+                                                </select>
+
+                                            </div>
+
+                                        </div>
+
 
                                     </div>
                                 </div>
+
+                                
 
                                 <div className="accordion-item">
                                     <h2 className="accordion-header" id="panelsStayOpen-heading3">
@@ -414,7 +484,7 @@ const DecisionSupportPage = () => {
                                                         ))}
                                                 </select>
 
-                                                <label>Select Tehsil</label>
+                                                {/* <label>Select Tehsil</label>
                                                 <select
                                                     class="form-select mb-3"
                                                     onChange={(event) => handleTalukaSelect(event, event.target.value)}
@@ -426,7 +496,7 @@ const DecisionSupportPage = () => {
                                                         [...new Set(talukaList.map(item => item.TEHSIL))].sort().map((taluka, index) => (
                                                             <option key={index} value={taluka}>{taluka}</option>
                                                         ))}
-                                                </select>
+                                                </select> */}
 
 
 
@@ -444,7 +514,7 @@ const DecisionSupportPage = () => {
                                 <div className="accordion-item">
                                     <h2 className="accordion-header" id="panelsStayOpen-headingTwo">
                                         <button className="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="frue" aria-controls="panelsStayOpen-collapseTwo">
-                                            Upload Data
+                                            Upload data
                                         </button>
                                     </h2>
                                     <div id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingTwo">
@@ -484,17 +554,17 @@ const DecisionSupportPage = () => {
                     <div className='decision_maps_container'>
 
                         <div className='decision_maps'>
-                            
-                                <DecesionSupportMap
-                                    selectedState={selectedState}
-                                    selectedDistrict={selectedDistrict}
-                                    selectedTehsil={selectedTehsil}
-                                    selectedDataQuery={selectedDataQuery}
-                                    filteredIndiaDistrict={filteredIndiaDistrict}
-                                    selectedVariable={selectedVariable1}
-                                    uploadeddata={uploadeddata}
-                                    mapNumber="Map-1"
-                                />
+
+                            <DecesionSupportMap
+                                selectedState={selectedState}
+                                selectedDistrict={selectedDistrict}
+                                selectedTehsil={selectedTehsil}
+                                selectedDataQuery={selectedDataQuery1}
+                                // filteredIndiaDistrict={filteredIndiaDistrict}
+                                selectedVariable={selectedVariable1}
+                                uploadeddata={uploadeddata}
+                                mapNumber="Map-1"
+                            />
                         </div>
 
                         <div className='decision_maps'>
@@ -502,8 +572,8 @@ const DecisionSupportPage = () => {
                                 selectedState={selectedState}
                                 selectedDistrict={selectedDistrict}
                                 selectedTehsil={selectedTehsil}
-                                selectedDataQuery={selectedDataQuery}
-                                filteredIndiaDistrict={filteredIndiaDistrict}
+                                selectedDataQuery={selectedDataQuery2}
+                                // filteredIndiaDistrict={filteredIndiaDistrict}
                                 selectedVariable={selectedVariable2}
                                 uploadeddata={uploadeddata}
                                 mapNumber="Map-2"
@@ -515,8 +585,8 @@ const DecisionSupportPage = () => {
                                 selectedState={selectedState}
                                 selectedDistrict={selectedDistrict}
                                 selectedTehsil={selectedTehsil}
-                                selectedDataQuery={selectedDataQuery}
-                                filteredIndiaDistrict={filteredIndiaDistrict}
+                                selectedDataQuery={selectedDataQuery3}
+                                // filteredIndiaDistrict={filteredIndiaDistrict}
                                 selectedVariable={selectedVariable3}
                                 uploadeddata={uploadeddata}
                                 mapNumber="Map-3"
@@ -529,8 +599,8 @@ const DecisionSupportPage = () => {
                                 selectedState={selectedState}
                                 selectedDistrict={selectedDistrict}
                                 selectedTehsil={selectedTehsil}
-                                selectedDataQuery={selectedDataQuery}
-                                filteredIndiaDistrict={filteredIndiaDistrict}
+                                selectedDataQuery={selectedDataQuery4}
+                                // filteredIndiaDistrict={filteredIndiaDistrict}
                                 selectedVariable={selectedVariable4}
                                 uploadeddata={uploadeddata}
                                 mapNumber="Map-4"

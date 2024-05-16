@@ -1,0 +1,466 @@
+[
+  {
+    "DISTRICT": "Patiala",
+    "STATE": "Punjab",
+    "hazard": 0.96,
+    "exposure": 0.86,
+    "vulnerability": 0.76,
+    "risk": 1
+  },
+  {
+    "DISTRICT": "Fatehgarh Sahib",
+    "STATE": "Punjab",
+    "hazard": 1,
+    "exposure": 0.86,
+    "vulnerability": 0.32,
+    "risk": 0.75
+  },
+  {
+    "DISTRICT": "Ludhiana",
+    "STATE": "Punjab",
+    "hazard": 0.65,
+    "exposure": 1,
+    "vulnerability": 0.64,
+    "risk": 0.74
+  },
+  {
+    "DISTRICT": "Tarn Taran",
+    "STATE": "Punjab",
+    "hazard": 0.65,
+    "exposure": 0.95,
+    "vulnerability": 0.56,
+    "risk": 0.68
+  },
+  {
+    "DISTRICT": "Amritsar",
+    "STATE": "Punjab",
+    "hazard": 0.61,
+    "exposure": 1,
+    "vulnerability": 0.56,
+    "risk": 0.66
+  },
+  {
+    "DISTRICT": "Moga",
+    "STATE": "Punjab",
+    "hazard": 0.61,
+    "exposure": 0.9,
+    "vulnerability": 0.56,
+    "risk": 0.62
+  },
+  {
+    "DISTRICT": "Bathinda",
+    "STATE": "Punjab",
+    "hazard": 0.61,
+    "exposure": 0.67,
+    "vulnerability": 0.72,
+    "risk": 0.58
+  },
+  {
+    "DISTRICT": "Sahibzada Ajit Singh Nagar",
+    "STATE": "Punjab",
+    "hazard": 0.7,
+    "exposure": 0.86,
+    "vulnerability": 0.36,
+    "risk": 0.56
+  },
+  {
+    "DISTRICT": "Barnala",
+    "STATE": "Punjab",
+    "hazard": 0.83,
+    "exposure": 0.9,
+    "vulnerability": 0.16,
+    "risk": 0.55
+  },
+  {
+    "DISTRICT": "Jalandhar",
+    "STATE": "Punjab",
+    "hazard": 0.48,
+    "exposure": 1,
+    "vulnerability": 0.48,
+    "risk": 0.51
+  },
+  {
+    "DISTRICT": "Kapurthala",
+    "STATE": "Punjab",
+    "hazard": 0.74,
+    "exposure": 0.43,
+    "vulnerability": 0.56,
+    "risk": 0.49
+  },
+  {
+    "DISTRICT": "Mansa",
+    "STATE": "Punjab",
+    "hazard": 0.65,
+    "exposure": 0.57,
+    "vulnerability": 0.4,
+    "risk": 0.44
+  },
+  {
+    "DISTRICT": "Gurdaspur",
+    "STATE": "Punjab",
+    "hazard": 0.52,
+    "exposure": 0.52,
+    "vulnerability": 0.48,
+    "risk": 0.37
+  },
+  {
+    "DISTRICT": "Malerkotla",
+    "STATE": "Punjab",
+    "hazard": 0.39,
+    "exposure": 1,
+    "vulnerability": 0.28,
+    "risk": 0.36
+  },
+  {
+    "DISTRICT": "Sangrur",
+    "STATE": "Punjab",
+    "hazard": 0.61,
+    "exposure": 0.9,
+    "vulnerability": 0,
+    "risk": 0.34
+  },
+  {
+    "DISTRICT": "Shaheed Bhagat Singh Nagar",
+    "STATE": "Punjab",
+    "hazard": 0.52,
+    "exposure": 0.52,
+    "vulnerability": 0.4,
+    "risk": 0.34
+  },
+  {
+    "DISTRICT": "Faridkot",
+    "STATE": "Punjab",
+    "hazard": 0.43,
+    "exposure": 0.67,
+    "vulnerability": 0.36,
+    "risk": 0.32
+  },
+  {
+    "DISTRICT": "Fazilka",
+    "STATE": "Punjab",
+    "hazard": 0.48,
+    "exposure": 0.05,
+    "vulnerability": 1,
+    "risk": 0.29
+  },
+  {
+    "DISTRICT": "Firozpur",
+    "STATE": "Punjab",
+    "hazard": 0.39,
+    "exposure": 0.52,
+    "vulnerability": 0.44,
+    "risk": 0.28
+  },
+  {
+    "DISTRICT": "Sri Muktsar Sahib",
+    "STATE": "Punjab",
+    "hazard": 0.43,
+    "exposure": 0.48,
+    "vulnerability": 0.32,
+    "risk": 0.25
+  },
+  {
+    "DISTRICT": "Rupnagar",
+    "STATE": "Punjab",
+    "hazard": 0.57,
+    "exposure": 0,
+    "vulnerability": 0.24,
+    "risk": 0.13
+  },
+  {
+    "DISTRICT": "Hoshiarpur",
+    "STATE": "Punjab",
+    "hazard": 0.17,
+    "exposure": 0.48,
+    "vulnerability": 0,
+    "risk": 0.04
+  },
+  {
+    "DISTRICT": "Pathankot",
+    "STATE": "Punjab",
+    "hazard": 0,
+    "exposure": 0.24,
+    "vulnerability": 0.44,
+    "risk": 0
+  },
+  {
+    "DISTRICT": "Ahmadnagar",
+    "STATE": "Maharashtra",
+    "hazard": 0.67,
+    "exposure": 0.68,
+    "vulnerability": 0.78,
+    "risk": 1
+  },
+  {
+    "DISTRICT": "Akola",
+    "STATE": "Maharashtra",
+    "hazard": 0.22,
+    "exposure": 0.52,
+    "vulnerability": 0.79,
+    "risk": 0.33
+  },
+  {
+    "DISTRICT": "Amravati",
+    "STATE": "Maharashtra",
+    "hazard": 0.19,
+    "exposure": 0.71,
+    "vulnerability": 0.74,
+    "risk": 0.4
+  },
+  {
+    "DISTRICT": "Aurangabad",
+    "STATE": "Maharashtra",
+    "hazard": 0.22,
+    "exposure": 0.55,
+    "vulnerability": 0.57,
+    "risk": 0.25
+  },
+  {
+    "DISTRICT": "Bhandara",
+    "STATE": "Maharashtra",
+    "hazard": 0,
+    "exposure": 0.65,
+    "vulnerability": 0.7,
+    "risk": 0.13
+  },
+  {
+    "DISTRICT": "Bid",
+    "STATE": "Maharashtra",
+    "hazard": 0.56,
+    "exposure": 0.55,
+    "vulnerability": 0.89,
+    "risk": 0.79
+  },
+  {
+    "DISTRICT": "Buldana",
+    "STATE": "Maharashtra",
+    "hazard": 0.41,
+    "exposure": 0.58,
+    "vulnerability": 0.59,
+    "risk": 0.46
+  },
+  {
+    "DISTRICT": "Chandrapur",
+    "STATE": "Maharashtra",
+    "hazard": 0.41,
+    "exposure": 0.39,
+    "vulnerability": 0.66,
+    "risk": 0.33
+  },
+  {
+    "DISTRICT": "Dhule",
+    "STATE": "Maharashtra",
+    "hazard": 0.44,
+    "exposure": 0.58,
+    "vulnerability": 0.74,
+    "risk": 0.6
+  },
+  {
+    "DISTRICT": "Garhchiroli",
+    "STATE": "Maharashtra",
+    "hazard": 0.41,
+    "exposure": 0.45,
+    "vulnerability": 0.9,
+    "risk": 0.52
+  },
+  {
+    "DISTRICT": "Gondiya",
+    "STATE": "Maharashtra",
+    "hazard": 0.26,
+    "exposure": 0.58,
+    "vulnerability": 0.9,
+    "risk": 0.48
+  },
+  {
+    "DISTRICT": "Hingoli",
+    "STATE": "Maharashtra",
+    "hazard": 0.81,
+    "exposure": 0.32,
+    "vulnerability": 0.88,
+    "risk": 0.68
+  },
+  {
+    "DISTRICT": "Jalgaon",
+    "STATE": "Maharashtra",
+    "hazard": 0.37,
+    "exposure": 0.61,
+    "vulnerability": 0.7,
+    "risk": 0.52
+  },
+  {
+    "DISTRICT": "Jalna",
+    "STATE": "Maharashtra",
+    "hazard": 0.56,
+    "exposure": 0.48,
+    "vulnerability": 0.91,
+    "risk": 0.72
+  },
+  {
+    "DISTRICT": "Kolhapur",
+    "STATE": "Maharashtra",
+    "hazard": 0.37,
+    "exposure": 0.58,
+    "vulnerability": 0.48,
+    "risk": 0.35
+  },
+  {
+    "DISTRICT": "Latur",
+    "STATE": "Maharashtra",
+    "hazard": 0.52,
+    "exposure": 0.39,
+    "vulnerability": 0.73,
+    "risk": 0.45
+  },
+  {
+    "DISTRICT": "Mumbai",
+    "STATE": "Maharashtra",
+    "hazard": 0.37,
+    "exposure": 0.87,
+    "vulnerability": 0,
+    "risk": 0.14
+  },
+  {
+    "DISTRICT": "Mumbai Suburban",
+    "STATE": "Maharashtra",
+    "hazard": 0.3,
+    "exposure": 1,
+    "vulnerability": 0.5,
+    "risk": 0.57
+  },
+  {
+    "DISTRICT": "Nagpur",
+    "STATE": "Maharashtra",
+    "hazard": 0.07,
+    "exposure": 0.39,
+    "vulnerability": 0.61,
+    "risk": 0.07
+  },
+  {
+    "DISTRICT": "Nanded",
+    "STATE": "Maharashtra",
+    "hazard": 0.78,
+    "exposure": 0.35,
+    "vulnerability": 0.87,
+    "risk": 0.71
+  },
+  {
+    "DISTRICT": "Nandurbar",
+    "STATE": "Maharashtra",
+    "hazard": 0.74,
+    "exposure": 0.52,
+    "vulnerability": 0.74,
+    "risk": 0.82
+  },
+  {
+    "DISTRICT": "Nashik",
+    "STATE": "Maharashtra",
+    "hazard": 0.3,
+    "exposure": 0.58,
+    "vulnerability": 0.76,
+    "risk": 0.44
+  },
+  {
+    "DISTRICT": "Osmanabad",
+    "STATE": "Maharashtra",
+    "hazard": 0.74,
+    "exposure": 0.55,
+    "vulnerability": 0.59,
+    "risk": 0.73
+  },
+  {
+    "DISTRICT": "Parbhani",
+    "STATE": "Maharashtra",
+    "hazard": 1,
+    "exposure": 0.32,
+    "vulnerability": 0.96,
+    "risk": 0.9
+  },
+  {
+    "DISTRICT": "Pune",
+    "STATE": "Maharashtra",
+    "hazard": 0.81,
+    "exposure": 0.48,
+    "vulnerability": 0.57,
+    "risk": 0.68
+  },
+  {
+    "DISTRICT": "Raigad",
+    "STATE": "Maharashtra",
+    "hazard": 0.26,
+    "exposure": 0.23,
+    "vulnerability": 0.51,
+    "risk": 0.07
+  },
+  {
+    "DISTRICT": "Ratnagiri",
+    "STATE": "Maharashtra",
+    "hazard": 0.22,
+    "exposure": 0.26,
+    "vulnerability": 0.46,
+    "risk": 0.05
+  },
+  {
+    "DISTRICT": "Sangli",
+    "STATE": "Maharashtra",
+    "hazard": 0.48,
+    "exposure": 0.48,
+    "vulnerability": 0.57,
+    "risk": 0.42
+  },
+  {
+    "DISTRICT": "Satara",
+    "STATE": "Maharashtra",
+    "hazard": 0.44,
+    "exposure": 0.55,
+    "vulnerability": 0.46,
+    "risk": 0.38
+  },
+  {
+    "DISTRICT": "Sindhudurg",
+    "STATE": "Maharashtra",
+    "hazard": 0.26,
+    "exposure": 0.42,
+    "vulnerability": 0.83,
+    "risk": 0.31
+  },
+  {
+    "DISTRICT": "Solapur",
+    "STATE": "Maharashtra",
+    "hazard": 0.78,
+    "exposure": 0.71,
+    "vulnerability": 0.61,
+    "risk": 1
+  },
+  {
+    "DISTRICT": "Thane",
+    "STATE": "Maharashtra",
+    "hazard": 0.44,
+    "exposure": 0,
+    "vulnerability": 0.74,
+    "risk": 0
+  },
+  {
+    "DISTRICT": "Wardha",
+    "STATE": "Maharashtra",
+    "hazard": 0.22,
+    "exposure": 0.39,
+    "vulnerability": 0.48,
+    "risk": 0.13
+  },
+  {
+    "DISTRICT": "Washim",
+    "STATE": "Maharashtra",
+    "hazard": 0.19,
+    "exposure": 0.52,
+    "vulnerability": 1,
+    "risk": 0.38
+  },
+  {
+    "DISTRICT": "Yavatmal",
+    "STATE": "Maharashtra",
+    "hazard": 0.44,
+    "exposure": 0.32,
+    "vulnerability": 0.66,
+    "risk": 0.3
+  }
+ ]

@@ -440,7 +440,6 @@ font-family: 'Rubik', sans-serif; */
   
   .left_panel {
     width: 20vw;
-    padding: 5px 5px 10px 10px;
     /* overflow-y: scroll; */
     background-color: whitesmoke;
   
@@ -449,7 +448,6 @@ font-family: 'Rubik', sans-serif; */
   
   .right_panel {
     width: 80vw;
-    padding: 5px 10px 5px 10px;
     height: calc(100vh - 130px);
     background-color: whitesmoke;
   
@@ -924,5 +922,111 @@ font-family: 'Rubik', sans-serif; */
 
 
 
+  .map_layer_manager{
+    z-index: 10000;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 200px;
+    /* height: 100%; */
+  }
+  .map_layer_collapse{
+    padding: 5px !important;
+    font-size: 14px !important;
+  }
+  .map_layer_collapse:not(.collapsed){
+    padding: 5px !important;
+    font-size: 14px !important;
+  }
+  .map_layer_collapse_body{
+    padding: 5px !important;
+    font-size: 14px !important;
+  }
+  .map_layer_collapse_body select{
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 5px;
+  }
+  
+  
+  .collapse_layers_item{
+    padding: 3px 0px;
+    font-size: 12px;
+  }
+  .collapse_layers_item input{
+    margin-right: 5px;
+  }
 
+
+
+
+
+
+  .panel_button{
+    width: 100%;
+  margin-top: 30px;
+  
+  }
+  
+  .panel_button button{
+    background-color: var(--theme-color);
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    justify-content: right;
+    border-radius: 5px;
+    width: 100%;
+  
+  }
+  .panel_button button:hover{
+    background-color: var(--theme-hover-clor);
+    transition: ease-in 0.2s;
+  }
+
+  
+
+.time_series_container{
+  z-index: 2000000;
+  position: absolute;
+  width: 80vw;
+  height: 350px;
+  background-color: rgb(246, 245, 245);
+  padding: 10px;
+  bottom: 0px;
+  right: 0px;
+
+}
+.timeseries_heading{
+  display: flex;
+  justify-content: space-between;
+}
+.timeseries_heading h4{
+  width: 100%;
+  font-size: 22px;
+  text-align: center;
+  line-height: 30px;
+}
+.timeseries_heading p{
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+}
+
+.chart_close_btn{
+  background-color: whitesmoke;
+  font-size: 20px;
+  color: black;
+  border: none;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  z-index: 100000;
+}
+.chart_close_btn:hover{
+  background-color: rgb(207, 207, 207);
+  transition: ease-in 0.3s;
+}
 

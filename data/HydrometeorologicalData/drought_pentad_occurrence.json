@@ -1,0 +1,2372 @@
+[
+  {
+    "DISTRICT": "ANANTAPUR",
+    "STATE": "ANDHRA PRADESH",
+    "drought_pentad_occurrence": 9
+  },
+  {
+    "DISTRICT": "CHITTOOR",
+    "STATE": "ANDHRA PRADESH",
+    "drought_pentad_occurrence": 8
+  },
+  {
+    "DISTRICT": "EAST GODAVARI",
+    "STATE": "ANDHRA PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "GUNTUR",
+    "STATE": "ANDHRA PRADESH",
+    "drought_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "KRISHNA",
+    "STATE": "ANDHRA PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "KURNOOL",
+    "STATE": "ANDHRA PRADESH",
+    "drought_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "NIZAMABAD",
+    "STATE": "ANDHRA PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "PRAKASAM",
+    "STATE": "ANDHRA PRADESH",
+    "drought_pentad_occurrence": 7
+  },
+  {
+    "DISTRICT": "SRI POTTI SRIRAMULU NELLORE",
+    "STATE": "ANDHRA PRADESH",
+    "drought_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "SRIKAKULAM",
+    "STATE": "ANDHRA PRADESH",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "VISAKHAPATNAM",
+    "STATE": "ANDHRA PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "VIZIANAGARAM",
+    "STATE": "ANDHRA PRADESH",
+    "drought_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "WEST GODAVARI",
+    "STATE": "ANDHRA PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "Y.S.R.",
+    "STATE": "ANDHRA PRADESH",
+    "drought_pentad_occurrence": 7
+  },
+  {
+    "DISTRICT": "WEST SIANG",
+    "STATE": "ARUNANCHAL PRADESH",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "BARPETA",
+    "STATE": "ASSAM",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "BONGAIGAON",
+    "STATE": "ASSAM",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "CACHAR",
+    "STATE": "ASSAM",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "DARRANG",
+    "STATE": "ASSAM",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "DHEMAJI",
+    "STATE": "ASSAM",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "DHUBRI",
+    "STATE": "ASSAM",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "DIBRUGARH",
+    "STATE": "ASSAM",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "DIMA HASAO",
+    "STATE": "ASSAM",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "GOALPARA",
+    "STATE": "ASSAM",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "GOLAGHAT",
+    "STATE": "ASSAM",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "HAILAKANDI",
+    "STATE": "ASSAM",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "JORHAT",
+    "STATE": "ASSAM",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KAMRUP",
+    "STATE": "ASSAM",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KARBI ANGLONG",
+    "STATE": "ASSAM",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KARIMGANJ",
+    "STATE": "ASSAM",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KOKRAJHAR",
+    "STATE": "ASSAM",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "LAKHIMPUR",
+    "STATE": "ASSAM",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "MARIGAON",
+    "STATE": "ASSAM",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "NAGAON",
+    "STATE": "ASSAM",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "NALBARI",
+    "STATE": "ASSAM",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "SIVASAGAR",
+    "STATE": "ASSAM",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "SONITPUR",
+    "STATE": "ASSAM",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "TINSUKIA",
+    "STATE": "ASSAM",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "ARWAL",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "BANKA",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "BEGUSARAI",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "BHAGALPUR",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "BHOJPUR",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "BUXAR",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "DARBHANGA",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "GAYA",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "GOPALGANJ",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "JAMUI",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "JEHANABAD",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "KAIMUR (BHABUA)",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KATIHAR",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "KHAGARIA",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KISHANGANJ",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "LAKHISARAI",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "MADHEPURA",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "MADHUBANI",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "MUNGER",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "MUZAFFARPUR",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "NALANDA",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "NAWADA",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "PASHCHIM CHAMPARAN",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "PATNA",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "PURNIA",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "ROHTAS",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "SAHARSA",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "SAMASTIPUR",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "SARAN (CHHAPRA)",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "SHEIKHPURA",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "SHEOHAR",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "SITAMARHI",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "SIWAN",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "SUPAUL",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "VAISHALI",
+    "STATE": "BIHAR",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "BASTAR",
+    "STATE": "CHHATTISGARH",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "BILASPUR",
+    "STATE": "CHHATTISGARH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "DHAMTARI",
+    "STATE": "CHHATTISGARH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "DURG",
+    "STATE": "CHHATTISGARH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "JANJGIR-CHAMPA",
+    "STATE": "CHHATTISGARH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "JASHPUR",
+    "STATE": "CHHATTISGARH",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KABEERDHAM",
+    "STATE": "CHHATTISGARH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "KORBA",
+    "STATE": "CHHATTISGARH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "KORIYA",
+    "STATE": "CHHATTISGARH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "MAHASAMUND",
+    "STATE": "CHHATTISGARH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "NARAYANPUR",
+    "STATE": "CHHATTISGARH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "RAIPUR",
+    "STATE": "CHHATTISGARH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "RAJNANDGAON",
+    "STATE": "CHHATTISGARH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "SURGUJA",
+    "STATE": "CHHATTISGARH",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "AHMADABAD",
+    "STATE": "GUJARAT",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "AMRELI",
+    "STATE": "GUJARAT",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "ANAND",
+    "STATE": "GUJARAT",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "BANAS KANTHA",
+    "STATE": "GUJARAT",
+    "drought_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "BHARUCH",
+    "STATE": "GUJARAT",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "BHAVNAGAR",
+    "STATE": "GUJARAT",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "GANDHINAGAR",
+    "STATE": "GUJARAT",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "JAMNAGAR",
+    "STATE": "GUJARAT",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "JUNAGADH",
+    "STATE": "GUJARAT",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "KACHCHH",
+    "STATE": "GUJARAT",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "KHEDA",
+    "STATE": "GUJARAT",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "MAHESANA",
+    "STATE": "GUJARAT",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "PATAN",
+    "STATE": "GUJARAT",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "PORBANDAR",
+    "STATE": "GUJARAT",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "RAJKOT",
+    "STATE": "GUJARAT",
+    "drought_pentad_occurrence": 10
+  },
+  {
+    "DISTRICT": "SURENDRANAGAR",
+    "STATE": "GUJARAT",
+    "drought_pentad_occurrence": 7
+  },
+  {
+    "DISTRICT": "VADODARA",
+    "STATE": "GUJARAT",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "AMBALA",
+    "STATE": "HARYANA",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "BHIWANI",
+    "STATE": "HARYANA",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "FARIDABAD",
+    "STATE": "HARYANA",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "FATEHABAD",
+    "STATE": "HARYANA",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "GURGAON",
+    "STATE": "HARYANA",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "HISAR",
+    "STATE": "HARYANA",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "JHAJJAR",
+    "STATE": "HARYANA",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "JIND",
+    "STATE": "HARYANA",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KAITHAL",
+    "STATE": "HARYANA",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KARNAL",
+    "STATE": "HARYANA",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KURUKSHETRA",
+    "STATE": "HARYANA",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "MAHENDRAGARH",
+    "STATE": "HARYANA",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "MEWAT",
+    "STATE": "HARYANA",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "PALWAL",
+    "STATE": "HARYANA",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "PANCHKULA",
+    "STATE": "HARYANA",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "PANIPAT",
+    "STATE": "HARYANA",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "REWARI",
+    "STATE": "HARYANA",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "ROHTAK",
+    "STATE": "HARYANA",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "SIRSA",
+    "STATE": "HARYANA",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "SONIPAT",
+    "STATE": "HARYANA",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "YAMUNANAGAR",
+    "STATE": "HARYANA",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "CHAMBA",
+    "STATE": "HIMACHAL PRADESH",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KANGRA",
+    "STATE": "HIMACHAL PRADESH",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KINNAUR",
+    "STATE": "HIMACHAL PRADESH",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KULLU",
+    "STATE": "HIMACHAL PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "LAHUL & SPITI",
+    "STATE": "HIMACHAL PRADESH",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "MANDI",
+    "STATE": "HIMACHAL PRADESH",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "SHIMLA",
+    "STATE": "HIMACHAL PRADESH",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "SIRMAUR",
+    "STATE": "HIMACHAL PRADESH",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "SOLAN",
+    "STATE": "HIMACHAL PRADESH",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "UNA",
+    "STATE": "HIMACHAL PRADESH",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "SRINAGAR",
+    "STATE": "JAMMU & KASHMIR",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "BOKARO",
+    "STATE": "JHARKHAND",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "CHATRA",
+    "STATE": "JHARKHAND",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "DEOGHAR",
+    "STATE": "JHARKHAND",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "DHANBAD",
+    "STATE": "JHARKHAND",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "DUMKA",
+    "STATE": "JHARKHAND",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "GARHWA",
+    "STATE": "JHARKHAND",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "GIRIDIH",
+    "STATE": "JHARKHAND",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "GODDA",
+    "STATE": "JHARKHAND",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "GUMLA",
+    "STATE": "JHARKHAND",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "HAZARIBAGH",
+    "STATE": "JHARKHAND",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "JAMTARA",
+    "STATE": "JHARKHAND",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "KHUNTI",
+    "STATE": "JHARKHAND",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KODARMA",
+    "STATE": "JHARKHAND",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "LATEHAR",
+    "STATE": "JHARKHAND",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "LOHARDAGA",
+    "STATE": "JHARKHAND",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "PAKUR",
+    "STATE": "JHARKHAND",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "PALAMU",
+    "STATE": "JHARKHAND",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "PASHCHIMI SINGHBHUM",
+    "STATE": "JHARKHAND",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "PURBI SINGHBHUM",
+    "STATE": "JHARKHAND",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "RAMGARH",
+    "STATE": "JHARKHAND",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "RANCHI",
+    "STATE": "JHARKHAND",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "SAHIBGANJ",
+    "STATE": "JHARKHAND",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "SARAIKELA-KHARSAWAN",
+    "STATE": "JHARKHAND",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "SIMDEGA",
+    "STATE": "JHARKHAND",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "BAGALKOT",
+    "STATE": "KARNATAKA",
+    "drought_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "BANGALORE",
+    "STATE": "KARNATAKA",
+    "drought_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "BANGALORE RURAL",
+    "STATE": "KARNATAKA",
+    "drought_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "BELGAUM",
+    "STATE": "KARNATAKA",
+    "drought_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "BELLARY",
+    "STATE": "KARNATAKA",
+    "drought_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "BIDAR",
+    "STATE": "KARNATAKA",
+    "drought_pentad_occurrence": 7
+  },
+  {
+    "DISTRICT": "BIJAPUR",
+    "STATE": "KARNATAKA",
+    "drought_pentad_occurrence": 8
+  },
+  {
+    "DISTRICT": "CHAMRAJNAGAR",
+    "STATE": "KARNATAKA",
+    "drought_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "CHIKKABALLAPURA",
+    "STATE": "KARNATAKA",
+    "drought_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "CHITRADURGA",
+    "STATE": "KARNATAKA",
+    "drought_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "DAKSHINA KANNADA",
+    "STATE": "KARNATAKA",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "DAVANAGERE",
+    "STATE": "KARNATAKA",
+    "drought_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "DHARWAD",
+    "STATE": "KARNATAKA",
+    "drought_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "GADAG",
+    "STATE": "KARNATAKA",
+    "drought_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "GULBARGA",
+    "STATE": "KARNATAKA",
+    "drought_pentad_occurrence": 7
+  },
+  {
+    "DISTRICT": "HASSAN",
+    "STATE": "KARNATAKA",
+    "drought_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "HAVERI",
+    "STATE": "KARNATAKA",
+    "drought_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "KODAGU",
+    "STATE": "KARNATAKA",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "KOLAR",
+    "STATE": "KARNATAKA",
+    "drought_pentad_occurrence": 7
+  },
+  {
+    "DISTRICT": "KOPPAL",
+    "STATE": "KARNATAKA",
+    "drought_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "MANDYA",
+    "STATE": "KARNATAKA",
+    "drought_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "MYSORE",
+    "STATE": "KARNATAKA",
+    "drought_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "RAICHUR",
+    "STATE": "KARNATAKA",
+    "drought_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "RAMANAGARA",
+    "STATE": "KARNATAKA",
+    "drought_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "SHIMOGA",
+    "STATE": "KARNATAKA",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "TUMKUR",
+    "STATE": "KARNATAKA",
+    "drought_pentad_occurrence": 7
+  },
+  {
+    "DISTRICT": "UDUPI",
+    "STATE": "KARNATAKA",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "UTTARA KANNADA",
+    "STATE": "KARNATAKA",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "YADGIR",
+    "STATE": "KARNATAKA",
+    "drought_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "ALAPPUZHA",
+    "STATE": "KERALA",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "ERNAKULAM",
+    "STATE": "KERALA",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "IDUKKI",
+    "STATE": "KERALA",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "KANPUR DEHAT",
+    "STATE": "KERALA",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "KASARAGOD",
+    "STATE": "KERALA",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "KOLLAM",
+    "STATE": "KERALA",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "KOTTAYAM",
+    "STATE": "KERALA",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "KOZHIKODE",
+    "STATE": "KERALA",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "MALAPPURAM",
+    "STATE": "KERALA",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "PALAKKAD",
+    "STATE": "KERALA",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "PATHANAMTHITTA",
+    "STATE": "KERALA",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "THIRUVANANTHAPURAM",
+    "STATE": "KERALA",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "THRISSUR",
+    "STATE": "KERALA",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "WAYANAD",
+    "STATE": "KERALA",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "ANUPPUR",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "ASHOKNAGAR",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "BALAGHAT",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "BARWANI",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "BETUL",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "BHIND",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "BHOPAL",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "BURHANPUR",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "CHHATARPUR",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "CHHINDWARA",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "DAMOH",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "DATIA",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "DEWAS",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "DHAR",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "DINDORI",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "EAST NIMAR",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "GUNA",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "GWALIOR",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "HARDA",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "HOSHANGABAD",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "INDORE",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "JABALPUR",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "JHABUA",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "KATNI",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "MANDLA",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "MANDSAUR",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "MORENA",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "NARSIMHAPUR",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "NEEMUCH",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "PANNA",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "RAISEN",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "RAJGARH",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "RATLAM",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "REWA",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "SAGAR",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "SATNA",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "SEHORE",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "SEONI",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "SHAHDOL",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "SHAJAPUR",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "SHEOPUR",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "SHIVPURI",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "SIDHI",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "SINGRAULI",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "TIKAMGARH",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "UJJAIN",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "UMARIA",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "VIDISHA",
+    "STATE": "MADHYA PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "AHMADNAGAR",
+    "STATE": "MAHARASHTRA",
+    "drought_pentad_occurrence": 8
+  },
+  {
+    "DISTRICT": "AKOLA",
+    "STATE": "MAHARASHTRA",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "AMRAVATI",
+    "STATE": "MAHARASHTRA",
+    "drought_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "AURANGABAD",
+    "STATE": "MAHARASHTRA",
+    "drought_pentad_occurrence": 9
+  },
+  {
+    "DISTRICT": "BHANDARA",
+    "STATE": "MAHARASHTRA",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "BID",
+    "STATE": "MAHARASHTRA",
+    "drought_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "BULDANA",
+    "STATE": "MAHARASHTRA",
+    "drought_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "CHANDRAPUR",
+    "STATE": "MAHARASHTRA",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "DHULE",
+    "STATE": "MAHARASHTRA",
+    "drought_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "GARHCHIROLI",
+    "STATE": "MAHARASHTRA",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "GONDIYA",
+    "STATE": "MAHARASHTRA",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "HINGOLI",
+    "STATE": "MAHARASHTRA",
+    "drought_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "JALGAON",
+    "STATE": "MAHARASHTRA",
+    "drought_pentad_occurrence": 7
+  },
+  {
+    "DISTRICT": "JALNA",
+    "STATE": "MAHARASHTRA",
+    "drought_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "KOLHAPUR",
+    "STATE": "MAHARASHTRA",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "LATUR",
+    "STATE": "MAHARASHTRA",
+    "drought_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "NAGPUR",
+    "STATE": "MAHARASHTRA",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "NANDED",
+    "STATE": "MAHARASHTRA",
+    "drought_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "NANDURBAR",
+    "STATE": "MAHARASHTRA",
+    "drought_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "NASHIK",
+    "STATE": "MAHARASHTRA",
+    "drought_pentad_occurrence": 7
+  },
+  {
+    "DISTRICT": "OSMANABAD",
+    "STATE": "MAHARASHTRA",
+    "drought_pentad_occurrence": 8
+  },
+  {
+    "DISTRICT": "PARBHANI",
+    "STATE": "MAHARASHTRA",
+    "drought_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "PUNE",
+    "STATE": "MAHARASHTRA",
+    "drought_pentad_occurrence": 7
+  },
+  {
+    "DISTRICT": "RAIGARH",
+    "STATE": "MAHARASHTRA",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "RATNAGIRI",
+    "STATE": "MAHARASHTRA",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "SANGLI",
+    "STATE": "MAHARASHTRA",
+    "drought_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "SATARA",
+    "STATE": "MAHARASHTRA",
+    "drought_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "SOLAPUR",
+    "STATE": "MAHARASHTRA",
+    "drought_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "THANE",
+    "STATE": "MAHARASHTRA",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "WARDHA",
+    "STATE": "MAHARASHTRA",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "WASHIM",
+    "STATE": "MAHARASHTRA",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "YAVATMAL",
+    "STATE": "MAHARASHTRA",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "BISHNUPUR",
+    "STATE": "MANIPUR",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "CHANDEL",
+    "STATE": "MANIPUR",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "CHURACHANDPUR",
+    "STATE": "MANIPUR",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "IMPHAL EAST",
+    "STATE": "MANIPUR",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "IMPHAL WEST",
+    "STATE": "MANIPUR",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "SENAPATI",
+    "STATE": "MANIPUR",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "TAMENGLONG",
+    "STATE": "MANIPUR",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "THOUBAL",
+    "STATE": "MANIPUR",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "UKHRUL",
+    "STATE": "MANIPUR",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "DIMAPUR",
+    "STATE": "NAGALAND",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KOHIMA",
+    "STATE": "NAGALAND",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "MOKOKCHUNG",
+    "STATE": "NAGALAND",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "MON",
+    "STATE": "NAGALAND",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "PHEK",
+    "STATE": "NAGALAND",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "TUENSANG",
+    "STATE": "NAGALAND",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "WOKHA",
+    "STATE": "NAGALAND",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "NEW DELHI",
+    "STATE": "NCT OF DELHI",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "ANUGUL",
+    "STATE": "ODISHA",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "BALANGIR",
+    "STATE": "ODISHA",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "BALESHWAR",
+    "STATE": "ODISHA",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "BARGARH",
+    "STATE": "ODISHA",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "BHADRAK",
+    "STATE": "ODISHA",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "CUTTACK",
+    "STATE": "ODISHA",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "DHENKANAL",
+    "STATE": "ODISHA",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "GAJAPATI",
+    "STATE": "ODISHA",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "GANJAM",
+    "STATE": "ODISHA",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "JHARSUGUDA",
+    "STATE": "ODISHA",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KALAHANDI",
+    "STATE": "ODISHA",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "KANDHAMAL",
+    "STATE": "ODISHA",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KHORDHA",
+    "STATE": "ODISHA",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "KORAPUT",
+    "STATE": "ODISHA",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "MAYURBHANJ",
+    "STATE": "ODISHA",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "NABARANGAPUR",
+    "STATE": "ODISHA",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "NAYAGARH",
+    "STATE": "ODISHA",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "NUAPADA",
+    "STATE": "ODISHA",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "PURI",
+    "STATE": "ODISHA",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "RAYAGADA",
+    "STATE": "ODISHA",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "SAMBALPUR",
+    "STATE": "ODISHA",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "SUBARNAPUR",
+    "STATE": "ODISHA",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "SUNDARGARH",
+    "STATE": "ODISHA",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "KARAIKAL",
+    "STATE": "PUDUCHERRY",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "PUDUCHERRY",
+    "STATE": "PUDUCHERRY",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "AJMER",
+    "STATE": "RAJASTHAN",
+    "drought_pentad_occurrence": 8
+  },
+  {
+    "DISTRICT": "ALWAR",
+    "STATE": "RAJASTHAN",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "BANSWARA",
+    "STATE": "RAJASTHAN",
+    "drought_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "BARAN",
+    "STATE": "RAJASTHAN",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "BARMER",
+    "STATE": "RAJASTHAN",
+    "drought_pentad_occurrence": 9
+  },
+  {
+    "DISTRICT": "BHARATPUR",
+    "STATE": "RAJASTHAN",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "BHILWARA",
+    "STATE": "RAJASTHAN",
+    "drought_pentad_occurrence": 8
+  },
+  {
+    "DISTRICT": "BIKANER",
+    "STATE": "RAJASTHAN",
+    "drought_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "BUNDI",
+    "STATE": "RAJASTHAN",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "CHITTAURGARH",
+    "STATE": "RAJASTHAN",
+    "drought_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "CHURU",
+    "STATE": "RAJASTHAN",
+    "drought_pentad_occurrence": 9
+  },
+  {
+    "DISTRICT": "DAUSA",
+    "STATE": "RAJASTHAN",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "DUNGARPUR",
+    "STATE": "RAJASTHAN",
+    "drought_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "GANGANAGAR",
+    "STATE": "RAJASTHAN",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "HANUMANGARH",
+    "STATE": "RAJASTHAN",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "JAIPUR",
+    "STATE": "RAJASTHAN",
+    "drought_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "JAISALMER",
+    "STATE": "RAJASTHAN",
+    "drought_pentad_occurrence": 9
+  },
+  {
+    "DISTRICT": "JALOR",
+    "STATE": "RAJASTHAN",
+    "drought_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "JHALAWAR",
+    "STATE": "RAJASTHAN",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "JHUNJHUNUN",
+    "STATE": "RAJASTHAN",
+    "drought_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "JODHPUR",
+    "STATE": "RAJASTHAN",
+    "drought_pentad_occurrence": 9
+  },
+  {
+    "DISTRICT": "KARAULI",
+    "STATE": "RAJASTHAN",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KOTA",
+    "STATE": "RAJASTHAN",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "NAGAUR",
+    "STATE": "RAJASTHAN",
+    "drought_pentad_occurrence": 9
+  },
+  {
+    "DISTRICT": "PALI",
+    "STATE": "RAJASTHAN",
+    "drought_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "RAJSAMAND",
+    "STATE": "RAJASTHAN",
+    "drought_pentad_occurrence": 8
+  },
+  {
+    "DISTRICT": "SAWAI MADHOPUR",
+    "STATE": "RAJASTHAN",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "SIKAR",
+    "STATE": "RAJASTHAN",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "SIROHI",
+    "STATE": "RAJASTHAN",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "TONK",
+    "STATE": "RAJASTHAN",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "UDAIPUR",
+    "STATE": "RAJASTHAN",
+    "drought_pentad_occurrence": 8
+  },
+  {
+    "DISTRICT": "ARIYALUR",
+    "STATE": "TAMIL NADU",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "CHENNAI",
+    "STATE": "TAMIL NADU",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "COIMBATORE",
+    "STATE": "TAMIL NADU",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "CUDDALORE",
+    "STATE": "TAMIL NADU",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "DHARMAPURI",
+    "STATE": "TAMIL NADU",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "DINDIGUL",
+    "STATE": "TAMIL NADU",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "ERODE",
+    "STATE": "TAMIL NADU",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "KANCHEEPURAM",
+    "STATE": "TAMIL NADU",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KANNUR",
+    "STATE": "TAMIL NADU",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "KARUR",
+    "STATE": "TAMIL NADU",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "KRISHNAGIRI",
+    "STATE": "TAMIL NADU",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "MADURAI",
+    "STATE": "TAMIL NADU",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "NAGAPPATTINAM",
+    "STATE": "TAMIL NADU",
+    "drought_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "NAMAKKAL",
+    "STATE": "TAMIL NADU",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "PERAMBALUR",
+    "STATE": "TAMIL NADU",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "PUDUKKOTTAI",
+    "STATE": "TAMIL NADU",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "RAMANATHAPURAM",
+    "STATE": "TAMIL NADU",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "SALEM",
+    "STATE": "TAMIL NADU",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "SIVAGANGA",
+    "STATE": "TAMIL NADU",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "THANJAVUR",
+    "STATE": "TAMIL NADU",
+    "drought_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "THE NILGIRIS",
+    "STATE": "TAMIL NADU",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "THENI",
+    "STATE": "TAMIL NADU",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "THIRUVALLUR",
+    "STATE": "TAMIL NADU",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "THIRUVARUR",
+    "STATE": "TAMIL NADU",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "THOOTHUKKUDI",
+    "STATE": "TAMIL NADU",
+    "drought_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "TIRUCHIRAPPALLI",
+    "STATE": "TAMIL NADU",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "TIRUNELVELI",
+    "STATE": "TAMIL NADU",
+    "drought_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "TIRUPPUR",
+    "STATE": "TAMIL NADU",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "TIRUVANNAMALAI",
+    "STATE": "TAMIL NADU",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "VELLORE",
+    "STATE": "TAMIL NADU",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "VILUPPURAM",
+    "STATE": "TAMIL NADU",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "VIRUDUNAGAR",
+    "STATE": "TAMIL NADU",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "ADILABAD",
+    "STATE": "ANDHRA PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "HYDERABAD",
+    "STATE": "ANDHRA PRADESH",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "KARIMNAGAR",
+    "STATE": "ANDHRA PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "KHAMMAM",
+    "STATE": "ANDHRA PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "MAHBUBNAGAR",
+    "STATE": "ANDHRA PRADESH",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "MEDAK",
+    "STATE": "ANDHRA PRADESH",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "NALGONDA",
+    "STATE": "ANDHRA PRADESH",
+    "drought_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "RANGAREDDY",
+    "STATE": "ANDHRA PRADESH",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "WARANGAL",
+    "STATE": "ANDHRA PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "AGRA",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "ALIGARH",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "ALLAHABAD",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "AMBEDKAR NAGAR",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "AURAIYA",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "AZAMGARH",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "BAGHPAT",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "BALLIA",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "BALRAMPUR",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "BANDA",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "BARA BANKI",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "BAREILLY",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "BASTI",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "BIJNOR",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "BUDAUN",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "BULANDSHAHR",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "CHANDAULI",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "CHITRAKOOT",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "DEORIA",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "ETAH",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "ETAWAH",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "FAIZABAD",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "FARRUKHABAD",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "FATEHPUR",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "FIROZABAD",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "GAUTAM BUDDHA NAGAR",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "GHAZIABAD",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "GHAZIPUR",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "GONDA",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "GORAKHPUR",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "HAMIRPUR",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "HARDOI",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "JALAUN",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "JAUNPUR",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "JHANSI",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "JYOTIBA PHULE NAGAR",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "KANNAUJ",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "KANPUR NAGAR",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "KANYAKUMARI",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "KAUSHAMBI",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "KUSHINAGAR",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "LALITPUR",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "LUCKNOW",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "MAHAMAYA NAGAR",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "MAHARAJGANJ",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "MAHOBA",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "MAINPURI",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "MATHURA",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "MAU",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "MEERUT",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "MIRZAPUR",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "MORADABAD",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "MUZAFFARNAGAR",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "PILIBHIT",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "PRATAPGARH",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "RAE BARELI",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "RAMPUR",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "SAHARANPUR",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "SANT KABIR NAGAR",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "SHAHJAHANPUR",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "SIDDHARTH NAGAR",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "SITAPUR",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "SONBHADRA",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "SULTANPUR",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "UNNAO",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "VARANASI",
+    "STATE": "UTTAR PRADESH",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "ALMORA",
+    "STATE": "UTTARAKHAND",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "BAGESHWAR",
+    "STATE": "UTTARAKHAND",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "CHAMPAWAT",
+    "STATE": "UTTARAKHAND",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "DEHRADUN",
+    "STATE": "UTTARAKHAND",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "GARHWAL",
+    "STATE": "UTTARAKHAND",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "NAINITAL",
+    "STATE": "UTTARAKHAND",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "PITHORAGARH",
+    "STATE": "UTTARAKHAND",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "RUDRAPRAYAG",
+    "STATE": "UTTARAKHAND",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "TEHRI GARHWAL",
+    "STATE": "UTTARAKHAND",
+    "drought_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "BANKURA",
+    "STATE": "WEST BENGAL",
+    "drought_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "PURULIYA",
+    "STATE": "WEST BENGAL",
+    "drought_pentad_occurrence": 2
+  }
+ ]

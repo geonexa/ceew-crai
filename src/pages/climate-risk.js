@@ -1,5 +1,4 @@
 import React, { Suspense, useEffect, useRef, useState } from 'react'
-import { BaseMapsLayers } from '../helpers/mapFunction';
 import dynamic from 'next/dynamic';
 import Preloader from '../components/Preloader';
 import MapLoader from '@/components/MapLoader';
@@ -9,7 +8,14 @@ import flood_legend from "../../public/images/flood_legend.jpg"
 import drought_legend from "../../public/images/drought_legend.jpg"
 import ShortFooter from '@/components/ShortFooter';
 
-const VisualizeRiskMap = dynamic(() => import('@/components/VisualizeRiskMap'), {
+
+
+const TimeSeriesCharts = dynamic(() => import('@/components/AdaptationToolChart'), {
+  ssr: false,
+  loading: () => <MapLoader />
+});
+
+const VisualizeRiskMap = dynamic(() => import('@/components/maps/VisualizeRiskMap'), {
   ssr: false,
   loading: () => <MapLoader />
 
@@ -72,20 +78,20 @@ const MapDatasetOptions = [
       {
         name: "Flood pentad",
         value: "flood_pentad_occurrence",
-        legendTitel:"Frequency of flood",
-        legendImg:flood_legend,
+        legendTitel: "Frequency of flood",
+        legendImg: flood_legend,
       },
       {
         name: "Drought pentad",
         value: "drought_pentad_occurrence",
-        legendTitel:"Frequency of drought",
-        legendImg:drought_legend,
+        legendTitel: "Frequency of drought",
+        legendImg: drought_legend,
       },
       {
         name: "Cyclone pentad",
         value: "cyclone_pentad_occurrence",
-        legendTitel:"Frequency of cyclone",
-        legendImg:cyclone_legend,
+        legendTitel: "Frequency of cyclone",
+        legendImg: cyclone_legend,
       },
 
     ]
@@ -104,10 +110,9 @@ const ClimateRiskPage = () => {
   const [selectedRasterLayer, setSelectedRasterLayer] = useState("");
   const [rasterLayerOpacity, setRasterLayerOpacity] = useState(1);
   const [selectedAdminBoundaries, setSelectedAdminBoundaries] = useState("");
-  const [selectedBasemapLayer, setSelectedBasemapLayer] = useState(BaseMapsLayers[0]);
   const [selectedVariable, setSelectedVariable] = useState(null);
   const [loading, setLoading] = useState(false);
-
+  const [showTimeseries, setShowTimeseries] = useState(false)
   const [selectedDataQuery, setSelectedDataQuery] = useState(null);
 
   const mapContainerRef = useRef(null);
@@ -164,15 +169,10 @@ const ClimateRiskPage = () => {
 
 
 
+  const handleShowTimeseries = () => {
+    setShowTimeseries(!showTimeseries)
+  }
 
-
-
-  const handleBasemapSelection = (e) => {
-    const selectedItem = BaseMapsLayers.find((item) => item.name === e.target.value);
-    setSelectedBasemapLayer(selectedItem);
-
-
-  };
 
 
 
@@ -362,33 +362,18 @@ const ClimateRiskPage = () => {
 
 
 
-                <div className="accordion-item">
-                  <h2 className="accordion-header" id="panelsStayOpen-headingThree">
-                    <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true" aria-controls="panelsStayOpen-collapseThree">
-                      Base map
-                    </button>
-                  </h2>
-                  <div id="panelsStayOpen-collapseThree" className="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingThree">
-                    <div className="accordion-body">
-                      {BaseMapsLayers.map((option, index) => (
-                        <div key={index} className="form-check">
-                          <input
-                            type="radio"
-                            id={option.name}
-                            className="form-check-input"
-                            value={option.name}
-                            checked={selectedBasemapLayer.name === option.name}
-                            onChange={handleBasemapSelection}
-                          />
-                          <label className="form-check-label" htmlFor={option.name}>{option.name}</label>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                </div>
 
 
 
+
+              </div>
+
+              <div className='panel_button'>
+                <button type='button'
+                  // disabled={!tehsilSelectedItem}
+                  onClick={handleShowTimeseries}>
+                  {showTimeseries ? "Hide Timeseries" : "Show Timeseries"}
+                </button>
               </div>
 
 
@@ -399,19 +384,45 @@ const ClimateRiskPage = () => {
           </div>
 
           <div className='right_panel' ref={mapContainerRef}>
+            <div className="card_container" style={{ height: "100%", overflowY: "auto" }}>
 
 
-            <VisualizeRiskMap
-              selectedBasemapLayer={selectedBasemapLayer}
-              selectedRasterLayer={selectedRasterLayer}
-              selectedDataQuery={selectedDataQuery}
-              selectedVariable={selectedVariable}
-              selectedAdminBoundaries={selectedAdminBoundaries}
-              rasterLayerOpacity={rasterLayerOpacity}
-              mapContainerRef={mapContainerRef}
-              selectedData={selectedData}
-              geojsonJsonData={geojsonJsonData}
-            />
+              <VisualizeRiskMap
+                selectedRasterLayer={selectedRasterLayer}
+                selectedDataQuery={selectedDataQuery}
+                selectedVariable={selectedVariable}
+                selectedAdminBoundaries={selectedAdminBoundaries}
+                rasterLayerOpacity={rasterLayerOpacity}
+                mapContainerRef={mapContainerRef}
+                selectedData={selectedData}
+                geojsonJsonData={geojsonJsonData}
+              />
+
+
+              {showTimeseries && (
+                <div className='time_series_container'>
+                  <TimeSeriesCharts
+                    handleShowTimeseries={handleShowTimeseries}
+                  // selectedMapData={selectedMapData}
+                  // selectedVariable={selectedVariable}
+                  // selectedTehsilID={selectedTehsilID}
+                  // selectedDistrict={selectedDistrict}
+                  // selectedTehsil={selectedTehsil}
+                  // endYear={endYear}
+                  // startYear={startYear}
+                  />
+
+                </div>
+
+
+              )}
+
+            </div>
+
+
+
+
+
 
 
             {loading && (

@@ -10,7 +10,7 @@ export default function handler(req, res) {
 
 
     // Construct the file path and read the data
-    const filePath = path.join(process.cwd(), 'data', filename);
+    const filePath = path.join(process.cwd(), 'data', 'MonsoonData', filename);
 
     try {
         const jsonData = JSON.parse(fs.readFileSync(filePath, 'utf8'));

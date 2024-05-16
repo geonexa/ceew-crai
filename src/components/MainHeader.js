@@ -60,6 +60,12 @@ const MainHeader = () => {
                                     Decision support
                                 </Link>
 
+                                <Link className={isActive('/adaptation-tool') ? 'active_nav' : 'nav_item'} onClick={handleLinkClick}
+                                    href="/adaptation-tool" >
+                                    Climate risk and adaptation tool
+                                </Link>
+
+
                                 <Link className={isActive('/download') ? 'active_nav' : 'nav_item'} onClick={handleLinkClick}
                                     href="/download" >
                                     Data download
