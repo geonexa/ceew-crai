@@ -368,13 +368,13 @@ const ClimateRiskPage = () => {
 
               </div>
 
-              <div className='panel_button'>
+              {/* <div className='panel_button'>
                 <button type='button'
                   // disabled={!tehsilSelectedItem}
                   onClick={handleShowTimeseries}>
                   {showTimeseries ? "Hide Timeseries" : "Show Timeseries"}
                 </button>
-              </div>
+              </div> */}
 
 
             </div>

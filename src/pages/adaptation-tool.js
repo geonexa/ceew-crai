@@ -243,9 +243,28 @@ const ClimateRiskAndAdaptation = () => {
                                 <button type='button'
                                     disabled={!selectedComponent}
                                     onClick={handleShowTimeseries}>
-                                    {showTimeseries ? "Hide Timeseries" : "Show Timeseries"}
+                                    {showTimeseries ? "Hide Chart" : "Show Chart"}
                                 </button>
                             </div>
+
+
+                            <div className='panel_button'>
+                                <a href='https://docs.google.com/spreadsheets/d/1g02dkeqinPZGes4dYjNT0ZvsegK8w6T-KD-W6RYX2KI/edit'
+                                target='_blank'>
+
+                                
+                                <button type='button'
+                                    // disabled={!selectedComponent}
+                                    // onClick={handleShowTimeseries}
+                                    >
+                                    Explore adaptation strategies
+                                </button>
+                                </a>
+                            </div>
+
+
+
+
 
                         </div>
                     </div>
