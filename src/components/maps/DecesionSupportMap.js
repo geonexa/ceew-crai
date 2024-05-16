@@ -11,7 +11,6 @@ import monsoon_anomaly_legend from "../../../public/images/monsoon_anomaly_legen
 import marker_icon from "../../../public/images/marker_icon.png"
 import IndiaStates from '../../../public/data/shapefiles/IndiaStates.json';
 import Image from 'next/image';
-import FiltererdJsonData from '../FiltererdJsonData';
 import FiltererdGeojsonData from '../FiltererdGeojsonData';
 
 
