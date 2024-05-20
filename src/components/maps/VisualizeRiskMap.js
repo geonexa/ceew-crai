@@ -18,8 +18,9 @@ import IndiaBoundary from '../../../public/data/shapefiles/IndiaBoundary.json';
 
 import ExportMapButton from '../ExportMapButton';
 import { BaseMapsLayers } from '@/helpers/mapFunction';
+import { fillDensityColor } from '@/helpers/functions';
 
-const VisualizeRiskMap = ({ selectedRasterLayer, selectedDataQuery, selectedVariable, selectedAdminBoundaries, rasterLayerOpacity, mapContainerRef, selectedData, geojsonJsonData }) => {
+const VisualizeRiskMap = ({ setShowTimeseries, setSelectedFeature, selectedRasterLayer, ColorLegendsDataItem, selectedDataQuery, selectedVariable, selectedAdminBoundaries, rasterLayerOpacity, mapContainerRef, selectedData, geojsonJsonData }) => {
 
 
 
@@ -36,6 +37,17 @@ const VisualizeRiskMap = ({ selectedRasterLayer, selectedDataQuery, selectedVari
 
 
     function TalukaOnEachfeature(feature, layer) {
+
+        layer.on('click', function (e) {
+            setSelectedFeature({
+                featureType:"TEHSIL",
+                featureName:feature.properties["TEHSIL"]
+            })
+            setShowTimeseries(true)
+        });
+
+        
+
         layer.on('mouseover', function () {
             const DataItem = selectedData && selectedData.find(item => item.ID === feature.properties.ID);
 
@@ -64,6 +76,15 @@ const VisualizeRiskMap = ({ selectedRasterLayer, selectedDataQuery, selectedVari
 
 
     function DistrictOnEachfeature(feature, layer) {
+
+        layer.on('click', function (e) {
+            setSelectedFeature({
+                featureType:"DISTRICT",
+                featureName:feature.properties["DISTRICT"]
+            })
+            setShowTimeseries(true)
+        })
+
         layer.on('mouseover', function () {
             const DataItem = selectedData && selectedData.find(item => item.DISTRICT === feature.properties.DISTRICT);
 
@@ -75,7 +96,6 @@ const VisualizeRiskMap = ({ selectedRasterLayer, selectedDataQuery, selectedVari
                 <div>
                 STATE: ${DataItem.STATE}<br/>
                 DISTRICT: ${DataItem.DISTRICT}<br/>
-               
                 VALUE: ${value}
                 </div>
         `;
@@ -93,6 +113,16 @@ const VisualizeRiskMap = ({ selectedRasterLayer, selectedDataQuery, selectedVari
 
 
     function StateOnEachfeature(feature, layer) {
+        layer.on('click', function (e) {
+            setSelectedFeature({
+                featureType:"STATE",
+                featureName:feature.properties["STATE"]
+            })
+            setShowTimeseries(true)
+        });
+
+
+
         layer.on('mouseover', function () {
             const DataItem = selectedData && selectedData.find(item => item.STATE === feature.properties.STATE);
 
@@ -121,49 +151,6 @@ const VisualizeRiskMap = ({ selectedRasterLayer, selectedDataQuery, selectedVari
 
 
 
-    const GeojsonMonsoonDensity = (density => {
-        return density > 30 ? '#053062'
-            : density > 20 ? '#2F7AB6'
-                : density > 10 ? '#87BEDA'
-                    : density > 0 ? '#DDEBF2'
-                        : density > -10 ? '#FBE3D6'
-                            : density > -20 ? '#F09C7A'
-                                : density > -30 ? '#C13739'
-                                    : '#68001F';
-    })
-
-    const GeojsonFloodOccurrence = (density => {
-        return density > 8 ? '#161849'
-            : density > 6 ? '#253D88'
-                : density > 4 ? '#0C55A9'
-                    : density > 2 ? '#499FD7'
-                        : density > 0 ? '#009DB9'
-                            : 'none';
-    })
-
-
-    const GeojsonDroughtOccurrence = (density => {
-        return density > 8 ? '#AB3801'
-            : density > 6 ? '#D86128'
-                : density > 4 ? '#E67426'
-                    : density > 2 ? '#FDC66B'
-                        : density > 0 ? '#FBF5B0'
-                            : 'none';
-    })
-
-
-
-    const GeojsonCycloneOccurrence = (density => {
-        return density > 8 ? '#01590D'
-            : density > 6 ? '#1A9B2B'
-                : density > 4 ? '#3AB54B'
-                    : density > 2 ? '#99CC86'
-                        : density > 0 ? '#FCF7B5'
-                            : 'none';
-    })
-
-
-
     const DistrictHydrometeorologicalStyle = feature => {
         const getDensityFromData = (DISTRICT, STATE) => {
             const DataItem = selectedData && selectedData.find(item => item.DISTRICT === DISTRICT && item.STATE === STATE);
@@ -172,19 +159,11 @@ const VisualizeRiskMap = ({ selectedRasterLayer, selectedDataQuery, selectedVari
 
         const density = getDensityFromData(feature.properties.DISTRICT, feature.properties.STATE);
 
-        let SelectedFunction;
-        if (selectedVariable.value === "flood_pentad_occurrence") {
-            SelectedFunction = GeojsonFloodOccurrence;
-        } else if (selectedVariable.value === "cyclone_pentad_occurrence") {
-            SelectedFunction = GeojsonCycloneOccurrence;
-        } else if (selectedVariable.value === "drought_pentad_occurrence") {
-            SelectedFunction = GeojsonDroughtOccurrence;
-        } else {
-            SelectedFunction = null;
-        }
+
 
         return {
-            fillColor: density ? SelectedFunction(density) : "none",
+            // fillColor: density ? SelectedFunction(density) : "none",\
+            fillColor: ColorLegendsDataItem && density ? fillDensityColor(ColorLegendsDataItem, density) : "none",
             weight: 1,
             opacity: 1,
             color: 'black',
@@ -205,7 +184,7 @@ const VisualizeRiskMap = ({ selectedRasterLayer, selectedDataQuery, selectedVari
         const density = getDensityFromSummerData(feature.properties.ID);
 
         return ({
-            fillColor: density ? GeojsonMonsoonDensity(density) : "none",
+            fillColor: ColorLegendsDataItem && density ? fillDensityColor(ColorLegendsDataItem, density) : "none",
             weight: 0.5,
             opacity: 1,
             color: 'black',
@@ -223,7 +202,7 @@ const VisualizeRiskMap = ({ selectedRasterLayer, selectedDataQuery, selectedVari
         const density = getDensityFromData(feature.properties.DISTRICT);
 
         return ({
-            fillColor: density ? GeojsonMonsoonDensity(density) : "none",
+            fillColor: ColorLegendsDataItem && density ? fillDensityColor(ColorLegendsDataItem, density) : "none",
             weight: 1,
             opacity: 1,
             color: 'black',
@@ -243,7 +222,7 @@ const VisualizeRiskMap = ({ selectedRasterLayer, selectedDataQuery, selectedVari
         const density = getDensityFromSummerData(feature.properties.STATE);
 
         return ({
-            fillColor: density ? GeojsonMonsoonDensity(density) : "none",
+            fillColor: ColorLegendsDataItem && density ? fillDensityColor(ColorLegendsDataItem, density) : "none",
             weight: 1,
             opacity: 1,
             color: 'black',
@@ -281,9 +260,10 @@ const VisualizeRiskMap = ({ selectedRasterLayer, selectedDataQuery, selectedVari
 
 
     const maxBounds = L.latLngBounds(
-        L.latLng(4, 60),
-        L.latLng(45, 110)
+        L.latLng(0, 70),
+        L.latLng(35, 130)
     );
+
 
 
     return (
@@ -293,7 +273,7 @@ const VisualizeRiskMap = ({ selectedRasterLayer, selectedDataQuery, selectedVari
                 center={mapCenter}
                 style={{ width: '100%', height: "100%", backgroundColor: 'white', border: 'none', margin: 'auto', borderRadius: "5px" }}
                 zoom={setInitialMapZoom()}
-                maxBounds={maxBounds}
+                // maxBounds={maxBounds}
                 // maxZoom={8}
                 minZoom={setInitialMapZoom()}
                 keyboard={false}
@@ -341,7 +321,7 @@ const VisualizeRiskMap = ({ selectedRasterLayer, selectedDataQuery, selectedVari
 
                 <BaseMap />
                 <SearchBar />
-                <ExportMapButton mapContainerRef={mapContainerRef} selectedYear="2020" selectedSession="June" />
+                {/* <ExportMapButton mapContainerRef={mapContainerRef} selectedYear="2020" selectedSession="June" /> */}
                 <TileLayer
                     key={selectedBasemapLayer.url}
                     attribution={selectedBasemapLayer.attribution}
@@ -397,7 +377,7 @@ const VisualizeRiskMap = ({ selectedRasterLayer, selectedDataQuery, selectedVari
                 {selectedDataQuery && geojsonJsonData && selectedData && selectedDataQuery.DataValue === "MonsoonData" && selectedVariable && selectedAdminBoundaries !== "" && (
                     <>
 
-                        <div className="legend_panel_container" style={{ width: "320px", bottom: "30px", padding: "5px", right: "10px", backgroundColor: "white", borderRadius: "5px" }}>
+                        <div className="legend_panel_container" style={{ width: "320px", bottom: "60px", padding: "5px", right: "10px", backgroundColor: "white", borderRadius: "5px" }}>
                             <div className="item-heading" >
                                 <p style={{ fontSize: "14px" }}>Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)</p>
                             </div>
@@ -464,7 +444,7 @@ const VisualizeRiskMap = ({ selectedRasterLayer, selectedDataQuery, selectedVari
                 {selectedDataQuery && selectedData && geojsonJsonData && selectedDataQuery.DataValue === "hydrometeorological_disasters" && selectedVariable && selectedAdminBoundaries !== "" && (
                     <>
 
-                        <div className="legend_panel_container" style={{ width: "320px", bottom: "30px", padding: "5px", right: "10px", backgroundColor: "white", borderRadius: "5px" }}>
+                        <div className="legend_panel_container" style={{ width: "320px", bottom: "60px", padding: "5px", right: "10px", backgroundColor: "white", borderRadius: "5px" }}>
                             <div className="item-heading" >
                                 <p style={{ fontSize: "14px" }}>{selectedVariable.legendTitel}</p>
                             </div>

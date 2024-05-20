@@ -60,33 +60,33 @@ const MapDatasetOptions = [
             },
         ]
     },
-    // {
-    //   DataName: "Hydrometeorological disasters",
-    //   DataValue: "hydrometeorological_disasters",
-    //   AdminBoundary: ["District"],
-    //   variables: [
+    {
+      DataName: "Hydrometeorological disasters",
+      DataValue: "hydrometeorological_disasters",
+      AdminBoundary: ["District"],
+      variables: [
 
-    //     {
-    //       name: "Flood pentad",
-    //       value: "flood_pentad_occurrence",
-    //       legendTitel:"Frequency of flood",
-    //       legendImg:flood_legend,
-    //     },
-    //     {
-    //       name: "Drought pentad",
-    //       value: "drought_pentad_occurrence",
-    //       legendTitel:"Frequency of drought",
-    //       legendImg:drought_legend,
-    //     },
-    //     {
-    //       name: "Cyclone pentad",
-    //       value: "cyclone_pentad_occurrence",
-    //       legendTitel:"Frequency of cyclone",
-    //       legendImg:cyclone_legend,
-    //     },
+        {
+          name: "Flood pentad",
+          value: "flood_pentad_occurrence",
+          legendTitel:"Frequency of flood",
+          legendImg:flood_legend,
+        },
+        {
+          name: "Drought pentad",
+          value: "drought_pentad_occurrence",
+          legendTitel:"Frequency of drought",
+          legendImg:drought_legend,
+        },
+        {
+          name: "Cyclone pentad",
+          value: "cyclone_pentad_occurrence",
+          legendTitel:"Frequency of cyclone",
+          legendImg:cyclone_legend,
+        },
 
-    //   ]
-    // },
+      ]
+    },
 ]
 
 const DecisionSupportPage = () => {
@@ -99,6 +99,7 @@ const DecisionSupportPage = () => {
     const [selectedVariable2, setSelectedVariable2] = useState(null);
     const [selectedVariable3, setSelectedVariable3] = useState(null);
     const [selectedVariable4, setSelectedVariable4] = useState(null);
+    
 
     const [districtList, setDistrictList] = useState([]);
     const [talukaList, setTalukaList] = useState([]);

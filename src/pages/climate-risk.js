@@ -6,11 +6,11 @@ import Head from 'next/head';
 import cyclone_legend from "../../public/images/cyclone_legend.jpg"
 import flood_legend from "../../public/images/flood_legend.jpg"
 import drought_legend from "../../public/images/drought_legend.jpg"
-import ShortFooter from '@/components/ShortFooter';
+import { ColorLegendsData } from '../../public/data/ColorLegendsData';
 
 
 
-const TimeSeriesCharts = dynamic(() => import('@/components/AdaptationToolChart'), {
+const VisualiseRiskChart = dynamic(() => import('@/components/VisualiseRiskChart'), {
   ssr: false,
   loading: () => <MapLoader />
 });
@@ -114,13 +114,16 @@ const ClimateRiskPage = () => {
   const [loading, setLoading] = useState(false);
   const [showTimeseries, setShowTimeseries] = useState(false)
   const [selectedDataQuery, setSelectedDataQuery] = useState(null);
+  const [colorLegendsDataItem, setColorLegendsDataItem] = useState(null);
+
+  const [selectedFeature, setSelectedFeature] = useState(null);
+
 
   const mapContainerRef = useRef(null);
-
   const [selectedData, setSelectedData] = useState(null);
-
-
   const [geojsonJsonData, setGeojsonJsonData] = useState(null);
+
+
 
 
 
@@ -132,6 +135,7 @@ const ClimateRiskPage = () => {
           const response = await fetch(`/api/monsoonData?type=${selectedAdminBoundaries}`);
           const geojsonresponse = await import(`../../public/data/shapefiles/India${selectedAdminBoundaries}s.json`);
           setGeojsonJsonData(geojsonresponse.default);
+          setColorLegendsDataItem(ColorLegendsData.monsoon_palette)
 
           const jsonData = await response.json();
           setSelectedData(jsonData);
@@ -154,6 +158,7 @@ const ClimateRiskPage = () => {
           const response = await fetch(`/api/hydrometeorologicalData?type=${selectedVariable.value}`);
           const geojsonresponse = await import(`../../public/data/shapefiles/India${selectedAdminBoundaries}s.json`);
           setGeojsonJsonData(geojsonresponse.default);
+          setColorLegendsDataItem(ColorLegendsData[`${selectedVariable.value}`])
 
           const jsonData = await response.json();
           setSelectedData(jsonData);
@@ -181,14 +186,17 @@ const ClimateRiskPage = () => {
     const selectedData = MapDatasetOptions.find(item => item.DataValue === selectedDataValue);
     setSelectedRasterLayer("")
     setSelectedVariable(null)
+    setSelectedData(null)
     setSelectedAdminBoundaries("")
     setSelectedDataQuery(selectedData);
+    
   };
 
   const handleSelectVariable = (e) => {
     const selectedOptionValue = e.target.value;
     const selectedOption = selectedDataQuery && selectedDataQuery.variables.find(variable => variable.value === selectedOptionValue);
     setSelectedVariable(selectedOption);
+    setShowTimeseries(false)
   };
 
 
@@ -200,6 +208,7 @@ const ClimateRiskPage = () => {
     setSelectedRasterLayer((prevSelectedRaster) =>
       prevSelectedRaster === value ? '' : value
     );
+    setShowTimeseries(false)
   };
 
   const handleOpacityChange = (e) => {
@@ -209,6 +218,7 @@ const ClimateRiskPage = () => {
 
   const handleVectorLayerSelection = (e) => {
     setSelectedAdminBoundaries(e.target.value);
+    setShowTimeseries(false)
   };
 
 
@@ -321,6 +331,10 @@ const ClimateRiskPage = () => {
 
                       </select>
 
+
+                      
+
+
                     </div>
                   </div>
                 </div>
@@ -368,13 +382,13 @@ const ClimateRiskPage = () => {
 
               </div>
 
-              {/* <div className='panel_button'>
+              <div className='panel_button'>
                 <button type='button'
                   // disabled={!tehsilSelectedItem}
                   onClick={handleShowTimeseries}>
                   {showTimeseries ? "Hide Timeseries" : "Show Timeseries"}
                 </button>
-              </div> */}
+              </div>
 
 
             </div>
@@ -393,23 +407,21 @@ const ClimateRiskPage = () => {
                 selectedVariable={selectedVariable}
                 selectedAdminBoundaries={selectedAdminBoundaries}
                 rasterLayerOpacity={rasterLayerOpacity}
+                setSelectedFeature={setSelectedFeature}
                 mapContainerRef={mapContainerRef}
                 selectedData={selectedData}
                 geojsonJsonData={geojsonJsonData}
-              />
+                ColorLegendsDataItem={colorLegendsDataItem} 
+                setShowTimeseries={setShowTimeseries}/>
 
 
-              {showTimeseries && (
+              {selectedDataQuery && selectedDataQuery.DataValue=="MonsoonData" && selectedData && showTimeseries && selectedFeature && (
                 <div className='time_series_container'>
-                  <TimeSeriesCharts
+                  <VisualiseRiskChart
                     handleShowTimeseries={handleShowTimeseries}
-                  // selectedMapData={selectedMapData}
-                  // selectedVariable={selectedVariable}
-                  // selectedTehsilID={selectedTehsilID}
-                  // selectedDistrict={selectedDistrict}
-                  // selectedTehsil={selectedTehsil}
-                  // endYear={endYear}
-                  // startYear={startYear}
+                    selectedFeature={selectedFeature}
+                    selectedData={selectedData}
+
                   />
 
                 </div>

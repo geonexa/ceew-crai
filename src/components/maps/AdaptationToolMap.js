@@ -122,8 +122,8 @@ const AdaptationToolMap = ({ selectedData, geojsonJsonData, selectedSector, sele
 
 
     const maxBounds = L.latLngBounds(
-        L.latLng(4, 60),
-        L.latLng(45, 110)
+        L.latLng(0, 80),
+        L.latLng(35, 120)
     );
 
 
@@ -134,7 +134,7 @@ const AdaptationToolMap = ({ selectedData, geojsonJsonData, selectedSector, sele
                 center={mapCenter}
                 style={{ width: '100%', height: "100%", backgroundColor: 'white', border: 'none', margin: 'auto', borderRadius: "5px" }}
                 zoom={setInitialMapZoom()}
-                maxBounds={maxBounds}
+                // maxBounds={maxBounds}
                 // maxZoom={8}
                 minZoom={setInitialMapZoom()}
                 keyboard={false}
