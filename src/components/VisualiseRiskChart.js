@@ -2,80 +2,76 @@ import React from 'react';
 import ReactApexChart from 'react-apexcharts';
 import { IoMdClose } from "react-icons/io";
 
-const VisualiseRiskChart = ({ selectedFeature, handleShowTimeseries, selectedData }) => {
+const VisualiseRiskChart = ({ selectedFeature, handleShowTimeseries, selectedData, selectedDataQuery }) => {
 
-    const filteredData = selectedData.find((item) => item[selectedFeature.featureType] === selectedFeature.featureName);
-console.log(filteredData)
 
-    // const getColor = (value, thresholds, colors) => {
-    //     for (let i = 0; i < thresholds.length; i++) {
-    //         if (value > thresholds[i]) {
-    //             return colors[i];
-    //         }
-    //     }
-    //     return colors[colors.length - 1]; 
-    // };
+    let filteredData;
+    if (selectedData && selectedFeature && selectedFeature.featureType && selectedDataQuery && selectedDataQuery.DataValue == "MonsoonData") {
+        filteredData = selectedData.find((item) => item[selectedFeature.featureType] === selectedFeature.featureName);
+    }
 
 
 
     return (
         <div className='' style={{ height: "100%" }}>
-            <div className='timeseries_heading'>
-                <h4>
-                    {selectedFeature.featureType} - {selectedFeature.featureName}<br />
-                </h4>
-                <button className='chart_close_btn' onClick={handleShowTimeseries}><IoMdClose /></button>
-            </div>
+            {selectedFeature && filteredData ? (
+                <>
+                    <div className='timeseries_heading'>
+                        <h4>
+                            {selectedFeature.featureType} - {selectedFeature.featureName}<br />
+                        </h4>
+                        <button className='chart_close_btn' onClick={handleShowTimeseries}><IoMdClose /></button>
+                    </div>
 
-            {filteredData && (
 
-                <ReactApexChart
-                    options={{
-                        chart: {
-                            id: 'apexchart-example'
-                        },
-                        xaxis: {
-                            categories: ["JJAS", "OND", "June", "July", "August", "September",
-                                 "October", "November", "December" 
-
-                            ]
-                        },
-                        dataLabels: {
-                            enabled: false,
-                        },
-                        // plotOptions: {
-                        //     bar: {
-                        //         distributed: true
-                        //     }
-                        // },
-                        // colors: colors,
-                        legend: {
-                            show: false // This hides the legend
-                        },
-
-                        yaxis: {
-                            title: {
-                                text: "Changes in monsoon data",
+                    <ReactApexChart
+                        options={{
+                            chart: {
+                                id: 'apexchart-example'
                             },
-                        },
+                            xaxis: {
+                                categories: ["JJAS", "OND", "June", "July", "August", "September",
+                                    "October", "November", "December"
+                                ]
+                            },
+                            dataLabels: {
+                                enabled: false,
+                            },
+                            legend: {
+                                show: false // This hides the legend
+                            },
+                            yaxis: {
 
-                    }}
-                    series={[
-                        {
-                            name: "Changes in monsoon data",
-                            data: [filteredData.jjas_percent_anomaly_mean,filteredData.ond_panomaly_mean, filteredData.june_panomaly_mean, filteredData.july_panomaly_mean, filteredData.august_panomaly_mean, filteredData.september_panomaly_mean,
-                             filteredData.october_panomaly_mean, filteredData.november_panomaly_mean, filteredData.december_panomaly_mean,
-                            
-                            ]
-                        }
-                    ]}
-                    type="bar"
-                    style={{ height: "100%", width: "100%" }}
-                    height="70%"
-                />
+                                title: {
+                                    text: `Changes in last decade (2012-2022)\ncompared to climate baseline (1982-2011) (in %)`,
+                                    style: {
+                                        fontSize: '12px'
+                                    }
+                                },
+                            },
+                            grid: {
+                                padding: {
+                                    left: 20, // Adjust left padding to make space for the y-axis title
+                                }
+                            }
+                        }}
+                        series={[
+                            {
+                                name: "Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)",
+                                data: [filteredData.jjas_percent_anomaly_mean, filteredData.ond_panomaly_mean, filteredData.june_panomaly_mean, filteredData.july_panomaly_mean, filteredData.august_panomaly_mean, filteredData.september_panomaly_mean,
+                                filteredData.october_panomaly_mean, filteredData.november_panomaly_mean, filteredData.december_panomaly_mean,
+                                ]
+                            }
+                        ]}
+                        type="bar"
+                        height="70%"
+                    />
 
+                </>
+
+            ) : (
+                <p>Please select a feature.</p>
             )}
-
 
         </div>
     );

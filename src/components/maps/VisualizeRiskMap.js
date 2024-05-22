@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from 'react'
 import SearchBar from "../SearchBar";
-import { MapContainer, GeoJSON, TileLayer, ImageOverlay } from "react-leaflet";
+import { MapContainer, GeoJSON, TileLayer, ImageOverlay, Marker, Tooltip, Circle } from "react-leaflet";
 import * as L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import "leaflet-fullscreen/dist/Leaflet.fullscreen.js";
@@ -10,22 +10,45 @@ import BaseMap from '../Basemap';
 import Image from 'next/image';
 import IndiaClimateZones from "../../../public/images/IndiaClimateZones_1991_2020.png"
 import climate_zones_legend from "../../../public/images/climate_zones_legend.jpg"
-import monsoon_anomaly_legend from "../../../public/images/monsoon_anomaly_legend.jpg"
-
+import { FaChartBar } from "react-icons/fa";
 import IndiaBoundary from '../../../public/data/shapefiles/IndiaBoundary.json';
-
+import marker_icon from "../../../public/images/marker_icon.png"
 
 
 import ExportMapButton from '../ExportMapButton';
 import { BaseMapsLayers } from '@/helpers/mapFunction';
 import { fillDensityColor } from '@/helpers/functions';
 
-const VisualizeRiskMap = ({ setShowTimeseries, setSelectedFeature, selectedRasterLayer, ColorLegendsDataItem, selectedDataQuery, selectedVariable, selectedAdminBoundaries, rasterLayerOpacity, mapContainerRef, selectedData, geojsonJsonData }) => {
-
-
-
-
+const VisualizeRiskMap = ({ selectedThematicLayers, uploadeddata, handleShowTimeseries, setShowTimeseries, setSelectedFeature, selectedRasterLayer, ColorLegendsDataItem, selectedDataQuery, selectedVariable, selectedAdminBoundaries, rasterLayerOpacity, mapContainerRef, selectedData, geojsonJsonData }) => {
+    const [loading, setLoading] = useState(false);
     const [selectedBasemapLayer, setSelectedBasemapLayer] = useState(BaseMapsLayers[0]);
+    const [thematicLayerData, setThematicLayerData] = useState({});
+
+
+    useEffect(() => {
+        const fetchData = async (layer) => {
+            try {
+                setLoading(true);
+                const geojsonresponse = await import(`../../../public/data/shapefiles/${layer.LayerData}`);
+                setThematicLayerData(prevState => ({
+                    ...prevState,
+                    [layer.value]: geojsonresponse.default,
+                }));
+            } catch (error) {
+                console.error('Error loading the data:', error);
+            } finally {
+                setLoading(false);
+            }
+        };
+
+        selectedThematicLayers.forEach(layer => {
+            if (!thematicLayerData[layer.value]) {
+                fetchData(layer);
+            }
+        });
+    }, [selectedThematicLayers, thematicLayerData]);
+
+
 
 
     const handleBasemapSelection = (e) => {
@@ -40,13 +63,13 @@ const VisualizeRiskMap = ({ setShowTimeseries, setSelectedFeature, selectedRaste
 
         layer.on('click', function (e) {
             setSelectedFeature({
-                featureType:"TEHSIL",
-                featureName:feature.properties["TEHSIL"]
+                featureType: "TEHSIL",
+                featureName: feature.properties["TEHSIL"]
             })
             setShowTimeseries(true)
         });
 
-        
+
 
         layer.on('mouseover', function () {
             const DataItem = selectedData && selectedData.find(item => item.ID === feature.properties.ID);
@@ -79,8 +102,8 @@ const VisualizeRiskMap = ({ setShowTimeseries, setSelectedFeature, selectedRaste
 
         layer.on('click', function (e) {
             setSelectedFeature({
-                featureType:"DISTRICT",
-                featureName:feature.properties["DISTRICT"]
+                featureType: "DISTRICT",
+                featureName: feature.properties["DISTRICT"]
             })
             setShowTimeseries(true)
         })
@@ -115,8 +138,8 @@ const VisualizeRiskMap = ({ setShowTimeseries, setSelectedFeature, selectedRaste
     function StateOnEachfeature(feature, layer) {
         layer.on('click', function (e) {
             setSelectedFeature({
-                featureType:"STATE",
-                featureName:feature.properties["STATE"]
+                featureType: "STATE",
+                featureName: feature.properties["STATE"]
             })
             setShowTimeseries(true)
         });
@@ -147,7 +170,7 @@ const VisualizeRiskMap = ({ setShowTimeseries, setSelectedFeature, selectedRaste
         });
     }
 
-
+console.log(ColorLegendsDataItem)
 
 
 
@@ -265,6 +288,33 @@ const VisualizeRiskMap = ({ setShowTimeseries, setSelectedFeature, selectedRaste
     );
 
 
+    const renderMarkers = () => {
+        return uploadeddata.map((item, index) => (
+            <Marker
+                key={index}
+                position={[parseFloat(item.Latitude), parseFloat(item.Longitude)]}
+                icon={L.icon({
+                    iconUrl: marker_icon.src,
+                    iconRetinaUrl: marker_icon.src,
+                    iconSize: [15],
+                    popupAnchor: [0, -5],
+                })}
+            >
+                <Tooltip>{`ID: ${item.ID}`}</Tooltip>
+            </Marker>
+        ));
+    };
+
+    const renderGeoJSON = () => {
+        return (
+            <GeoJSON
+                data={uploadeddata}
+                style={{ fillColor: 'none', weight: 3, color: 'yellow', fillOpacity: "0.4" }}
+            />
+        );
+    };
+
+
 
     return (
         <>
@@ -322,6 +372,9 @@ const VisualizeRiskMap = ({ setShowTimeseries, setSelectedFeature, selectedRaste
                 <BaseMap />
                 <SearchBar />
                 {/* <ExportMapButton mapContainerRef={mapContainerRef} selectedYear="2020" selectedSession="June" /> */}
+                <button className='show_chart_btn' title='Show Chart' onClick={handleShowTimeseries}><FaChartBar /></button>
+
+
                 <TileLayer
                     key={selectedBasemapLayer.url}
                     attribution={selectedBasemapLayer.attribution}
@@ -374,14 +427,69 @@ const VisualizeRiskMap = ({ setShowTimeseries, setSelectedFeature, selectedRaste
 
 
 
+                {selectedThematicLayers.map(layer => (
+                    <React.Fragment key={layer.value}>
+                        {layer.value === "river_network" && thematicLayerData[layer.value] && thematicLayerData[layer.value].type === "FeatureCollection" && (
+                            <GeoJSON
+                                data={thematicLayerData[layer.value]}
+                                style={{
+                                    fillColor: 'blue', weight: 1, color: 'blue', fillOpacity: 0.4,
+                                    interactive: false,
+                                }}
+                            />
+                        )}
+                        {layer.value === "solar_projects" && thematicLayerData[layer.value] && Array.isArray(thematicLayerData[layer.value]) && (
+                            <>
+                                {thematicLayerData[layer.value].map((project) => (
+                                    <Circle
+                                        key={project['Project ID']}
+                                        center={[project.Lat, project.Long]}
+                                        // radius={project['AC Capacity(MW)'] * 200}
+                                        radius={1000}
+                                        color="orange"
+                                        fillOpacity={0.8}
+                                    >
+                                        <Tooltip>
+                                            <div>
+                                                Project: <strong>{project['Project Name']}</strong><br />
+                                                Owner: {project['Owner Name']}<br />
+                                                Capacity: {project['AC Capacity(MW)']} MW<br />
+                                                State: {project['State']}
+                                            </div>
+                                        </Tooltip>
+                                    </Circle>
+                                ))}
+                            </>
+                        )}
+                    </React.Fragment>
+                ))}
+
+
+
+
+
+
+
+
+                {uploadeddata && uploadeddata.type === "FeatureCollection" ? (
+                    renderGeoJSON()
+                ) : (
+                    renderMarkers()
+
+                )}
+
+
+
+
                 {selectedDataQuery && geojsonJsonData && selectedData && selectedDataQuery.DataValue === "MonsoonData" && selectedVariable && selectedAdminBoundaries !== "" && (
                     <>
 
-                        <div className="legend_panel_container" style={{ width: "320px", bottom: "60px", padding: "5px", right: "10px", backgroundColor: "white", borderRadius: "5px" }}>
+
+                        <div className="legend_panel_container" style={{ width: "400px", bottom: "60px", padding: "5px", right: "10px", backgroundColor: "white", borderRadius: "5px" }}>
                             <div className="item-heading" >
-                                <p style={{ fontSize: "14px" }}>Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)</p>
+                                <p style={{ fontSize: "14px" }}>{selectedVariable.legendTitel}</p>
                             </div>
-                            <Image src={monsoon_anomaly_legend} alt='Legend' />
+                            <Image src={selectedVariable.legendImg} alt='Legend' />
                         </div>
 
 

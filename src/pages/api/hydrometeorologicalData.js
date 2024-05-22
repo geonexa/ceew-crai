@@ -7,7 +7,6 @@ export default function handler(req, res) {
 
     // Correctly format the filename using template literals
     const filename = `${type}.json`;
-    console.log(filename)
 
 
     // Construct the file path and read the data

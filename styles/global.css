@@ -542,6 +542,7 @@ font-family: 'Rubik', sans-serif; */
     justify-content: center;
     width: 30px;
     height: 30px;
+    border: 2px solid rgb(196, 196, 196);
   }
   
   
@@ -896,7 +897,21 @@ font-family: 'Rubik', sans-serif; */
     text-align: center;
   }
   
-  
+
+  .show_chart_btn{
+    margin-left: 10px;
+    border: none;
+    top: 180px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 2px;
+    z-index: 1000 !important;
+    border: 2px solid rgb(196, 196, 196);
+
+  }
   
   
   .map_print_btn{
@@ -910,6 +925,7 @@ font-family: 'Rubik', sans-serif; */
     background-color: white;
     border-radius: 2px;
     z-index: 1000 !important;
+    border: 2px solid rgb(196, 196, 196);
   }
   
   
@@ -987,7 +1003,7 @@ font-family: 'Rubik', sans-serif; */
   
 
 .time_series_container{
-  z-index: 2000000;
+  z-index: 1000;
   position: absolute;
   width: 80vw;
   height: 350px;
@@ -995,6 +1011,7 @@ font-family: 'Rubik', sans-serif; */
   padding: 10px;
   bottom: 0px;
   right: 0px;
+  border: 1px solid black;
 
 }
 .timeseries_heading{

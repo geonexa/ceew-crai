@@ -7,7 +7,7 @@ import vulnerability_legend from "../../public/images/vulnerability_legend.jpg"
 import risk_legend from "../../public/images/risk_legend.jpg"
 import hazard_legend from "../../public/images/hazard_legend.jpg"
 import { ColorLegendsData } from '../../public/data/ColorLegendsData';
-
+import { FiExternalLink } from "react-icons/fi";
 
 const AdaptationToolChart = dynamic(() => import('@/components/AdaptationToolChart'), {
     ssr: false,
@@ -252,16 +252,11 @@ const ClimateRiskAndAdaptation = () => {
                                 <a href='https://docs.google.com/spreadsheets/d/1g02dkeqinPZGes4dYjNT0ZvsegK8w6T-KD-W6RYX2KI/edit'
                                 target='_blank'>
 
-                                
-                                <button type='button'
-                                    // disabled={!selectedComponent}
-                                    // onClick={handleShowTimeseries}
-                                    >
-                                    Explore adaptation strategies
+                                <button type='button' >
+                                    Explore adaptation strategies <FiExternalLink />
                                 </button>
                                 </a>
                             </div>
-
 
 
 

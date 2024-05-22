@@ -55,9 +55,9 @@ const MainHeader = () => {
                                     Visualise climate risks
                                 </Link>
 
-                                <Link className={isActive('/decision-support') ? 'active_nav' : 'nav_item'} onClick={handleLinkClick}
-                                    href="/decision-support" >
-                                    Decision support
+                                <Link className={isActive('/map-comparison') ? 'active_nav' : 'nav_item'} onClick={handleLinkClick}
+                                    href="/map-comparison" >
+                                    Map Comparison
                                 </Link>
 
                                 <Link className={isActive('/adaptation-tool') ? 'active_nav' : 'nav_item'} onClick={handleLinkClick}

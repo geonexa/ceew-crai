@@ -8,7 +8,7 @@ export default function handler(req, res) {
 
     // Correctly format the filename using template literals
     const filename = `${Sector}.json`;
-    console.log('Attempting to read file:', filename);
+
 
 
     const filePath = path.join(process.cwd(), 'data', 'ClimateRiskAdaptationData', filename);

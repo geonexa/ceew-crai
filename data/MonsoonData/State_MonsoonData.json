@@ -1,6 +1,7 @@
 [
   {
     "STATE": "ANDAMAN & NICOBAR",
+    "ID": 0,
     "june_panomaly_mean": 21.27,
     "july_panomaly_mean": 7.54,
     "august_panomaly_mean": 4.83,
@@ -9,10 +10,13 @@
     "october_panomaly_mean": 3.03,
     "november_panomaly_mean": -3.43,
     "december_panomaly_mean": 31.01,
-    "ond_panomaly_mean": 5.96
+    "ond_panomaly_mean": 5.96,
+    "jjas_heavy_anomaly_mean": 3.99,
+    "jjas_vheavy_anomaly_mean": 1.23
   },
   {
     "STATE": "ANDHRA PRADESH",
+    "ID": 1,
     "june_panomaly_mean": 11.77,
     "july_panomaly_mean": 11.82,
     "august_panomaly_mean": 17.1,
@@ -21,10 +25,13 @@
     "october_panomaly_mean": 9.54,
     "november_panomaly_mean": 13.34,
     "december_panomaly_mean": 10.03,
-    "ond_panomaly_mean": 11.53
+    "ond_panomaly_mean": 11.53,
+    "jjas_heavy_anomaly_mean": 2.95,
+    "jjas_vheavy_anomaly_mean": 0.13
   },
   {
     "STATE": "ARUNACHAL PRADESH",
+    "ID": 2,
     "june_panomaly_mean": 19.44,
     "july_panomaly_mean": -7.52,
     "august_panomaly_mean": 8.81,
@@ -33,10 +40,13 @@
     "october_panomaly_mean": 2.42,
     "november_panomaly_mean": 41.97,
     "december_panomaly_mean": -10.26,
-    "ond_panomaly_mean": 3.61
+    "ond_panomaly_mean": 3.61,
+    "jjas_heavy_anomaly_mean": 0.36,
+    "jjas_vheavy_anomaly_mean": 0.02
   },
   {
     "STATE": "ASSAM",
+    "ID": 3,
     "june_panomaly_mean": -12.54,
     "july_panomaly_mean": -16.48,
     "august_panomaly_mean": -11.04,
@@ -45,10 +55,13 @@
     "october_panomaly_mean": -10.31,
     "november_panomaly_mean": -21.92,
     "december_panomaly_mean": 14.58,
-    "ond_panomaly_mean": -10.44
+    "ond_panomaly_mean": -10.44,
+    "jjas_heavy_anomaly_mean": -3.11,
+    "jjas_vheavy_anomaly_mean": -0.38
   },
   {
     "STATE": "BIHAR",
+    "ID": 4,
     "june_panomaly_mean": -8.83,
     "july_panomaly_mean": -8.71,
     "august_panomaly_mean": -11.19,
@@ -57,10 +70,13 @@
     "october_panomaly_mean": 20.5,
     "november_panomaly_mean": -73.77,
     "december_panomaly_mean": -33.58,
-    "ond_panomaly_mean": 2.56
+    "ond_panomaly_mean": 2.56,
+    "jjas_heavy_anomaly_mean": -1.93,
+    "jjas_vheavy_anomaly_mean": -0.42
   },
   {
     "STATE": "CHANDIGARH",
+    "ID": 5,
     "june_panomaly_mean": -10.02,
     "july_panomaly_mean": -15.62,
     "august_panomaly_mean": -2.39,
@@ -69,10 +85,13 @@
     "october_panomaly_mean": -27.49,
     "november_panomaly_mean": 211.62,
     "december_panomaly_mean": -24.9,
-    "ond_panomaly_mean": -1.74
+    "ond_panomaly_mean": -1.74,
+    "jjas_heavy_anomaly_mean": -1.19,
+    "jjas_vheavy_anomaly_mean": -0.36
   },
   {
     "STATE": "CHHATISGARH",
+    "ID": 6,
     "june_panomaly_mean": -3.71,
     "july_panomaly_mean": 1.07,
     "august_panomaly_mean": -2.02,
@@ -81,10 +100,13 @@
     "october_panomaly_mean": 27.99,
     "november_panomaly_mean": -29.26,
     "december_panomaly_mean": 36.25,
-    "ond_panomaly_mean": 18.42
+    "ond_panomaly_mean": 18.42,
+    "jjas_heavy_anomaly_mean": -0.51,
+    "jjas_vheavy_anomaly_mean": -0.2
   },
   {
     "STATE": "DADRA & NAGAR HAVELI & DAMAN & DIU",
+    "ID": 7,
     "june_panomaly_mean": 9.76,
     "july_panomaly_mean": 28.75,
     "august_panomaly_mean": 36.01,
@@ -93,10 +115,13 @@
     "october_panomaly_mean": 44.31,
     "november_panomaly_mean": -24.41,
     "december_panomaly_mean": 296.68,
-    "ond_panomaly_mean": 30.75
+    "ond_panomaly_mean": 30.75,
+    "jjas_heavy_anomaly_mean": 7.74,
+    "jjas_vheavy_anomaly_mean": 0.64
   },
   {
     "STATE": "DELHI",
+    "ID": 8,
     "june_panomaly_mean": -4.52,
     "july_panomaly_mean": 0.03,
     "august_panomaly_mean": 5.92,
@@ -105,10 +130,13 @@
     "october_panomaly_mean": -11.26,
     "november_panomaly_mean": 38.76,
     "december_panomaly_mean": -19.51,
-    "ond_panomaly_mean": -8.96
+    "ond_panomaly_mean": -8.96,
+    "jjas_heavy_anomaly_mean": -0.76,
+    "jjas_vheavy_anomaly_mean": 0.05
   },
   {
     "STATE": "DISPUTED",
+    "ID": 9,
     "june_panomaly_mean": 25.33,
     "july_panomaly_mean": 44.92,
     "august_panomaly_mean": 49.93,
@@ -117,10 +145,13 @@
     "october_panomaly_mean": -3.76,
     "november_panomaly_mean": -70.25,
     "december_panomaly_mean": 10.78,
-    "ond_panomaly_mean": -17.67
+    "ond_panomaly_mean": -17.67,
+    "jjas_heavy_anomaly_mean": 5.49,
+    "jjas_vheavy_anomaly_mean": 1.24
   },
   {
     "STATE": "Disputed (West Bengal)",
+    "ID": 10,
     "june_panomaly_mean": 0,
     "july_panomaly_mean": 0,
     "august_panomaly_mean": 0,
@@ -129,10 +160,13 @@
     "october_panomaly_mean": 0,
     "november_panomaly_mean": 0,
     "december_panomaly_mean": 0,
-    "ond_panomaly_mean": 0
+    "ond_panomaly_mean": 0,
+    "jjas_heavy_anomaly_mean": 0,
+    "jjas_vheavy_anomaly_mean": 0
   },
   {
     "STATE": "GOA",
+    "ID": 11,
     "june_panomaly_mean": 30.65,
     "july_panomaly_mean": 29.64,
     "august_panomaly_mean": 32.04,
@@ -141,10 +175,13 @@
     "october_panomaly_mean": 38.39,
     "november_panomaly_mean": 36.52,
     "december_panomaly_mean": 205.84,
-    "ond_panomaly_mean": 42.04
+    "ond_panomaly_mean": 42.04,
+    "jjas_heavy_anomaly_mean": 9.1,
+    "jjas_vheavy_anomaly_mean": 4.11
   },
   {
     "STATE": "GUJARAT",
+    "ID": 12,
     "june_panomaly_mean": 15.68,
     "july_panomaly_mean": 18.01,
     "august_panomaly_mean": 22.18,
@@ -153,10 +190,13 @@
     "october_panomaly_mean": 21.17,
     "november_panomaly_mean": -26.18,
     "december_panomaly_mean": 45.79,
-    "ond_panomaly_mean": 10.31
+    "ond_panomaly_mean": 10.31,
+    "jjas_heavy_anomaly_mean": 5.45,
+    "jjas_vheavy_anomaly_mean": 0.59
   },
   {
     "STATE": "HARYANA",
+    "ID": 13,
     "june_panomaly_mean": -3.08,
     "july_panomaly_mean": -2.31,
     "august_panomaly_mean": 10.68,
@@ -165,10 +205,13 @@
     "october_panomaly_mean": -18.81,
     "november_panomaly_mean": 79.91,
     "december_panomaly_mean": -17.95,
-    "ond_panomaly_mean": -7.83
+    "ond_panomaly_mean": -7.83,
+    "jjas_heavy_anomaly_mean": -0.19,
+    "jjas_vheavy_anomaly_mean": 0.09
   },
   {
     "STATE": "HIMACHAL PRADESH",
+    "ID": 14,
     "june_panomaly_mean": -14.27,
     "july_panomaly_mean": -13.21,
     "august_panomaly_mean": -3.78,
@@ -177,10 +220,13 @@
     "october_panomaly_mean": -23.65,
     "november_panomaly_mean": 94.85,
     "december_panomaly_mean": -18.6,
-    "ond_panomaly_mean": -1.71
+    "ond_panomaly_mean": -1.71,
+    "jjas_heavy_anomaly_mean": -2.2,
+    "jjas_vheavy_anomaly_mean": -0.36
   },
   {
     "STATE": "JAMMU AND KASHMIR",
+    "ID": 15,
     "june_panomaly_mean": 19.44,
     "july_panomaly_mean": -7.52,
     "august_panomaly_mean": 8.81,
@@ -189,10 +235,13 @@
     "october_panomaly_mean": 2.42,
     "november_panomaly_mean": 41.97,
     "december_panomaly_mean": -10.26,
-    "ond_panomaly_mean": 3.61
+    "ond_panomaly_mean": 3.61,
+    "jjas_heavy_anomaly_mean": 0.36,
+    "jjas_vheavy_anomaly_mean": 0.02
   },
   {
     "STATE": "JHARKHAND",
+    "ID": 16,
     "june_panomaly_mean": -12.32,
     "july_panomaly_mean": -5.68,
     "august_panomaly_mean": 0.94,
@@ -201,10 +250,13 @@
     "october_panomaly_mean": 18.28,
     "november_panomaly_mean": -42.8,
     "december_panomaly_mean": 15.7,
-    "ond_panomaly_mean": 8.75
+    "ond_panomaly_mean": 8.75,
+    "jjas_heavy_anomaly_mean": -1.38,
+    "jjas_vheavy_anomaly_mean": -0.2
   },
   {
     "STATE": "KARNATAKA",
+    "ID": 17,
     "june_panomaly_mean": 12.32,
     "july_panomaly_mean": 22.67,
     "august_panomaly_mean": 41.26,
@@ -213,10 +265,13 @@
     "october_panomaly_mean": 16.3,
     "november_panomaly_mean": 17.2,
     "december_panomaly_mean": 67.66,
-    "ond_panomaly_mean": 19.96
+    "ond_panomaly_mean": 19.96,
+    "jjas_heavy_anomaly_mean": 3.76,
+    "jjas_vheavy_anomaly_mean": 0.63
   },
   {
     "STATE": "KERALA",
+    "ID": 18,
     "june_panomaly_mean": 0.59,
     "july_panomaly_mean": 2.97,
     "august_panomaly_mean": 56.7,
@@ -225,10 +280,13 @@
     "october_panomaly_mean": 4.35,
     "november_panomaly_mean": 14.61,
     "december_panomaly_mean": 74.36,
-    "ond_panomaly_mean": 12.75
+    "ond_panomaly_mean": 12.75,
+    "jjas_heavy_anomaly_mean": 4.53,
+    "jjas_vheavy_anomaly_mean": 1.53
   },
   {
     "STATE": "LADAKH",
+    "ID": 19,
     "june_panomaly_mean": 19.44,
     "july_panomaly_mean": -7.52,
     "august_panomaly_mean": 8.81,
@@ -237,10 +295,13 @@
     "october_panomaly_mean": 2.42,
     "november_panomaly_mean": 41.97,
     "december_panomaly_mean": -10.26,
-    "ond_panomaly_mean": 3.61
+    "ond_panomaly_mean": 3.61,
+    "jjas_heavy_anomaly_mean": 0.36,
+    "jjas_vheavy_anomaly_mean": 0.02
   },
   {
     "STATE": "LAKSHADWEEP",
+    "ID": 20,
     "june_panomaly_mean": 0,
     "july_panomaly_mean": 0,
     "august_panomaly_mean": 0,
@@ -249,10 +310,13 @@
     "october_panomaly_mean": 0,
     "november_panomaly_mean": 0,
     "december_panomaly_mean": 0,
-    "ond_panomaly_mean": 0
+    "ond_panomaly_mean": 0,
+    "jjas_heavy_anomaly_mean": 0,
+    "jjas_vheavy_anomaly_mean": 0
   },
   {
     "STATE": "MADHYA PRADESH",
+    "ID": 21,
     "june_panomaly_mean": 14.46,
     "july_panomaly_mean": 21.8,
     "august_panomaly_mean": 10.87,
@@ -261,10 +325,13 @@
     "october_panomaly_mean": 30,
     "november_panomaly_mean": -63.92,
     "december_panomaly_mean": 2.43,
-    "ond_panomaly_mean": 5.23
+    "ond_panomaly_mean": 5.23,
+    "jjas_heavy_anomaly_mean": 1.68,
+    "jjas_vheavy_anomaly_mean": 0.2
   },
   {
     "STATE": "MADHYA PRADESH(DISPUTED)",
+    "ID": 22,
     "june_panomaly_mean": 24.46,
     "july_panomaly_mean": 24.66,
     "august_panomaly_mean": 20.62,
@@ -273,10 +340,13 @@
     "october_panomaly_mean": 12.65,
     "november_panomaly_mean": -49.28,
     "december_panomaly_mean": 13.04,
-    "ond_panomaly_mean": -3.06
+    "ond_panomaly_mean": -3.06,
+    "jjas_heavy_anomaly_mean": 4.02,
+    "jjas_vheavy_anomaly_mean": 0.19
   },
   {
     "STATE": "MAHARASHTRA",
+    "ID": 23,
     "june_panomaly_mean": 20.97,
     "july_panomaly_mean": 24.8,
     "august_panomaly_mean": 15.25,
@@ -285,10 +355,13 @@
     "october_panomaly_mean": 32.05,
     "november_panomaly_mean": -32.44,
     "december_panomaly_mean": 50.71,
-    "ond_panomaly_mean": 17.5
+    "ond_panomaly_mean": 17.5,
+    "jjas_heavy_anomaly_mean": 4.92,
+    "jjas_vheavy_anomaly_mean": 0.34
   },
   {
     "STATE": "MANIPUR",
+    "ID": 24,
     "june_panomaly_mean": -13.79,
     "july_panomaly_mean": -10.34,
     "august_panomaly_mean": -9.45,
@@ -297,10 +370,13 @@
     "october_panomaly_mean": 8.53,
     "november_panomaly_mean": -24.64,
     "december_panomaly_mean": 36.94,
-    "ond_panomaly_mean": 3.73
+    "ond_panomaly_mean": 3.73,
+    "jjas_heavy_anomaly_mean": -2.06,
+    "jjas_vheavy_anomaly_mean": -0.08
   },
   {
     "STATE": "MEGHALAYA",
+    "ID": 25,
     "june_panomaly_mean": -22.72,
     "july_panomaly_mean": -26.95,
     "august_panomaly_mean": -11.7,
@@ -309,10 +385,13 @@
     "october_panomaly_mean": -22.22,
     "november_panomaly_mean": -46.36,
     "december_panomaly_mean": -2.34,
-    "ond_panomaly_mean": -23.61
+    "ond_panomaly_mean": -23.61,
+    "jjas_heavy_anomaly_mean": -4.02,
+    "jjas_vheavy_anomaly_mean": -0.6
   },
   {
     "STATE": "MIZORAM",
+    "ID": 26,
     "june_panomaly_mean": 16.99,
     "july_panomaly_mean": 5.3,
     "august_panomaly_mean": 2.9,
@@ -321,10 +400,13 @@
     "october_panomaly_mean": 29.52,
     "november_panomaly_mean": -29.8,
     "december_panomaly_mean": 68.62,
-    "ond_panomaly_mean": 17.46
+    "ond_panomaly_mean": 17.46,
+    "jjas_heavy_anomaly_mean": 1.35,
+    "jjas_vheavy_anomaly_mean": 0.47
   },
   {
     "STATE": "NAGALAND",
+    "ID": 27,
     "june_panomaly_mean": -17.71,
     "july_panomaly_mean": -11.49,
     "august_panomaly_mean": -13.27,
@@ -333,10 +415,13 @@
     "october_panomaly_mean": -0.24,
     "november_panomaly_mean": -30.54,
     "december_panomaly_mean": 5.56,
-    "ond_panomaly_mean": -5.05
+    "ond_panomaly_mean": -5.05,
+    "jjas_heavy_anomaly_mean": -3.39,
+    "jjas_vheavy_anomaly_mean": -0.46
   },
   {
     "STATE": "ODISHA",
+    "ID": 28,
     "june_panomaly_mean": -3.36,
     "july_panomaly_mean": 2.49,
     "august_panomaly_mean": -0.62,
@@ -345,10 +430,13 @@
     "october_panomaly_mean": 45.4,
     "november_panomaly_mean": -22.5,
     "december_panomaly_mean": 105.46,
-    "ond_panomaly_mean": 34.4
+    "ond_panomaly_mean": 34.4,
+    "jjas_heavy_anomaly_mean": 0.28,
+    "jjas_vheavy_anomaly_mean": -0.14
   },
   {
     "STATE": "PUDUCHERRY",
+    "ID": 29,
     "june_panomaly_mean": 7.12,
     "july_panomaly_mean": 9.38,
     "august_panomaly_mean": 14.47,
@@ -357,10 +445,13 @@
     "october_panomaly_mean": 5.15,
     "november_panomaly_mean": 2.83,
     "december_panomaly_mean": 0.31,
-    "ond_panomaly_mean": 2.74
+    "ond_panomaly_mean": 2.74,
+    "jjas_heavy_anomaly_mean": 3.87,
+    "jjas_vheavy_anomaly_mean": 1.06
   },
   {
     "STATE": "PUNJAB",
+    "ID": 30,
     "june_panomaly_mean": -4.2,
     "july_panomaly_mean": 0.5,
     "august_panomaly_mean": 3.34,
@@ -369,10 +460,13 @@
     "october_panomaly_mean": 0.06,
     "november_panomaly_mean": 160.38,
     "december_panomaly_mean": -12.42,
-    "ond_panomaly_mean": 18.74
+    "ond_panomaly_mean": 18.74,
+    "jjas_heavy_anomaly_mean": 0.34,
+    "jjas_vheavy_anomaly_mean": 0.25
   },
   {
     "STATE": "RAJASTHAN",
+    "ID": 31,
     "june_panomaly_mean": 22.4,
     "july_panomaly_mean": 24.02,
     "august_panomaly_mean": 32.52,
@@ -381,10 +475,13 @@
     "october_panomaly_mean": 10.62,
     "november_panomaly_mean": 12.8,
     "december_panomaly_mean": -0.4,
-    "ond_panomaly_mean": 5.01
+    "ond_panomaly_mean": 5.01,
+    "jjas_heavy_anomaly_mean": 3.85,
+    "jjas_vheavy_anomaly_mean": 0.44
   },
   {
     "STATE": "SIKKIM",
+    "ID": 32,
     "june_panomaly_mean": -16.39,
     "july_panomaly_mean": -14.88,
     "august_panomaly_mean": -15.37,
@@ -393,10 +490,13 @@
     "october_panomaly_mean": -12.66,
     "november_panomaly_mean": -22.79,
     "december_panomaly_mean": -9.75,
-    "ond_panomaly_mean": -14.48
+    "ond_panomaly_mean": -14.48,
+    "jjas_heavy_anomaly_mean": -3.87,
+    "jjas_vheavy_anomaly_mean": -0.68
   },
   {
     "STATE": "TAMIL NADU",
+    "ID": 33,
     "june_panomaly_mean": 18.29,
     "july_panomaly_mean": 26.06,
     "august_panomaly_mean": 47.02,
@@ -405,10 +505,13 @@
     "october_panomaly_mean": 13.64,
     "november_panomaly_mean": 13.38,
     "december_panomaly_mean": 38.75,
-    "ond_panomaly_mean": 16.67
+    "ond_panomaly_mean": 16.67,
+    "jjas_heavy_anomaly_mean": 4.9,
+    "jjas_vheavy_anomaly_mean": 1.58
   },
   {
     "STATE": "TELANGANA",
+    "ID": 34,
     "june_panomaly_mean": 14.66,
     "july_panomaly_mean": 23.11,
     "august_panomaly_mean": 11.14,
@@ -417,10 +520,13 @@
     "october_panomaly_mean": 15.62,
     "november_panomaly_mean": -11.81,
     "december_panomaly_mean": 11.81,
-    "ond_panomaly_mean": 9.84
+    "ond_panomaly_mean": 9.84,
+    "jjas_heavy_anomaly_mean": 4.61,
+    "jjas_vheavy_anomaly_mean": -0.09
   },
   {
     "STATE": "TRIPURA",
+    "ID": 35,
     "june_panomaly_mean": 4.18,
     "july_panomaly_mean": -1.9,
     "august_panomaly_mean": 3.27,
@@ -429,10 +535,13 @@
     "october_panomaly_mean": 11.8,
     "november_panomaly_mean": -35.77,
     "december_panomaly_mean": 120,
-    "ond_panomaly_mean": 7.4
+    "ond_panomaly_mean": 7.4,
+    "jjas_heavy_anomaly_mean": 1.99,
+    "jjas_vheavy_anomaly_mean": -0.37
   },
   {
     "STATE": "UTTARAKHAND",
+    "ID": 36,
     "june_panomaly_mean": -7.72,
     "july_panomaly_mean": -2.86,
     "august_panomaly_mean": -1.98,
@@ -441,10 +550,13 @@
     "october_panomaly_mean": -0.32,
     "november_panomaly_mean": -7.09,
     "december_panomaly_mean": -32.68,
-    "ond_panomaly_mean": -10.2
+    "ond_panomaly_mean": -10.2,
+    "jjas_heavy_anomaly_mean": -1.72,
+    "jjas_vheavy_anomaly_mean": -0.31
   },
   {
     "STATE": "UTTARPRADESH",
+    "ID": 37,
     "june_panomaly_mean": -3.97,
     "july_panomaly_mean": -1.55,
     "august_panomaly_mean": -8.52,
@@ -453,10 +565,13 @@
     "october_panomaly_mean": 24.99,
     "november_panomaly_mean": -34.04,
     "december_panomaly_mean": -25.25,
-    "ond_panomaly_mean": 7.41
+    "ond_panomaly_mean": 7.41,
+    "jjas_heavy_anomaly_mean": -1.43,
+    "jjas_vheavy_anomaly_mean": -0.21
   },
   {
     "STATE": "WEST BENGAL",
+    "ID": 38,
     "june_panomaly_mean": -9.99,
     "july_panomaly_mean": -2.46,
     "august_panomaly_mean": 0,
@@ -465,6 +580,8 @@
     "october_panomaly_mean": 10.19,
     "november_panomaly_mean": -8.29,
     "december_panomaly_mean": 72.73,
-    "ond_panomaly_mean": 10.96
+    "ond_panomaly_mean": 10.96,
+    "jjas_heavy_anomaly_mean": -0.73,
+    "jjas_vheavy_anomaly_mean": -0.19
   }
  ]

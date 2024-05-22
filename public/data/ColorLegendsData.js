@@ -6,6 +6,90 @@ export const ColorLegendsData = {
         Colors: ["#053062", "#2F7AB6", "#87BEDA", "#DDEBF2", "#FBE3D6","#F09C7A","#C13739","#68001F"],
 
     },
+
+    june_panomaly_mean: {
+        Title: "Monsoon",
+        Unit: "",
+        Value: [30,20,10,0,-10,-20,-30],
+        Colors: ["#053062", "#2F7AB6", "#87BEDA", "#DDEBF2", "#FBE3D6","#F09C7A","#C13739","#68001F"],
+
+    },
+    july_panomaly_mean: {
+        Title: "Monsoon",
+        Unit: "",
+        Value: [30,20,10,0,-10,-20,-30],
+        Colors: ["#053062", "#2F7AB6", "#87BEDA", "#DDEBF2", "#FBE3D6","#F09C7A","#C13739","#68001F"],
+
+    },
+
+    august_panomaly_mean: {
+        Title: "Monsoon",
+        Unit: "",
+        Value: [30,20,10,0,-10,-20,-30],
+        Colors: ["#053062", "#2F7AB6", "#87BEDA", "#DDEBF2", "#FBE3D6","#F09C7A","#C13739","#68001F"],
+
+    },
+    september_panomaly_mean: {
+        Title: "Monsoon",
+        Unit: "",
+        Value: [30,20,10,0,-10,-20,-30],
+        Colors: ["#053062", "#2F7AB6", "#87BEDA", "#DDEBF2", "#FBE3D6","#F09C7A","#C13739","#68001F"],
+
+    },
+    jjas_percent_anomaly_mean: {
+        Title: "Monsoon",
+        Unit: "",
+        Value: [30,20,10,0,-10,-20,-30],
+        Colors: ["#053062", "#2F7AB6", "#87BEDA", "#DDEBF2", "#FBE3D6","#F09C7A","#C13739","#68001F"],
+
+    },
+    october_panomaly_mean: {
+        Title: "Monsoon",
+        Unit: "",
+        Value: [30,20,10,0,-10,-20,-30],
+        Colors: ["#053062", "#2F7AB6", "#87BEDA", "#DDEBF2", "#FBE3D6","#F09C7A","#C13739","#68001F"],
+
+    },
+    november_panomaly_mean: {
+        Title: "Monsoon",
+        Unit: "",
+        Value: [30,20,10,0,-10,-20,-30],
+        Colors: ["#053062", "#2F7AB6", "#87BEDA", "#DDEBF2", "#FBE3D6","#F09C7A","#C13739","#68001F"],
+
+    },
+    december_panomaly_mean: {
+        Title: "Monsoon",
+        Unit: "",
+        Value: [30,20,10,0,-10,-20,-30],
+        Colors: ["#053062", "#2F7AB6", "#87BEDA", "#DDEBF2", "#FBE3D6","#F09C7A","#C13739","#68001F"],
+
+    },
+    ond_panomaly_mean: {
+        Title: "Monsoon",
+        Unit: "",
+        Value: [30,20,10,0,-10,-20,-30],
+        Colors: ["#053062", "#2F7AB6", "#87BEDA", "#DDEBF2", "#FBE3D6","#F09C7A","#C13739","#68001F"],
+
+    },
+    jjas_heavy_anomaly_mean: {
+        Title: "Monsoon",
+        Unit: "",
+        Value: [13,10,7,4,1,-2,-5],
+        Colors: ["#002576","#004DA7","#0470FC", "#73B3FF", "#C0E7FC", "#FDEABD", "#FED382"],
+
+    },
+    jjas_vheavy_anomaly_mean: {
+        Title: "Monsoon",
+        Unit: "",
+        // Value: [-5,-2,1, 4, 7, 10 ,13],
+        Value: [13,10,7,4,1,-2,-5],
+        // Colors: ["#FED382","#FDEABD","#C0E7FC", "#73B3FF", "#0470FC", "#004DA7", "#002576"],
+        Colors: ["#002576","#004DA7","#0470FC", "#73B3FF", "#C0E7FC", "#FDEABD", "#FED382"],
+
+    },
+
+
+
     flood_pentad_occurrence: {
         Title: "Frequency of flood",
         Unit: "",

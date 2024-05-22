@@ -7,8 +7,8 @@ import "leaflet-fullscreen/dist/leaflet.fullscreen.css";
 
 
 
-import monsoon_anomaly_legend from "../../../public/images/monsoon_anomaly_legend.jpg"
-import marker_icon from "../../../public/images/marker_icon.png"
+
+
 import IndiaStates from '../../../public/data/shapefiles/IndiaStates.json';
 import Image from 'next/image';
 import FiltererdGeojsonData from '../FiltererdGeojsonData';
@@ -17,7 +17,7 @@ import { ColorLegendsData } from '../../../public/data/ColorLegendsData';
 
 
 
-const DecesionSupportMap = ({ selectedState, selectedDistrict, selectedDataQuery, selectedTehsil, selectedVariable, uploadeddata, mapNumber }) => {
+const DecesionSupportMap = ({ selectedState, selectedDistrict, selectedDataQuery, selectedTehsil, selectedVariable, mapNumber }) => {
 
   const [selectedData, setSelectedData] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -34,7 +34,10 @@ const DecesionSupportMap = ({ selectedState, selectedDistrict, selectedDataQuery
           setLoading(true);
           const response = await fetch(`/api/monsoonData?type=Tehsil`);
           const geojsonresponse = await import(`../../../public/data/shapefiles/IndiaTehsils.json`);
-          const filteredGeojson = geojsonresponse.default.features.filter((item) => item.properties.STATE === selectedState)
+
+          const filteredGeojson = selectedDistrict ? geojsonresponse.default.features.filter((item) => item.properties.STATE === selectedState && item.properties.DISTRICT === selectedDistrict):
+          geojsonresponse.default.features.filter((item) => item.properties.STATE === selectedState)
+
           setGeojsonJsonData(filteredGeojson);
           setColorLegendsDataItem(ColorLegendsData.monsoon_palette)
 
@@ -48,7 +51,8 @@ const DecesionSupportMap = ({ selectedState, selectedDistrict, selectedDataQuery
       };
       fetchData();
     }
-  }, [selectedDataQuery, selectedVariable, selectedState]);
+  }, [selectedDataQuery, selectedVariable, selectedState,selectedDistrict]);
+
 
 
 
@@ -61,7 +65,8 @@ const DecesionSupportMap = ({ selectedState, selectedDistrict, selectedDataQuery
           const response = await fetch(`/api/hydrometeorologicalData?type=${selectedVariable.value}`);
 
           const geojsonresponse = await import(`../../../public/data/shapefiles/India${`District`}s.json`);
-          const filteredGeojson = geojsonresponse.default.features.filter((item) => item.properties.STATE === selectedState)
+          const filteredGeojson = selectedDistrict ? geojsonresponse.default.features.filter((item) => item.properties.STATE === selectedState && item.properties.DISTRICT === selectedDistrict):
+          geojsonresponse.default.features.filter((item) => item.properties.STATE === selectedState)
           setGeojsonJsonData(filteredGeojson);
           setColorLegendsDataItem(ColorLegendsData[`${selectedVariable.value}`])
 
@@ -75,7 +80,7 @@ const DecesionSupportMap = ({ selectedState, selectedDistrict, selectedDataQuery
       };
       fetchData();
     }
-  }, [selectedVariable, selectedDataQuery, selectedState]);
+  }, [selectedVariable, selectedDataQuery, selectedState,selectedDistrict]);
 
 
 
@@ -108,19 +113,62 @@ const DecesionSupportMap = ({ selectedState, selectedDistrict, selectedDataQuery
     });
   }
 
+  function DistrictOnEachfeature(feature, layer) {
+    layer.on('mouseover', function () {
+      const DataItem = selectedData && selectedData.find(item => item.DISTRICT === feature.properties.DISTRICT);
 
+      if (DataItem && selectedVariable && selectedVariable.value && feature.properties && feature.properties.DISTRICT) {
+        let popupContent;
+        const value = DataItem[selectedVariable.value] ? DataItem[selectedVariable.value].toFixed(2) : "NA"
 
+        popupContent = `
+          <div>
+          STATE: ${DataItem.STATE}<br/>
+          DISTRICT: ${DataItem.DISTRICT}<br/>
+          VALUE: ${value}
+          </div>
+  `;
 
+        layer.bindTooltip(popupContent, { sticky: true });
+      }
+      layer.openTooltip();
+    });
 
+    layer.on('mouseout', function () {
+      layer.closeTooltip();
+    });
+  }
 
   const TalukaStyle = (feature => {
-
     const getDensityFromData = (ID) => {
-      const DataItem = selectedData.find(item => item.ID === ID);
+      const DataItem = selectedData && selectedData.find(item => item.ID === ID);
       return DataItem ? DataItem[selectedVariable.value] : null;
     };
 
     const density = getDensityFromData(feature.properties.ID);
+
+    return ({
+      fillColor: colorLegendsDataItem && density ? fillDensityColor(colorLegendsDataItem, density) : "none",
+      // fillColor: "blue",
+      weight: 0.5,
+      opacity: 1,
+      color: 'black',
+      // dashArray: '2',
+      fillOpacity: 1
+    });
+  });
+
+
+
+
+
+  const DistrictStyle = (feature => {
+    const getDensityFromData = (DISTRICT, STATE) => {
+      const DataItem = selectedData && selectedData.find(item => item.DISTRICT === DISTRICT && item.STATE === STATE);
+      return DataItem && selectedVariable ? DataItem[selectedVariable.value] : null;
+    };
+
+    const density = getDensityFromData(feature.properties.DISTRICT, feature.properties.STATE);
 
     return ({
       fillColor: colorLegendsDataItem && density ? fillDensityColor(colorLegendsDataItem, density) : "none",
@@ -165,35 +213,11 @@ const DecesionSupportMap = ({ selectedState, selectedDistrict, selectedDataQuery
   const maxBounds = L.latLngBounds(
     L.latLng(0, 70),
     L.latLng(35, 130)
-);
+  );
 
 
 
-  const renderMarkers = () => {
-    return uploadeddata.map((item, index) => (
-      <Marker
-        key={index}
-        position={[parseFloat(item.Latitude), parseFloat(item.Longitude)]}
-        icon={L.icon({
-          iconUrl: marker_icon.src,
-          iconRetinaUrl: marker_icon.src,
-          iconSize: [15],
-          popupAnchor: [0, -5],
-        })}
-      >
-        <Tooltip>{`ID: ${item.ID}`}</Tooltip>
-      </Marker>
-    ));
-  };
 
-  const renderGeoJSON = () => {
-    return (
-      <GeoJSON
-        data={uploadeddata}
-        style={{ fillColor: 'none', weight: 3, color: 'yellow', fillOpacity: "0.4" }}
-      />
-    );
-  };
 
 
 
@@ -220,29 +244,29 @@ const DecesionSupportMap = ({ selectedState, selectedDistrict, selectedDataQuery
               <p> {selectedVariable.name} </p>
             </div>
 
-            <div className="legend_panel_container" style={{ width: "270px", bottom: "5px", right: "5px", backgroundColor: "whitesmoke", borderRadius: "5px" }}>
+            <div className="legend_panel_container" style={{ width: "270px", bottom: "5px", right: "5px", backgroundColor: "white", borderRadius: "5px" }}>
               <div className="item-heading" >
-                <p style={{ fontSize: "12px" }}>Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)</p>
+                <p style={{ fontSize: "12px" }}>{selectedVariable.legendTitel}</p>
               </div>
-              <Image style={{ width: "100%" }} src={monsoon_anomaly_legend} alt='Legend' />
+              <Image style={{ width: "100%" }} src={selectedVariable.legendImg} alt='Legend' />
             </div>
 
 
-            {selectedData && selectedDataQuery && selectedDataQuery.DataValue === "MonsoonData" && (
+            {selectedData && selectedDataQuery && geojsonJsonData && selectedDataQuery.DataValue === "MonsoonData" && (
               <FiltererdGeojsonData
                 filteredDataStyle={TalukaStyle}
                 filteredDataOnEachfeature={TalukaOnEachfeature}
-                datakey={`${selectedState}+${selectedDistrict}+${selectedTehsil}`}
+                datakey={`${selectedState}+${selectedDistrict}+${selectedTehsil}+${selectedData && selectedData.lenght}+${geojsonJsonData && geojsonJsonData.length}+${geojsonJsonData && geojsonJsonData.lenght>0 && geojsonJsonData[0].properties.ID}`}
                 filteredData={geojsonJsonData}
               />
 
             )}
 
-            {selectedData && selectedDataQuery && selectedDataQuery.DataValue === "hydrometeorological_disasters" && (
+            {selectedData && selectedDataQuery && geojsonJsonData&& selectedDataQuery.DataValue === "hydrometeorological_disasters" && (
               <FiltererdGeojsonData
-                filteredDataStyle={TalukaStyle}
-                filteredDataOnEachfeature={TalukaOnEachfeature}
-                datakey={`${selectedState}+${selectedDistrict}+${selectedTehsil}`}
+                filteredDataStyle={DistrictStyle}
+                filteredDataOnEachfeature={DistrictOnEachfeature}
+                datakey={`${selectedState}+${selectedDistrict}+${selectedTehsil}+${selectedData && selectedData.length}+${geojsonJsonData && geojsonJsonData.length}+${geojsonJsonData && geojsonJsonData.lenght>0 && geojsonJsonData[0].properties.ID}`}
                 filteredData={geojsonJsonData}
               />
 
@@ -275,15 +299,6 @@ const DecesionSupportMap = ({ selectedState, selectedDistrict, selectedDataQuery
         )}
 
 
-        {uploadeddata && uploadeddata.type === "FeatureCollection" ? (
-          renderGeoJSON()
-        ) : (
-          renderMarkers()
-
-        )}
-
-
-
 
 
         {loading && (
@@ -295,8 +310,6 @@ const DecesionSupportMap = ({ selectedState, selectedDistrict, selectedDataQuery
           </div>
 
         )}
-
-
 
 
 

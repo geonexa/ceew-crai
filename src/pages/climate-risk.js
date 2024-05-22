@@ -7,7 +7,12 @@ import cyclone_legend from "../../public/images/cyclone_legend.jpg"
 import flood_legend from "../../public/images/flood_legend.jpg"
 import drought_legend from "../../public/images/drought_legend.jpg"
 import { ColorLegendsData } from '../../public/data/ColorLegendsData';
-
+import PlaceAttributes from "../../public/data/PlaceAttributes.json"
+import { useAlertContext } from '@/context/AlertContext';
+import Papa from 'papaparse';
+import { MdDeleteForever } from "react-icons/md";
+import monsoon_anomaly_legend from "../../public/images/monsoon_anomaly_legend.jpg"
+import monsoon_heavy_anomaly_legend from "../../public/images/monsoon_heavy_anomaly_legend.jpg"
 
 
 const VisualiseRiskChart = dynamic(() => import('@/components/VisualiseRiskChart'), {
@@ -23,6 +28,20 @@ const VisualizeRiskMap = dynamic(() => import('@/components/maps/VisualizeRiskMa
 
 
 
+const ThematicLayersOptions = [
+  {
+    LayerName: "Solar Projects",
+    value: "solar_projects",
+    LayerData: "IndiaSolarProjects",
+  },
+  {
+    LayerName: "Rivers",
+    value: "river_network",
+    LayerData: "IndiaRivers",
+  },
+]
+
+
 
 const MapDatasetOptions = [
   {
@@ -30,42 +49,71 @@ const MapDatasetOptions = [
     DataValue: "MonsoonData",
     AdminBoundary: ["Tehsil", "District", "State"],
     variables: [
-
       {
         name: "Changes in June rainfall",
         value: "june_panomaly_mean",
+        legendTitel: "Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)",
+        legendImg: monsoon_anomaly_legend,
       },
       {
         name: "Changes in July rainfally",
         value: "july_panomaly_mean",
+        legendTitel: "Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)",
+        legendImg: monsoon_anomaly_legend,
       },
       {
         name: "Changes in  August rainfall",
         value: "august_panomaly_mean",
+        legendTitel: "Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)",
+        legendImg: monsoon_anomaly_legend,
       },
       {
         name: "Changes in September rainfall",
         value: "september_panomaly_mean",
+        legendTitel: "Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)",
+        legendImg: monsoon_anomaly_legend,
       },
       {
         name: "Changes in total JJAS rainfall",
         value: "jjas_percent_anomaly_mean",
+        legendTitel: "Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)",
+        legendImg: monsoon_anomaly_legend,
       },
       {
         name: "Changes in October rainfall",
         value: "october_panomaly_mean",
+        legendTitel: "Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)",
+        legendImg: monsoon_anomaly_legend,
       },
       {
         name: "Changes in November rainfall",
         value: "november_panomaly_mean",
+        legendTitel: "Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)",
+        legendImg: monsoon_anomaly_legend,
       },
       {
         name: "Changes in December rainfall",
         value: "december_panomaly_mean",
+        legendTitel: "Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)",
+        legendImg: monsoon_anomaly_legend,
       },
       {
         name: "Changes in total OND rainfall",
         value: "ond_panomaly_mean",
+        legendTitel: "Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)",
+        legendImg: monsoon_anomaly_legend,
+      },
+      {
+        name: "jjas_heavy_anomaly_mean",
+        value: "jjas_heavy_anomaly_mean",
+        legendTitel: "Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)",
+        legendImg: monsoon_heavy_anomaly_legend,
+      },
+      {
+        name: "jjas_vheavy_anomaly_mean",
+        value: "jjas_vheavy_anomaly_mean",
+        legendTitel: "Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)",
+        legendImg: monsoon_heavy_anomaly_legend,
       },
     ]
   },
@@ -115,8 +163,19 @@ const ClimateRiskPage = () => {
   const [showTimeseries, setShowTimeseries] = useState(false)
   const [selectedDataQuery, setSelectedDataQuery] = useState(null);
   const [colorLegendsDataItem, setColorLegendsDataItem] = useState(null);
+  const { setAlertMessage, setShowAlert } = useAlertContext();
+  const fileInputRef = useRef(null);
 
   const [selectedFeature, setSelectedFeature] = useState(null);
+  const [uploadeddata, setUploadeddata] = useState([]);
+
+  const [districtList, setDistrictList] = useState([]);
+  const [talukaList, setTalukaList] = useState([]);
+  const [selectedState, setSelectedState] = useState(null);
+  const [selectedDistrict, setSelectedDistrict] = useState(null);
+  const [selectedTehsil, setSelectedTehsil] = useState(null);
+  const [selectedThematicLayers, setSelectedThematicLayers] = useState([]);
+
 
 
   const mapContainerRef = useRef(null);
@@ -126,16 +185,22 @@ const ClimateRiskPage = () => {
 
 
 
-
   useEffect(() => {
     if (selectedAdminBoundaries !== "" && selectedDataQuery && selectedDataQuery.DataValue === "MonsoonData" && selectedVariable && selectedVariable.value) {
       const fetchData = async () => {
         try {
           setLoading(true);
-          const response = await fetch(`/api/monsoonData?type=${selectedAdminBoundaries}`);
+
+          const queryString = new URLSearchParams({
+            selectedVariable: selectedVariable.value,
+            type: selectedAdminBoundaries,
+          }).toString();
+
+          // const response = await fetch(`/api/monsoonData?type=${selectedAdminBoundaries}`);
+          const response = await fetch(`/api/monsoonData?${queryString}`);
           const geojsonresponse = await import(`../../public/data/shapefiles/India${selectedAdminBoundaries}s.json`);
           setGeojsonJsonData(geojsonresponse.default);
-          setColorLegendsDataItem(ColorLegendsData.monsoon_palette)
+          setColorLegendsDataItem(ColorLegendsData[selectedVariable.value])
 
           const jsonData = await response.json();
           setSelectedData(jsonData);
@@ -180,6 +245,15 @@ const ClimateRiskPage = () => {
 
 
 
+  const handleSelectThematicLayer = (e) => {
+    const selectedValue = e.target.value;
+    const selectedLayer = ThematicLayersOptions.find(item => item.value === selectedValue);
+    setSelectedThematicLayers(prevState =>
+      prevState.some(layer => layer.value === selectedValue)
+        ? prevState.filter(layer => layer.value !== selectedValue)
+        : [...prevState, selectedLayer]
+    );
+  };
 
   const handleSelectMapData = (e) => {
     const selectedDataValue = e.target.value;
@@ -189,7 +263,7 @@ const ClimateRiskPage = () => {
     setSelectedData(null)
     setSelectedAdminBoundaries("")
     setSelectedDataQuery(selectedData);
-    
+
   };
 
   const handleSelectVariable = (e) => {
@@ -201,6 +275,139 @@ const ClimateRiskPage = () => {
 
 
 
+  const handleStateSelect = (event, value) => {
+    let items = PlaceAttributes.filter((item) => item.STATE === value);
+    items = [...new Set(items.map((item) => item))];
+    items.sort();
+
+    setDistrictList(items);
+    setSelectedState(value)
+    setSelectedDistrict(null)
+    setSelectedTehsil(null)
+
+    if (selectedAdminBoundaries === "State") {
+      setSelectedFeature({
+        featureType: "STATE",
+        featureName: value
+      })
+      setShowTimeseries(true)
+
+    }
+
+
+  };
+
+
+
+  const handleDistrictSelect = (event, value) => {
+
+    let items = PlaceAttributes.filter((item) => item.DISTRICT === value && item.STATE === selectedState);
+    items = [...new Set(items.map((item) => item))];
+    items.sort();
+
+    setTalukaList(items);
+    setSelectedDistrict(value)
+    setSelectedTehsil(null)
+
+
+    if (selectedAdminBoundaries === "District") {
+      setSelectedFeature({
+        featureType: "DISTRICT",
+        featureName: value
+      })
+      setShowTimeseries(true)
+
+    }
+
+
+
+  };
+
+  const handleTalukaSelect = (event, value) => {
+
+    let items = PlaceAttributes.filter((item) => item.TEHSIL === value && item.DISTRICT === selectedDistrict);
+    items = [...new Set(items.map((item) => item))];
+    items.sort();
+    setSelectedTehsil(value)
+
+
+    if (selectedAdminBoundaries === "Tehsil") {
+      setSelectedFeature({
+        featureType: "TEHSIL",
+        featureName: value
+      })
+      setShowTimeseries(true)
+
+    }
+
+
+
+  };
+
+
+
+  const handleFileChange = (event) => {
+    const selectedFile = event.target.files[0];
+    if (!selectedFile) {
+      setShowAlert(true);
+      setAlertMessage("Please select a file.");
+      return;
+    }
+
+    const fileType = selectedFile.name.split('.').pop();
+
+    if (fileType === "csv") {
+      Papa.parse(selectedFile, {
+        header: true,
+        complete: function (results) {
+          const uploadedHeaders = Object.keys(results.data[0]);
+          const requiredHeaders = ["Latitude", "Longitude", "ID"];
+
+          const missingHeaders = requiredHeaders.filter(header => !uploadedHeaders.includes(header));
+
+          if (missingHeaders.length > 0) {
+            setShowAlert(true);
+            setAlertMessage(`The following headers are missing in the selected CSV file: ${missingHeaders.join(", ")}`);
+            return;
+          }
+          setUploadeddata(results.data);
+        },
+        error: function (error) {
+          setShowAlert(true);
+          setAlertMessage("Error parsing CSV file: " + error.message);
+        }
+      });
+    } else if (fileType === "geojson") {
+      const reader = new FileReader();
+      reader.onload = function (e) {
+        try {
+          const jsonData = JSON.parse(e.target.result);
+          setUploadeddata(jsonData);
+        } catch (error) {
+          setShowAlert(true);
+          setAlertMessage("Error reading GeoJSON file: " + error.message);
+        }
+      };
+      reader.onerror = function () {
+        setShowAlert(true);
+        setAlertMessage("Error loading the file");
+      };
+      reader.readAsText(selectedFile);
+    } else {
+      setShowAlert(true);
+      setAlertMessage("Unsupported file type. Please upload a CSV or GeoJSON file.");
+    }
+  };
+
+
+
+  const handleCancelSelection = () => {
+    setUploadeddata([]); // Reset the uploaded data state
+    if (fileInputRef.current) {
+      fileInputRef.current.value = null;  // Correctly reset the input
+    }
+
+  };
 
   const handleRasterLayerSelection = (e) => {
     const value = e.target.value;
@@ -219,6 +426,9 @@ const ClimateRiskPage = () => {
   const handleVectorLayerSelection = (e) => {
     setSelectedAdminBoundaries(e.target.value);
     setShowTimeseries(false)
+    setSelectedDistrict("")
+    setSelectedTehsil("")
+    setSelectedState("")
   };
 
 
@@ -241,12 +451,12 @@ const ClimateRiskPage = () => {
               <div className="accordion" >
 
                 <div className="accordion-item">
-                  <h2 className="accordion-header" id="panelsStayOpen-heading3">
-                    <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse3" aria-expanded="true" aria-controls="panelsStayOpen-collapse3">
+                  <h2 className="accordion-header" id="panelsStayOpen-headingSelectData">
+                    <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSelectData" aria-expanded="true" aria-controls="panelsStayOpen-collapseSelectData">
                       Select data
                     </button>
                   </h2>
-                  <div id="panelsStayOpen-collapse3" className="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-heading3">
+                  <div id="panelsStayOpen-collapseSelectData" className="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingSelectData">
 
                     <div className="accordion-body">
                       <div className='map_layers'>
@@ -309,7 +519,7 @@ const ClimateRiskPage = () => {
                 <div className="accordion-item">
                   <h2 className="accordion-header" id="panelsStayOpen-headingTwo">
                     <button className="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="frue" aria-controls="panelsStayOpen-collapseTwo">
-                      Select administrative units
+                      Administrative units for visualisation
                     </button>
                   </h2>
                   <div id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingTwo">
@@ -332,12 +542,78 @@ const ClimateRiskPage = () => {
                       </select>
 
 
-                      
+
 
 
                     </div>
                   </div>
                 </div>
+
+
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="panelsStayOpen-heading3">
+                    <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse3" aria-expanded="true" aria-controls="panelsStayOpen-collapse3">
+                      Select by administrative units
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapse3" className="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-heading3">
+
+                    <div className="accordion-body">
+                      <div className='map_layers'>
+
+                        <label>Select State</label>
+                        <select
+                          class="form-select mb-3"
+                          onChange={(event) => handleStateSelect(event, event.target.value)}
+                          disabled={!selectedVariable}
+                        >
+                          <option selected>Select State</option>
+
+                          {PlaceAttributes &&
+                            [...new Set(PlaceAttributes.map(item => item.STATE))].sort().map((state, index) => (
+                              <option key={index} value={state}>{state}</option>
+                            ))}
+                        </select>
+
+                        <label >Select District</label>
+                        <select
+                          class="form-select mb-3"
+                          onChange={(event) => handleDistrictSelect(event, event.target.value)}
+                          disabled={districtList.length === 0 || selectedAdminBoundaries === "State"}
+                        >
+                          <option selected>Select District</option>
+
+                          {districtList.length > 0 &&
+                            [...new Set(districtList.map(item => item.DISTRICT))].sort().map((district, index) => (
+                              <option key={index} value={district}>{district}</option>
+                            ))}
+                        </select>
+
+                        <label>Select Tehsil</label>
+                        <select
+                          class="form-select mb-3"
+                          onChange={(event) => handleTalukaSelect(event, event.target.value)}
+                          disabled={talukaList.length === 0 || selectedAdminBoundaries === "District"}
+                        >
+                          <option selected>Select Tehsil</option>
+
+                          {talukaList.length > 0 &&
+                            [...new Set(talukaList.map(item => item.TEHSIL))].sort().map((taluka, index) => (
+                              <option key={index} value={taluka}>{taluka}</option>
+                            ))}
+                        </select>
+
+
+
+                      </div>
+
+                    </div>
+
+
+
+                  </div>
+                </div>
+
 
 
 
@@ -373,6 +649,75 @@ const ClimateRiskPage = () => {
                   </div>
                 </div>
 
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="panelsStayOpen-headingThematicLayers">
+                    <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThematicLayers" aria-expanded="true" aria-controls="panelsStayOpen-collapseThematicLayers">
+                      Overlay thematic layers
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseThematicLayers" className="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingThematicLayers">
+
+                    <div className="accordion-body">
+
+
+                      {ThematicLayersOptions.map((item, index) => (
+                        <div key={index} className="form-check">
+                          <input
+                            type="checkbox"
+                            className="form-check-input"
+                            id={item.value}
+                            value={item.value}
+                            checked={selectedThematicLayers.some(layer => layer.value === item.value)}
+                            onChange={handleSelectThematicLayer}
+                          />
+                          <label htmlFor={item.value}>{item.LayerName}</label>
+                        </div>
+                      ))}
+
+
+
+
+                    </div>
+                  </div>
+                </div>
+
+
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="panelsStayOpen-headingUploadData">
+                    <button className="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseUploadData" aria-expanded="true" aria-controls="panelsStayOpen-collapseUploadData">
+                      Upload your own data
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseUploadData" className="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingUploadData">
+                    <div className="accordion-body">
+                      <div>
+                        <label className="form-label">Upload point data in .csv or polygon data in .geojson format</label>
+
+                        <div class="input-group mb-3">
+                          <input
+                            className="form-control"
+                            type="file" accept=".csv,.geojson"
+                            onChange={handleFileChange}
+                            title='Only .csv or .geojson files are accepted'
+                            ref={fileInputRef}
+                          />
+                          <button class="btn btn-outline-secondary"
+                            onClick={handleCancelSelection}
+                            disabled={!uploadeddata || uploadeddata.length === 0}
+                            type="button" id="button-addon2"><MdDeleteForever /></button>
+                        </div>
+
+
+
+
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+
 
 
 
@@ -382,13 +727,12 @@ const ClimateRiskPage = () => {
 
               </div>
 
-              <div className='panel_button'>
+              {/* <div className='panel_button'>
                 <button type='button'
-                  // disabled={!tehsilSelectedItem}
                   onClick={handleShowTimeseries}>
                   {showTimeseries ? "Hide Timeseries" : "Show Timeseries"}
                 </button>
-              </div>
+              </div> */}
 
 
             </div>
@@ -402,6 +746,7 @@ const ClimateRiskPage = () => {
 
 
               <VisualizeRiskMap
+                handleShowTimeseries={handleShowTimeseries}
                 selectedRasterLayer={selectedRasterLayer}
                 selectedDataQuery={selectedDataQuery}
                 selectedVariable={selectedVariable}
@@ -411,22 +756,23 @@ const ClimateRiskPage = () => {
                 mapContainerRef={mapContainerRef}
                 selectedData={selectedData}
                 geojsonJsonData={geojsonJsonData}
-                ColorLegendsDataItem={colorLegendsDataItem} 
-                setShowTimeseries={setShowTimeseries}/>
+                ColorLegendsDataItem={colorLegendsDataItem}
+                setShowTimeseries={setShowTimeseries}
+                uploadeddata={uploadeddata}
+                selectedThematicLayers={selectedThematicLayers} />
 
 
-              {selectedDataQuery && selectedDataQuery.DataValue=="MonsoonData" && selectedData && showTimeseries && selectedFeature && (
+              {showTimeseries && (
                 <div className='time_series_container'>
                   <VisualiseRiskChart
                     handleShowTimeseries={handleShowTimeseries}
                     selectedFeature={selectedFeature}
                     selectedData={selectedData}
+                    selectedDataQuery={selectedDataQuery}
 
                   />
 
                 </div>
-
-
               )}
 
             </div>
