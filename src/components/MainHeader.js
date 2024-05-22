@@ -57,7 +57,7 @@ const MainHeader = () => {
 
                                 <Link className={isActive('/map-comparison') ? 'active_nav' : 'nav_item'} onClick={handleLinkClick}
                                     href="/map-comparison" >
-                                    Comparison maps
+                                    Maps comparison
                                 </Link>
 
                                 <Link className={isActive('/adaptation-tool') ? 'active_nav' : 'nav_item'} onClick={handleLinkClick}
