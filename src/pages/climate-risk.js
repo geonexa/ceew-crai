@@ -175,7 +175,7 @@ const ClimateRiskPage = () => {
   const [selectedDistrict, setSelectedDistrict] = useState(null);
   const [selectedTehsil, setSelectedTehsil] = useState(null);
   const [selectedThematicLayers, setSelectedThematicLayers] = useState([]);
-
+const [selectedAdminUnit, setSelectedAdminUnit]=useState(null)
 
 
   const mapContainerRef = useRef(null);
@@ -273,7 +273,7 @@ const ClimateRiskPage = () => {
     setShowTimeseries(false)
   };
 
-
+console.log(geojsonJsonData)
 
   const handleStateSelect = (event, value) => {
     let items = PlaceAttributes.filter((item) => item.STATE === value);
@@ -284,6 +284,11 @@ const ClimateRiskPage = () => {
     setSelectedState(value)
     setSelectedDistrict(null)
     setSelectedTehsil(null)
+
+    const filteredData=geojsonJsonData.features.filter((item)=>item.properties.STATE===value)
+    setSelectedAdminUnit(filteredData)
+
+
 
     if (selectedAdminBoundaries === "State") {
       setSelectedFeature({
