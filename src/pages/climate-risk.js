@@ -318,7 +318,7 @@ const ClimateRiskPage = () => {
     setSelectedTehsil("")
 
 
-    const filteredData = geojsonJsonData.features.filter((item) => item.properties.DISTRICT === value)
+    const filteredData = geojsonJsonData.features.filter((item) => item.properties.DISTRICT === value && item.properties.STATE===selectedState)
 
     setSelectedAdminUnit({
       type: "FeatureCollection",
@@ -340,7 +340,7 @@ const ClimateRiskPage = () => {
 
   const handleTalukaSelect = (event, value) => {
 
-    let items = PlaceAttributes.filter((item) => item.TEHSIL === value && item.DISTRICT === selectedDistrict);
+    let items = PlaceAttributes.filter((item) => item.TEHSIL === value && item.DISTRICT === selectedDistrict && item.properties.DISTRICT === selectedDistrict && item.properties.STATE === selectedState);
     items = [...new Set(items.map((item) => item))];
     items.sort();
     setSelectedTehsil(value)
@@ -788,7 +788,7 @@ const ClimateRiskPage = () => {
                 selectedThematicLayers={selectedThematicLayers} />
 
 
-              {showTimeseries && (
+              {showTimeseries && selectedDataQuery && selectedDataQuery.DataValue==="MonsoonData" &&(
                 <div className='time_series_container'>
                   <VisualiseRiskChart
                     handleShowTimeseries={handleShowTimeseries}

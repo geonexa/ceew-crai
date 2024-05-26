@@ -70,7 +70,17 @@ const VisualiseRiskChart = ({ selectedFeature, handleShowTimeseries, selectedDat
                 </>
 
             ) : (
-                <p>Please select a feature.</p>
+                <>
+                    <div className='timeseries_heading'>
+
+                        <p>Please select a feature.</p>
+
+                        <button className='chart_close_btn' onClick={handleShowTimeseries}><IoMdClose /></button>
+
+                    </div>
+
+                </>
+
             )}
 
         </div>
