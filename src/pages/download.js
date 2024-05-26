@@ -4,6 +4,7 @@ import { saveAs } from 'file-saver';
 import { FaDownload } from "react-icons/fa6";
 import Head from 'next/head';
 import PlaceAttributes from "../../public/data/PlaceAttributes.json"
+import PageHeading from '@/components/pageHeading';
 const MapDatasetOptions = [
   {
     DataName: "Monsoon variability",
@@ -236,10 +237,13 @@ const DataDownloadPage = () => {
         <title>Download data</title>
       </Head>
 
+      <PageHeading
+      title="Download data"
+      />
+
+
       <div className='page_container'>
-        <div className='page_heading'>
-          <h2>Download data</h2>
-        </div>
+        
 
 
         <div className='card_container'>

@@ -18,11 +18,15 @@ import marker_icon from "../../../public/images/marker_icon.png"
 import ExportMapButton from '../ExportMapButton';
 import { BaseMapsLayers } from '@/helpers/mapFunction';
 import { fillDensityColor } from '@/helpers/functions';
+import FiltererdGeojsonData from '../FiltererdGeojsonData';
 
 const VisualizeRiskMap = ({ selectedThematicLayers, uploadeddata, handleShowTimeseries, setShowTimeseries, setSelectedFeature, selectedRasterLayer, ColorLegendsDataItem, selectedDataQuery, selectedVariable, selectedAdminBoundaries, rasterLayerOpacity, mapContainerRef, selectedData, geojsonJsonData }) => {
     const [loading, setLoading] = useState(false);
     const [selectedBasemapLayer, setSelectedBasemapLayer] = useState(BaseMapsLayers[0]);
     const [thematicLayerData, setThematicLayerData] = useState({});
+
+
+
 
 
     useEffect(() => {
@@ -61,13 +65,13 @@ const VisualizeRiskMap = ({ selectedThematicLayers, uploadeddata, handleShowTime
 
     function TalukaOnEachfeature(feature, layer) {
 
-        layer.on('click', function (e) {
-            setSelectedFeature({
-                featureType: "TEHSIL",
-                featureName: feature.properties["TEHSIL"]
-            })
-            setShowTimeseries(true)
-        });
+        // layer.on('click', function (e) {
+        //     setSelectedFeature({
+        //         featureType: "TEHSIL",
+        //         featureName: feature.properties["TEHSIL"]
+        //     })
+        //     setShowTimeseries(true)
+        // });
 
 
 
@@ -100,13 +104,13 @@ const VisualizeRiskMap = ({ selectedThematicLayers, uploadeddata, handleShowTime
 
     function DistrictOnEachfeature(feature, layer) {
 
-        layer.on('click', function (e) {
-            setSelectedFeature({
-                featureType: "DISTRICT",
-                featureName: feature.properties["DISTRICT"]
-            })
-            setShowTimeseries(true)
-        })
+        // layer.on('click', function (e) {
+        //     setSelectedFeature({
+        //         featureType: "DISTRICT",
+        //         featureName: feature.properties["DISTRICT"]
+        //     })
+        //     setShowTimeseries(true)
+        // })
 
         layer.on('mouseover', function () {
             const DataItem = selectedData && selectedData.find(item => item.DISTRICT === feature.properties.DISTRICT);
@@ -136,13 +140,13 @@ const VisualizeRiskMap = ({ selectedThematicLayers, uploadeddata, handleShowTime
 
 
     function StateOnEachfeature(feature, layer) {
-        layer.on('click', function (e) {
-            setSelectedFeature({
-                featureType: "STATE",
-                featureName: feature.properties["STATE"]
-            })
-            setShowTimeseries(true)
-        });
+        // layer.on('click', function (e) {
+        //     setSelectedFeature({
+        //         featureType: "STATE",
+        //         featureName: feature.properties["STATE"]
+        //     })
+        //     setShowTimeseries(true)
+        // });
 
 
 
@@ -170,7 +174,6 @@ const VisualizeRiskMap = ({ selectedThematicLayers, uploadeddata, handleShowTime
         });
     }
 
-console.log(ColorLegendsDataItem)
 
 
 
@@ -216,7 +219,7 @@ console.log(ColorLegendsDataItem)
     });
 
 
-    const DistrictMonsoonStyle = (feature => {
+    const DistrictStyle = (feature => {
         const getDensityFromData = (DISTRICT) => {
             const DataItem = selectedData.find(item => item.DISTRICT === DISTRICT);
             return DataItem && selectedVariable ? DataItem[selectedVariable.value] : null;
@@ -496,12 +499,12 @@ console.log(ColorLegendsDataItem)
 
                         {selectedAdminBoundaries === "Tehsil" ? (
                             <>
+                                <FiltererdGeojsonData
+                                    datakey={`${selectedAdminBoundaries} + ${selectedVariable.value} + ${selectedData && selectedData.length}+ ${geojsonJsonData && geojsonJsonData.features.length}`}
+                                    filteredData={geojsonJsonData.features}
+                                    filteredDataOnEachfeature={TalukaOnEachfeature}
+                                    filteredDataStyle={TalukaStyle}
 
-                                <GeoJSON
-                                    key={`${selectedAdminBoundaries} + ${selectedVariable.value} + ${selectedData && selectedData.length}`}
-                                    style={TalukaStyle}
-                                    data={geojsonJsonData.features}
-                                    onEachFeature={TalukaOnEachfeature}
                                 />
 
                             </>
@@ -510,12 +513,15 @@ console.log(ColorLegendsDataItem)
                         ) : selectedAdminBoundaries === "District" ? (
                             <>
 
-                                <GeoJSON
-                                    key={`${selectedAdminBoundaries} + ${selectedVariable.value} + ${selectedData && selectedData.length}`}
-                                    style={DistrictMonsoonStyle}
-                                    data={geojsonJsonData.features}
-                                    onEachFeature={DistrictOnEachfeature}
+                                <FiltererdGeojsonData
+                                    datakey={`${selectedAdminBoundaries} + ${selectedVariable.value} + ${selectedData && selectedData.length}+ ${geojsonJsonData && geojsonJsonData.features.length}`}
+                                    filteredData={geojsonJsonData.features}
+                                    filteredDataOnEachfeature={DistrictOnEachfeature}
+                                    filteredDataStyle={DistrictStyle}
+
                                 />
+
+
 
                             </>
 
@@ -523,20 +529,15 @@ console.log(ColorLegendsDataItem)
                         ) : selectedAdminBoundaries === "State" ? (
                             <>
 
-                                <GeoJSON
-                                    key={`${selectedAdminBoundaries} + ${selectedVariable.value} + ${selectedData && selectedData.length}`}
-                                    style={StateStyle}
-                                    onEachFeature={StateOnEachfeature}
+                                <FiltererdGeojsonData
+                                    datakey={`${selectedAdminBoundaries} + ${selectedVariable.value} + ${selectedData && selectedData.length}+ ${geojsonJsonData && geojsonJsonData.features.length}`}
+                                    filteredData={geojsonJsonData.features}
+                                    filteredDataOnEachfeature={StateOnEachfeature}
+                                    filteredDataStyle={StateStyle}
 
-                                    // style={{
-                                    //     fillColor: "black",
-                                    //     weight: selectedAdminBoundaries.value === "SubDistrict_Boundary" ? 0.8 : 2,
-                                    //     color: "black",
-                                    //     fillOpacity: "0.001",
-                                    //     interactive: false,
-                                    // }}
-                                    data={geojsonJsonData.features}
                                 />
+
+
 
                             </>
 
@@ -562,23 +563,15 @@ console.log(ColorLegendsDataItem)
 
                         {selectedAdminBoundaries === "District" ? (
                             <>
-                                <GeoJSON
-                                    key={`${selectedAdminBoundaries} + ${selectedVariable.value} + ${selectedData && selectedData.length}`}
-                                    style={DistrictHydrometeorologicalStyle}
-                                    data={geojsonJsonData.features}
-                                    onEachFeature={DistrictOnEachfeature}
+
+                                <FiltererdGeojsonData
+                                    datakey={`${selectedAdminBoundaries} + ${selectedVariable.value} + ${selectedData && selectedData.length}+ ${geojsonJsonData && geojsonJsonData.features.length}`}
+                                    filteredData={geojsonJsonData.features}
+                                    filteredDataOnEachfeature={DistrictOnEachfeature}
+                                    filteredDataStyle={DistrictHydrometeorologicalStyle}
+
                                 />
-                            </>
 
-
-                        ) : selectedAdminBoundaries === "State" ? (
-                            <>
-                                {/* <GeoJSON
-                                    key={`${selectedAdminBoundaries} + ${selectedVariable.value} + ${selectedData && selectedData.length}`}
-                                    style={StateStyle}
-                                    onEachFeature={StateOnEachfeature}
-                                    data={IndiaStates.features}
-                                /> */}
 
                             </>
 
@@ -589,7 +582,20 @@ console.log(ColorLegendsDataItem)
                     </>
                 )}
 
+                {loading && (
+                    <div className='map_layer_loader_container_desktop' style={{ width: "80vw" }}>
+                        <div className="map_loader_container">
+                            <span className="map_loader"></span>
+                        </div>
+
+                    </div>
+
+                )}
+
             </MapContainer>
+
+
+
         </>
     )
 }

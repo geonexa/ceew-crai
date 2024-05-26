@@ -104,15 +104,15 @@ const MapDatasetOptions = [
         legendImg: monsoon_anomaly_legend,
       },
       {
-        name: "jjas_heavy_anomaly_mean",
+        name: "Change in frequency of heavy rainfall days",
         value: "jjas_heavy_anomaly_mean",
-        legendTitel: "Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)",
+        legendTitel: "Changes in the frequency of heavy rainfall days in last decade (2012-2022) compared to climate baseline (1982-2011)",
         legendImg: monsoon_heavy_anomaly_legend,
       },
       {
-        name: "jjas_vheavy_anomaly_mean",
+        name: "Change in frequency of very heavy rainfall days",
         value: "jjas_vheavy_anomaly_mean",
-        legendTitel: "Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)",
+        legendTitel: "Changes in the frequency of very heavy rainfall days in last decade (2012-2022) compared to climate baseline (1982-2011)",
         legendImg: monsoon_heavy_anomaly_legend,
       },
     ]
@@ -171,17 +171,16 @@ const ClimateRiskPage = () => {
 
   const [districtList, setDistrictList] = useState([]);
   const [talukaList, setTalukaList] = useState([]);
-  const [selectedState, setSelectedState] = useState(null);
-  const [selectedDistrict, setSelectedDistrict] = useState(null);
-  const [selectedTehsil, setSelectedTehsil] = useState(null);
+  const [selectedState, setSelectedState] = useState("");
+  const [selectedDistrict, setSelectedDistrict] = useState("");
+  const [selectedTehsil, setSelectedTehsil] = useState("");
   const [selectedThematicLayers, setSelectedThematicLayers] = useState([]);
-const [selectedAdminUnit, setSelectedAdminUnit]=useState(null)
+  const [selectedAdminUnit, setSelectedAdminUnit] = useState(null)
 
 
   const mapContainerRef = useRef(null);
   const [selectedData, setSelectedData] = useState(null);
   const [geojsonJsonData, setGeojsonJsonData] = useState(null);
-
 
 
 
@@ -200,6 +199,7 @@ const [selectedAdminUnit, setSelectedAdminUnit]=useState(null)
           const response = await fetch(`/api/monsoonData?${queryString}`);
           const geojsonresponse = await import(`../../public/data/shapefiles/India${selectedAdminBoundaries}s.json`);
           setGeojsonJsonData(geojsonresponse.default);
+          setSelectedAdminUnit(geojsonresponse.default)
           setColorLegendsDataItem(ColorLegendsData[selectedVariable.value])
 
           const jsonData = await response.json();
@@ -223,6 +223,7 @@ const [selectedAdminUnit, setSelectedAdminUnit]=useState(null)
           const response = await fetch(`/api/hydrometeorologicalData?type=${selectedVariable.value}`);
           const geojsonresponse = await import(`../../public/data/shapefiles/India${selectedAdminBoundaries}s.json`);
           setGeojsonJsonData(geojsonresponse.default);
+          setSelectedAdminUnit(geojsonresponse.default)
           setColorLegendsDataItem(ColorLegendsData[`${selectedVariable.value}`])
 
           const jsonData = await response.json();
@@ -273,7 +274,7 @@ const [selectedAdminUnit, setSelectedAdminUnit]=useState(null)
     setShowTimeseries(false)
   };
 
-console.log(geojsonJsonData)
+
 
   const handleStateSelect = (event, value) => {
     let items = PlaceAttributes.filter((item) => item.STATE === value);
@@ -282,12 +283,16 @@ console.log(geojsonJsonData)
 
     setDistrictList(items);
     setSelectedState(value)
-    setSelectedDistrict(null)
-    setSelectedTehsil(null)
+    setSelectedDistrict("")
+    setSelectedTehsil("")
 
-    const filteredData=geojsonJsonData.features.filter((item)=>item.properties.STATE===value)
-    setSelectedAdminUnit(filteredData)
+    const filteredData = geojsonJsonData.features.filter((item) => item.properties.STATE === value)
 
+
+    setSelectedAdminUnit({
+      type: "FeatureCollection",
+      features: filteredData,
+    });
 
 
     if (selectedAdminBoundaries === "State") {
@@ -298,8 +303,6 @@ console.log(geojsonJsonData)
       setShowTimeseries(true)
 
     }
-
-
   };
 
 
@@ -312,8 +315,15 @@ console.log(geojsonJsonData)
 
     setTalukaList(items);
     setSelectedDistrict(value)
-    setSelectedTehsil(null)
+    setSelectedTehsil("")
 
+
+    const filteredData = geojsonJsonData.features.filter((item) => item.properties.DISTRICT === value)
+
+    setSelectedAdminUnit({
+      type: "FeatureCollection",
+      features: filteredData,
+    });
 
     if (selectedAdminBoundaries === "District") {
       setSelectedFeature({
@@ -334,6 +344,15 @@ console.log(geojsonJsonData)
     items = [...new Set(items.map((item) => item))];
     items.sort();
     setSelectedTehsil(value)
+
+
+    const filteredData = geojsonJsonData.features.filter((item) => item.properties.TEHSIL === value)
+
+
+    setSelectedAdminUnit({
+      type: "FeatureCollection",
+      features: filteredData,
+    });
 
 
     if (selectedAdminBoundaries === "Tehsil") {
@@ -500,7 +519,6 @@ console.log(geojsonJsonData)
                           className="form-select mb-3"
                           value={selectedVariable ? selectedVariable.DataValue : ''}
                           onChange={handleSelectVariable}
-
                           disabled={!selectedDataQuery}
                         >
                           <option value="">Select</option>
@@ -569,10 +587,11 @@ console.log(geojsonJsonData)
                         <label>Select State</label>
                         <select
                           class="form-select mb-3"
+                          value={selectedState}
                           onChange={(event) => handleStateSelect(event, event.target.value)}
                           disabled={!selectedVariable}
                         >
-                          <option selected>Select State</option>
+                          <option value="">Select State</option>
 
                           {PlaceAttributes &&
                             [...new Set(PlaceAttributes.map(item => item.STATE))].sort().map((state, index) => (
@@ -582,11 +601,12 @@ console.log(geojsonJsonData)
 
                         <label >Select District</label>
                         <select
+                          value={selectedDistrict}
                           class="form-select mb-3"
                           onChange={(event) => handleDistrictSelect(event, event.target.value)}
                           disabled={districtList.length === 0 || selectedAdminBoundaries === "State"}
                         >
-                          <option selected>Select District</option>
+                          <option value="">Select District</option>
 
                           {districtList.length > 0 &&
                             [...new Set(districtList.map(item => item.DISTRICT))].sort().map((district, index) => (
@@ -594,8 +614,9 @@ console.log(geojsonJsonData)
                             ))}
                         </select>
 
-                        <label>Select Tehsil</label>
+                        <label value="">Select Tehsil</label>
                         <select
+                          value={selectedTehsil}
                           class="form-select mb-3"
                           onChange={(event) => handleTalukaSelect(event, event.target.value)}
                           disabled={talukaList.length === 0 || selectedAdminBoundaries === "District"}
@@ -760,7 +781,7 @@ console.log(geojsonJsonData)
                 setSelectedFeature={setSelectedFeature}
                 mapContainerRef={mapContainerRef}
                 selectedData={selectedData}
-                geojsonJsonData={geojsonJsonData}
+                geojsonJsonData={selectedAdminUnit}
                 ColorLegendsDataItem={colorLegendsDataItem}
                 setShowTimeseries={setShowTimeseries}
                 uploadeddata={uploadeddata}

@@ -25,86 +25,86 @@ const MapDatasetOptions = [
             {
                 name: "Changes in June rainfall",
                 value: "june_panomaly_mean",
-                legendTitel:"Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)",
-                legendImg:monsoon_anomaly_legend,
-                
+                legendTitel: "Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)",
+                legendImg: monsoon_anomaly_legend,
+
             },
             {
                 name: "Changes in July rainfally",
                 value: "july_panomaly_mean",
-                legendTitel:"Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)",
-                legendImg:monsoon_anomaly_legend,
+                legendTitel: "Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)",
+                legendImg: monsoon_anomaly_legend,
             },
             {
                 name: "Changes in  August rainfall",
                 value: "august_panomaly_mean",
-                legendTitel:"Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)",
-                legendImg:monsoon_anomaly_legend,
+                legendTitel: "Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)",
+                legendImg: monsoon_anomaly_legend,
             },
             {
                 name: "Changes in September rainfall",
                 value: "september_panomaly_mean",
-                legendTitel:"Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)",
-                legendImg:monsoon_anomaly_legend,
+                legendTitel: "Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)",
+                legendImg: monsoon_anomaly_legend,
             },
             {
                 name: "Changes in total JJAS rainfall",
                 value: "jjas_percent_anomaly_mean",
-                legendTitel:"Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)",
-                legendImg:monsoon_anomaly_legend,
+                legendTitel: "Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)",
+                legendImg: monsoon_anomaly_legend,
             },
             {
                 name: "Changes in October rainfall",
                 value: "october_panomaly_mean",
-                legendTitel:"Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)",
-                legendImg:monsoon_anomaly_legend,
+                legendTitel: "Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)",
+                legendImg: monsoon_anomaly_legend,
             },
             {
                 name: "Changes in November rainfall",
                 value: "november_panomaly_mean",
-                legendTitel:"Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)",
-                legendImg:monsoon_anomaly_legend,
+                legendTitel: "Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)",
+                legendImg: monsoon_anomaly_legend,
             },
             {
                 name: "Changes in December rainfall",
                 value: "december_panomaly_mean",
-                legendTitel:"Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)",
-                legendImg:monsoon_anomaly_legend,
+                legendTitel: "Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)",
+                legendImg: monsoon_anomaly_legend,
             },
             {
                 name: "Changes in total OND rainfall",
                 value: "ond_panomaly_mean",
-                legendTitel:"Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)",
-                legendImg:monsoon_anomaly_legend,
+                legendTitel: "Changes in last decade (2012-2022) compared to climate baseline (1982-2011) (in %)",
+                legendImg: monsoon_anomaly_legend,
             },
         ]
     },
     {
-      DataName: "Hydrometeorological disasters",
-      DataValue: "hydrometeorological_disasters",
-      AdminBoundary: ["District"],
-      variables: [
+        DataName: "Hydrometeorological disasters",
+        DataValue: "hydrometeorological_disasters",
+        AdminBoundary: ["District"],
+        variables: [
 
-        {
-          name: "Flood pentad",
-          value: "flood_pentad_occurrence",
-          legendTitel:"Frequency of flood",
-          legendImg:flood_legend,
-        },
-        {
-          name: "Drought pentad",
-          value: "drought_pentad_occurrence",
-          legendTitel:"Frequency of drought",
-          legendImg:drought_legend,
-        },
-        {
-          name: "Cyclone pentad",
-          value: "cyclone_pentad_occurrence",
-          legendTitel:"Frequency of cyclone",
-          legendImg:cyclone_legend,
-        },
+            {
+                name: "Flood pentad",
+                value: "flood_pentad_occurrence",
+                legendTitel: "Frequency of flood",
+                legendImg: flood_legend,
+            },
+            {
+                name: "Drought pentad",
+                value: "drought_pentad_occurrence",
+                legendTitel: "Frequency of drought",
+                legendImg: drought_legend,
+            },
+            {
+                name: "Cyclone pentad",
+                value: "cyclone_pentad_occurrence",
+                legendTitel: "Frequency of cyclone",
+                legendImg: cyclone_legend,
+            },
 
-      ]
+        ]
     },
 ]
 
@@ -114,17 +114,17 @@ const DecisionSupportPage = () => {
     const [selectedDataQuery2, setSelectedDataQuery2] = useState(null);
     const [selectedDataQuery3, setSelectedDataQuery3] = useState(null);
     const [selectedDataQuery4, setSelectedDataQuery4] = useState(null);
-    const [selectedVariable1, setSelectedVariable1] = useState(null);
-    const [selectedVariable2, setSelectedVariable2] = useState(null);
-    const [selectedVariable3, setSelectedVariable3] = useState(null);
-    const [selectedVariable4, setSelectedVariable4] = useState(null);
-    
+    const [selectedVariable1, setSelectedVariable1] = useState("");
+    const [selectedVariable2, setSelectedVariable2] = useState("");
+    const [selectedVariable3, setSelectedVariable3] = useState("");
+    const [selectedVariable4, setSelectedVariable4] = useState("");
+
 
     const [districtList, setDistrictList] = useState([]);
     const [talukaList, setTalukaList] = useState([]);
-    const [selectedState, setSelectedState] = useState(null);
-    const [selectedDistrict, setSelectedDistrict] = useState(null);
-    const [selectedTehsil, setSelectedTehsil] = useState(null);
+    const [selectedState, setSelectedState] = useState("");
+    const [selectedDistrict, setSelectedDistrict] = useState("");
+    const [selectedTehsil, setSelectedTehsil] = useState("");
 
 
 
@@ -186,7 +186,6 @@ const DecisionSupportPage = () => {
 
 
 
-
     return (
         <>
             <Head>
@@ -214,12 +213,16 @@ const DecisionSupportPage = () => {
                                         <div className="accordion-body">
                                             <div className='map_layers'>
                                                 <label>Select dataset</label>
-                                                <select className="form-select mb-2" onChange={(e) => {
-                                                    const selectedDataValue = e.target.value;
-                                                    const selectedData = MapDatasetOptions.find(item => item.DataValue === selectedDataValue);
-                                                    setSelectedDataQuery1(selectedData);
-                                                }}>
-                                                    <option defaultValue>Select</option>
+                                                <select className="form-select mb-2"
+                                                value={selectedDataQuery1 ? selectedDataQuery1.DataValue : ""}
+                                                   
+                                                     onChange={(e) => {
+                                                        const selectedDataValue = e.target.value;
+                                                        const selectedData = MapDatasetOptions.find(item => item.DataValue === selectedDataValue);
+                                                        setSelectedDataQuery1(selectedData);
+                                                        setSelectedVariable1(null)
+                                                    }}>
+                                                    <option value="">Select</option>
                                                     {MapDatasetOptions.map((item, index) => (
                                                         <option key={index} value={item.DataValue}>{item.DataName}</option>
                                                     ))}
@@ -229,6 +232,7 @@ const DecisionSupportPage = () => {
                                                 <label>Select variable</label>
                                                 <select
                                                     class="form-select"
+                                                    value={selectedVariable1 ? selectedVariable1.value : ""}
                                                     onChange={(event) => {
                                                         const selectedOptionValue = event.target.value;
                                                         const selectedOption = selectedDataQuery1.variables.find(variable => variable.value === selectedOptionValue);
@@ -236,7 +240,7 @@ const DecisionSupportPage = () => {
                                                     }}
                                                     disabled={!selectedDataQuery1}
                                                 >
-                                                    <option selected>Select Variable</option>
+                                                    <option value="">Select Variable</option>
                                                     {selectedDataQuery1 && selectedDataQuery1.variables.map((variable, index) => (
                                                         <option key={index} value={variable.value}>
                                                             {variable.name}
@@ -264,12 +268,15 @@ const DecisionSupportPage = () => {
                                         <div className="accordion-body">
                                             <div className='map_layers'>
                                                 <label>Select dataset</label>
-                                                <select className="form-select mb-2" onChange={(e) => {
+                                                <select className="form-select mb-2" 
+                                                value={selectedDataQuery2 ? selectedDataQuery2.DataValue : ""}
+                                                onChange={(e) => {
                                                     const selectedDataValue = e.target.value;
                                                     const selectedData = MapDatasetOptions.find(item => item.DataValue === selectedDataValue);
                                                     setSelectedDataQuery2(selectedData);
+                                                    setSelectedVariable2(null)
                                                 }}>
-                                                    <option defaultValue>Select</option>
+                                                    <option value="">Select</option>
                                                     {MapDatasetOptions.map((item, index) => (
                                                         <option key={index} value={item.DataValue}>{item.DataName}</option>
                                                     ))}
@@ -278,6 +285,7 @@ const DecisionSupportPage = () => {
 
                                                 <label>Select variable</label>
                                                 <select
+                                                value={selectedVariable2 ? selectedVariable2.value : ""}
                                                     class="form-select"
                                                     onChange={(event) => {
                                                         const selectedOptionValue = event.target.value;
@@ -286,7 +294,7 @@ const DecisionSupportPage = () => {
                                                     }}
                                                     disabled={!selectedDataQuery2}
                                                 >
-                                                    <option selected>Select Variable</option>
+                                                    <option value="">Select Variable</option>
                                                     {selectedDataQuery2 && selectedDataQuery2.variables.map((variable, index) => (
                                                         <option key={index} value={variable.value}>
                                                             {variable.name}
@@ -313,12 +321,16 @@ const DecisionSupportPage = () => {
                                         <div className="accordion-body">
                                             <div className='map_layers'>
                                                 <label>Select dataset</label>
-                                                <select className="form-select mb-2" onChange={(e) => {
+                                                <select className="form-select mb-2"
+                                                value={selectedDataQuery3 ? selectedDataQuery3.DataValue : ""}
+                                                
+                                                 onChange={(e) => {
                                                     const selectedDataValue = e.target.value;
                                                     const selectedData = MapDatasetOptions.find(item => item.DataValue === selectedDataValue);
                                                     setSelectedDataQuery3(selectedData);
+                                                    setSelectedVariable3(null)
                                                 }}>
-                                                    <option defaultValue>Select</option>
+                                                    <option value="">Select</option>
                                                     {MapDatasetOptions.map((item, index) => (
                                                         <option key={index} value={item.DataValue}>{item.DataName}</option>
                                                     ))}
@@ -328,6 +340,7 @@ const DecisionSupportPage = () => {
                                                 <label>Select variable</label>
                                                 <select
                                                     class="form-select"
+                                                    value={selectedVariable3 ? selectedVariable3.value : ""}
                                                     onChange={(event) => {
                                                         const selectedOptionValue = event.target.value;
                                                         const selectedOption = selectedDataQuery3.variables.find(variable => variable.value === selectedOptionValue);
@@ -335,7 +348,7 @@ const DecisionSupportPage = () => {
                                                     }}
                                                     disabled={!selectedDataQuery3}
                                                 >
-                                                    <option selected>Select Variable</option>
+                                                    <option value="">Select Variable</option>
                                                     {selectedDataQuery3 && selectedDataQuery3.variables.map((variable, index) => (
                                                         <option key={index} value={variable.value}>
                                                             {variable.name}
@@ -362,12 +375,15 @@ const DecisionSupportPage = () => {
                                         <div className="accordion-body">
                                             <div className='map_layers'>
                                                 <label>Select dataset</label>
-                                                <select className="form-select mb-2" onChange={(e) => {
+                                                <select className="form-select mb-2"
+                                                value={selectedDataQuery4 ? selectedDataQuery4.DataValue : ""}
+                                                 onChange={(e) => {
                                                     const selectedDataValue = e.target.value;
                                                     const selectedData = MapDatasetOptions.find(item => item.DataValue === selectedDataValue);
                                                     setSelectedDataQuery4(selectedData);
+                                                    setSelectedVariable4(null)
                                                 }}>
-                                                    <option defaultValue>Select</option>
+                                                    <option value="">Select</option>
                                                     {MapDatasetOptions.map((item, index) => (
                                                         <option key={index} value={item.DataValue}>{item.DataName}</option>
                                                     ))}
@@ -376,6 +392,7 @@ const DecisionSupportPage = () => {
 
                                                 <label>Select variable</label>
                                                 <select
+                                                value={selectedVariable4 ? selectedVariable4.value : ""}
                                                     class="form-select"
                                                     onChange={(event) => {
                                                         const selectedOptionValue = event.target.value;
@@ -384,7 +401,7 @@ const DecisionSupportPage = () => {
                                                     }}
                                                     disabled={!selectedDataQuery4}
                                                 >
-                                                    <option selected>Select Variable</option>
+                                                    <option value="">Select Variable</option>
                                                     {selectedDataQuery4 && selectedDataQuery4.variables.map((variable, index) => (
                                                         <option key={index} value={variable.value}>
                                                             {variable.name}
@@ -400,7 +417,7 @@ const DecisionSupportPage = () => {
                                     </div>
                                 </div>
 
-                                
+
 
                                 <div className="accordion-item">
                                     <h2 className="accordion-header" id="panelsStayOpen-heading3">
@@ -416,10 +433,11 @@ const DecisionSupportPage = () => {
                                                 <label>Select State</label>
                                                 <select
                                                     class="form-select mb-3"
+                                                    value={selectedState}
                                                     onChange={(event) => handleStateSelect(event, event.target.value)}
                                                     disabled={!selectedVariable1}
                                                 >
-                                                    <option selected>Select State</option>
+                                                    <option value="">Select State</option>
 
                                                     {PlaceAttributes &&
                                                         [...new Set(PlaceAttributes.map(item => item.STATE))].sort().map((state, index) => (
@@ -429,11 +447,12 @@ const DecisionSupportPage = () => {
 
                                                 <label >Select District</label>
                                                 <select
+                                                value={selectedDistrict}
                                                     class="form-select mb-3"
                                                     onChange={(event) => handleDistrictSelect(event, event.target.value)}
                                                     disabled={districtList.length === 0}
                                                 >
-                                                    <option selected>Select District</option>
+                                                    <option value="">Select District</option>
 
                                                     {districtList.length > 0 &&
                                                         [...new Set(districtList.map(item => item.DISTRICT))].sort().map((district, index) => (
@@ -468,7 +487,7 @@ const DecisionSupportPage = () => {
 
 
 
-                  
+
 
                             </div>
 

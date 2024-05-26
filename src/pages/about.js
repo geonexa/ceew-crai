@@ -1,3 +1,4 @@
+import PageHeading from '@/components/pageHeading'
 import Head from 'next/head'
 import React from 'react'
 
@@ -8,12 +9,10 @@ const AboutPage = () => {
         <meta name="description" content="India Climate Resilience Atlas" />
         <title>About</title>
       </Head>
-      <div className='page_container'>
-        <div className='page_heading'>
-          <h2>About</h2>
-        </div>
-
-      </div>
+      <PageHeading
+      title="About"
+      />
+      
 
     </>
 

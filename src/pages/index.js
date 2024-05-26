@@ -2,7 +2,8 @@ import Footer from '../components/Footer'
 import Head from 'next/head'
 import Link from 'next/link'
 import React from 'react'
-
+import Bg1 from "../../public/images/bg/map1.jpg"
+import Image from 'next/image'
 const HomePage = () => {
   return (
     <>
@@ -29,6 +30,26 @@ const HomePage = () => {
 
         </div>
       </div>
+
+      <div className='row home_section_container'>
+        <div className='col-md-6 home_section'>
+<h1> EXPLORE THE MAP </h1>
+
+
+
+        </div>
+
+        <div className='col-md-6 home_section_img'>
+
+            <Image src={Bg1} alt='Map' />
+  
+        </div>
+
+      </div>
+
+
+
+
       <Footer />
     </>
   )
