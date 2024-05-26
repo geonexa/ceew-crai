@@ -31,9 +31,9 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className='row home_section_container'>
+      {/* <div className='row home_section_container'>
         <div className='col-md-6 home_section'>
-<h1> EXPLORE THE MAP </h1>
+          <h1> EXPLORE THE MAP </h1>
 
 
 
@@ -41,11 +41,11 @@ const HomePage = () => {
 
         <div className='col-md-6 home_section_img'>
 
-            <Image src={Bg1} alt='Map' />
-  
+          <Image src={Bg1} alt='Map' />
+
         </div>
 
-      </div>
+      </div> */}
 
 
 
