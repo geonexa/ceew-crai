@@ -1,0 +1,1852 @@
+[
+  {
+    "DISTRICT": "ANANTAPUR",
+    "STATE": "ANDHRA PRADESH",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "CHITTOOR",
+    "STATE": "ANDHRA PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "EAST GODAVARI",
+    "STATE": "ANDHRA PRADESH",
+    "flood_pentad_occurrence": 9
+  },
+  {
+    "DISTRICT": "GUNTUR",
+    "STATE": "ANDHRA PRADESH",
+    "flood_pentad_occurrence": 8
+  },
+  {
+    "DISTRICT": "KRISHNA",
+    "STATE": "ANDHRA PRADESH",
+    "flood_pentad_occurrence": 10
+  },
+  {
+    "DISTRICT": "KURNOOL",
+    "STATE": "ANDHRA PRADESH",
+    "flood_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "PRAKASAM",
+    "STATE": "ANDHRA PRADESH",
+    "flood_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "SRI POTTI SRIRAMULU NELLORE",
+    "STATE": "ANDHRA PRADESH",
+    "flood_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "SRIKAKULAM",
+    "STATE": "ANDHRA PRADESH",
+    "flood_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "VISAKHAPATNAM",
+    "STATE": "ANDHRA PRADESH",
+    "flood_pentad_occurrence": 8
+  },
+  {
+    "DISTRICT": "WEST GODAVARI",
+    "STATE": "ANDHRA PRADESH",
+    "flood_pentad_occurrence": 13
+  },
+  {
+    "DISTRICT": "Y.S.R",
+    "STATE": "ANDHRA PRADESH",
+    "flood_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "EAST KAMENG",
+    "STATE": "ARUNANCHAL PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "EAST SIANG",
+    "STATE": "ARUNANCHAL PRADESH",
+    "flood_pentad_occurrence": 10
+  },
+  {
+    "DISTRICT": "LOHIT",
+    "STATE": "ARUNANCHAL PRADESH",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "LOWER DIBANG VALLEY",
+    "STATE": "ARUNANCHAL PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "UPPER SIANG",
+    "STATE": "ARUNANCHAL PRADESH",
+    "flood_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "WEST SIANG",
+    "STATE": "ARUNANCHAL PRADESH",
+    "flood_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "BAKSA",
+    "STATE": "ASSAM",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "BARPETA",
+    "STATE": "ASSAM",
+    "flood_pentad_occurrence": 13
+  },
+  {
+    "DISTRICT": "BONGAIGAON",
+    "STATE": "ASSAM",
+    "flood_pentad_occurrence": 8
+  },
+  {
+    "DISTRICT": "CACHAR",
+    "STATE": "ASSAM",
+    "flood_pentad_occurrence": 10
+  },
+  {
+    "DISTRICT": "CHIRANG",
+    "STATE": "ASSAM",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "DARRANG",
+    "STATE": "ASSAM",
+    "flood_pentad_occurrence": 12
+  },
+  {
+    "DISTRICT": "DHEMAJI",
+    "STATE": "ASSAM",
+    "flood_pentad_occurrence": 16
+  },
+  {
+    "DISTRICT": "DHUBRI",
+    "STATE": "ASSAM",
+    "flood_pentad_occurrence": 16
+  },
+  {
+    "DISTRICT": "DIBRUGARH",
+    "STATE": "ASSAM",
+    "flood_pentad_occurrence": 14
+  },
+  {
+    "DISTRICT": "GOALPARA",
+    "STATE": "ASSAM",
+    "flood_pentad_occurrence": 9
+  },
+  {
+    "DISTRICT": "GOLAGHAT",
+    "STATE": "ASSAM",
+    "flood_pentad_occurrence": 13
+  },
+  {
+    "DISTRICT": "HAILAKANDI",
+    "STATE": "ASSAM",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "JORHAT",
+    "STATE": "ASSAM",
+    "flood_pentad_occurrence": 12
+  },
+  {
+    "DISTRICT": "KAMRUP",
+    "STATE": "ASSAM",
+    "flood_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "KARBI ANGLONG",
+    "STATE": "ASSAM",
+    "flood_pentad_occurrence": 7
+  },
+  {
+    "DISTRICT": "KARIMGANJ",
+    "STATE": "ASSAM",
+    "flood_pentad_occurrence": 11
+  },
+  {
+    "DISTRICT": "KOKRAJHAR",
+    "STATE": "ASSAM",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "LAKHIMPUR",
+    "STATE": "ASSAM",
+    "flood_pentad_occurrence": 14
+  },
+  {
+    "DISTRICT": "MARIGAON",
+    "STATE": "ASSAM",
+    "flood_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "NAGAON",
+    "STATE": "ASSAM",
+    "flood_pentad_occurrence": 13
+  },
+  {
+    "DISTRICT": "NALBARI",
+    "STATE": "ASSAM",
+    "flood_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "SIVASAGAR",
+    "STATE": "ASSAM",
+    "flood_pentad_occurrence": 12
+  },
+  {
+    "DISTRICT": "SONITPUR",
+    "STATE": "ASSAM",
+    "flood_pentad_occurrence": 11
+  },
+  {
+    "DISTRICT": "TINSUKIA",
+    "STATE": "ASSAM",
+    "flood_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "UDALGURI",
+    "STATE": "ASSAM",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "ARARIA",
+    "STATE": "BIHAR",
+    "flood_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "BANKA",
+    "STATE": "BIHAR",
+    "flood_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "BEGUSARAI",
+    "STATE": "BIHAR",
+    "flood_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "BHAGALPUR",
+    "STATE": "BIHAR",
+    "flood_pentad_occurrence": 7
+  },
+  {
+    "DISTRICT": "BHOJPUR",
+    "STATE": "BIHAR",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "BUXAR",
+    "STATE": "BIHAR",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "DARBHANGA",
+    "STATE": "BIHAR",
+    "flood_pentad_occurrence": 19
+  },
+  {
+    "DISTRICT": "GOPALGANJ",
+    "STATE": "BIHAR",
+    "flood_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "JEHANABAD",
+    "STATE": "BIHAR",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KATIHAR",
+    "STATE": "BIHAR",
+    "flood_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "KHAGARIA",
+    "STATE": "BIHAR",
+    "flood_pentad_occurrence": 7
+  },
+  {
+    "DISTRICT": "KISHANGANJ",
+    "STATE": "BIHAR",
+    "flood_pentad_occurrence": 9
+  },
+  {
+    "DISTRICT": "LAKHISARAI",
+    "STATE": "BIHAR",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "MADHEPURA",
+    "STATE": "BIHAR",
+    "flood_pentad_occurrence": 9
+  },
+  {
+    "DISTRICT": "MADHUBANI",
+    "STATE": "BIHAR",
+    "flood_pentad_occurrence": 19
+  },
+  {
+    "DISTRICT": "MUNGER",
+    "STATE": "BIHAR",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "MUZAFFARPUR",
+    "STATE": "BIHAR",
+    "flood_pentad_occurrence": 9
+  },
+  {
+    "DISTRICT": "NALANDA",
+    "STATE": "BIHAR",
+    "flood_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "PASHCHIM CHAMPARAN",
+    "STATE": "BIHAR",
+    "flood_pentad_occurrence": 8
+  },
+  {
+    "DISTRICT": "PATNA",
+    "STATE": "BIHAR",
+    "flood_pentad_occurrence": 11
+  },
+  {
+    "DISTRICT": "PURBA CHAMPARAN",
+    "STATE": "BIHAR",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "PURNIA",
+    "STATE": "BIHAR",
+    "flood_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "ROHTAS",
+    "STATE": "BIHAR",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "SAHARSA",
+    "STATE": "BIHAR",
+    "flood_pentad_occurrence": 9
+  },
+  {
+    "DISTRICT": "SAMASTIPUR",
+    "STATE": "BIHAR",
+    "flood_pentad_occurrence": 19
+  },
+  {
+    "DISTRICT": "SARAN",
+    "STATE": "BIHAR",
+    "flood_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "SHEIKHPURA",
+    "STATE": "BIHAR",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "SHEOHAR",
+    "STATE": "BIHAR",
+    "flood_pentad_occurrence": 13
+  },
+  {
+    "DISTRICT": "SITAMARHI",
+    "STATE": "BIHAR",
+    "flood_pentad_occurrence": 13
+  },
+  {
+    "DISTRICT": "SIWAN",
+    "STATE": "BIHAR",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "SUPAUL",
+    "STATE": "BIHAR",
+    "flood_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "VAISHALI",
+    "STATE": "BIHAR",
+    "flood_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "CHANDIGARH",
+    "STATE": "CHANDIGARH",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "DHAMTARI",
+    "STATE": "CHHATTISGARH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "JANJGIR-CHAMPA",
+    "STATE": "CHHATTISGARH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "MAHASAMUND",
+    "STATE": "CHHATTISGARH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "RAIPUR",
+    "STATE": "CHHATTISGARH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "NORTH GOA",
+    "STATE": "GOA",
+    "flood_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "SOUTH GOA",
+    "STATE": "GOA",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "AHMADABAD",
+    "STATE": "GUJARAT",
+    "flood_pentad_occurrence": 10
+  },
+  {
+    "DISTRICT": "AMRELI",
+    "STATE": "GUJARAT",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "ANAND",
+    "STATE": "GUJARAT",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "BANAS KANTHA",
+    "STATE": "GUJARAT",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "BHARUCH",
+    "STATE": "GUJARAT",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "BHAVNAGAR",
+    "STATE": "GUJARAT",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "GANDHINAGAR",
+    "STATE": "GUJARAT",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "JAMNAGAR",
+    "STATE": "GUJARAT",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "KACHCHH",
+    "STATE": "GUJARAT",
+    "flood_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "KHEDA",
+    "STATE": "GUJARAT",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "MAHESANA",
+    "STATE": "GUJARAT",
+    "flood_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "NARMADA",
+    "STATE": "GUJARAT",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "NAVSARI",
+    "STATE": "GUJARAT",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "PATAN",
+    "STATE": "GUJARAT",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "PORBANDAR",
+    "STATE": "GUJARAT",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "RAJKOT",
+    "STATE": "GUJARAT",
+    "flood_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "SABAR KANTHA",
+    "STATE": "GUJARAT",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "SURAT",
+    "STATE": "GUJARAT",
+    "flood_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "SURENDRANAGAR",
+    "STATE": "GUJARAT",
+    "flood_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "THE DANGS",
+    "STATE": "GUJARAT",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "VADODARA",
+    "STATE": "GUJARAT",
+    "flood_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "VALSAD",
+    "STATE": "GUJARAT",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "AMBALA",
+    "STATE": "HARYANA",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "BHIWANI",
+    "STATE": "HARYANA",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "GURGAON",
+    "STATE": "HARYANA",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "HISAR",
+    "STATE": "HARYANA",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "JIND",
+    "STATE": "HARYANA",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KAITHAL",
+    "STATE": "HARYANA",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KARNAL",
+    "STATE": "HARYANA",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "KURUKSHETRA",
+    "STATE": "HARYANA",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "PANCHKULA",
+    "STATE": "HARYANA",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "PANIPAT",
+    "STATE": "HARYANA",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "ROHTAK",
+    "STATE": "HARYANA",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "SIRSA",
+    "STATE": "HARYANA",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "SONIPAT",
+    "STATE": "HARYANA",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "YAMUNANAGAR",
+    "STATE": "HARYANA",
+    "flood_pentad_occurrence": 7
+  },
+  {
+    "DISTRICT": "BILASPUR",
+    "STATE": "HIMACHAL PRADESH",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "CHAMBA",
+    "STATE": "HIMACHAL PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KANGRA",
+    "STATE": "HIMACHAL PRADESH",
+    "flood_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "KINNAUR",
+    "STATE": "HIMACHAL PRADESH",
+    "flood_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "KULLU",
+    "STATE": "HIMACHAL PRADESH",
+    "flood_pentad_occurrence": 11
+  },
+  {
+    "DISTRICT": "LAHUL & SPITI",
+    "STATE": "HIMACHAL PRADESH",
+    "flood_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "MANDI",
+    "STATE": "HIMACHAL PRADESH",
+    "flood_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "SHIMLA",
+    "STATE": "HIMACHAL PRADESH",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "SOLAN",
+    "STATE": "HIMACHAL PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "UNA",
+    "STATE": "HIMACHAL PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "ANANTNAG",
+    "STATE": "JAMMU & KASHMIR",
+    "flood_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "BADGAM",
+    "STATE": "JAMMU & KASHMIR",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "BANDIPORE",
+    "STATE": "JAMMU & KASHMIR",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "BARAMULA",
+    "STATE": "JAMMU & KASHMIR",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "DODA",
+    "STATE": "JAMMU & KASHMIR",
+    "flood_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "GANDERBAL",
+    "STATE": "JAMMU & KASHMIR",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "JAMMU",
+    "STATE": "JAMMU & KASHMIR",
+    "flood_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "KARGIL",
+    "STATE": "JAMMU & KASHMIR",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KISHTWAR",
+    "STATE": "JAMMU & KASHMIR",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KULGAM",
+    "STATE": "JAMMU & KASHMIR",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "KUPWARA",
+    "STATE": "JAMMU & KASHMIR",
+    "flood_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "LEH (LADAKH)",
+    "STATE": "JAMMU & KASHMIR",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "PULWAMA",
+    "STATE": "JAMMU & KASHMIR",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "PUNCH",
+    "STATE": "JAMMU & KASHMIR",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "RAJOURI",
+    "STATE": "JAMMU & KASHMIR",
+    "flood_pentad_occurrence": 8
+  },
+  {
+    "DISTRICT": "SRINAGAR",
+    "STATE": "JAMMU & KASHMIR",
+    "flood_pentad_occurrence": 8
+  },
+  {
+    "DISTRICT": "CHATRA",
+    "STATE": "JHARKHAND",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "DEOGHAR",
+    "STATE": "JHARKHAND",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "DUMKA",
+    "STATE": "JHARKHAND",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "GUMLA",
+    "STATE": "JHARKHAND",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "HAZARIBAGH",
+    "STATE": "JHARKHAND",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KODARMA",
+    "STATE": "JHARKHAND",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "PURBI SINGHBHUM",
+    "STATE": "JHARKHAND",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "SAHIBGANJ",
+    "STATE": "JHARKHAND",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "BAGALKOT",
+    "STATE": "KARNATAKA",
+    "flood_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "BELGAUM",
+    "STATE": "KARNATAKA",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "BELLARY",
+    "STATE": "KARNATAKA",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "BIDAR",
+    "STATE": "KARNATAKA",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "BIJAPUR",
+    "STATE": "KARNATAKA",
+    "flood_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "CHIKMAGALUR",
+    "STATE": "KARNATAKA",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "CHITRADURGA",
+    "STATE": "KARNATAKA",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "DAKSHINA KANNADA",
+    "STATE": "KARNATAKA",
+    "flood_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "DAVANAGERE",
+    "STATE": "KARNATAKA",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "DHARWAD",
+    "STATE": "KARNATAKA",
+    "flood_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "GADAG",
+    "STATE": "KARNATAKA",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "GULBARGA",
+    "STATE": "KARNATAKA",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "HASSAN",
+    "STATE": "KARNATAKA",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "HAVERI",
+    "STATE": "KARNATAKA",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KODAGU",
+    "STATE": "KARNATAKA",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "KOLAR",
+    "STATE": "KARNATAKA",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KOPPAL",
+    "STATE": "KARNATAKA",
+    "flood_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "MYSORE",
+    "STATE": "KARNATAKA",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "RAICHUR",
+    "STATE": "KARNATAKA",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "SHIMOGA",
+    "STATE": "KARNATAKA",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "UTTARA KANNADA",
+    "STATE": "KARNATAKA",
+    "flood_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "YADGIR",
+    "STATE": "KARNATAKA",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "ALAPPUZHA",
+    "STATE": "KERALA",
+    "flood_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "ERNAKULAM",
+    "STATE": "KERALA",
+    "flood_pentad_occurrence": 8
+  },
+  {
+    "DISTRICT": "IDUKKI",
+    "STATE": "KERALA",
+    "flood_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "KANNUR",
+    "STATE": "KERALA",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "KASARAGOD",
+    "STATE": "KERALA",
+    "flood_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "KOLLAM",
+    "STATE": "KERALA",
+    "flood_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "KOTTAYAM",
+    "STATE": "KERALA",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "KOZHIKODE",
+    "STATE": "KERALA",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "MALAPPURAM",
+    "STATE": "KERALA",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "PATHANAMTHITTA",
+    "STATE": "KERALA",
+    "flood_pentad_occurrence": 9
+  },
+  {
+    "DISTRICT": "THIRUVANANTHAPURAM",
+    "STATE": "KERALA",
+    "flood_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "THRISSUR",
+    "STATE": "KERALA",
+    "flood_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "WAYANAD",
+    "STATE": "KERALA",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "ASHOKNAGAR",
+    "STATE": "MADHYA PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "BALAGHAT",
+    "STATE": "MADHYA PRADESH",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "BHOPAL",
+    "STATE": "MADHYA PRADESH",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "CHHATARPUR",
+    "STATE": "MADHYA PRADESH",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "DAMOH",
+    "STATE": "MADHYA PRADESH",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "HARDA",
+    "STATE": "MADHYA PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "HOSHANGABAD",
+    "STATE": "MADHYA PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "JABALPUR",
+    "STATE": "MADHYA PRADESH",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "KATNI",
+    "STATE": "MADHYA PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "MANDLA",
+    "STATE": "MADHYA PRADESH",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "PANNA",
+    "STATE": "MADHYA PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "RAISEN",
+    "STATE": "MADHYA PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "REWA",
+    "STATE": "MADHYA PRADESH",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "SAGAR",
+    "STATE": "MADHYA PRADESH",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "SATNA",
+    "STATE": "MADHYA PRADESH",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "SEHORE",
+    "STATE": "MADHYA PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "SEONI",
+    "STATE": "MADHYA PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "SHAJAPUR",
+    "STATE": "MADHYA PRADESH",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "SHEOPUR",
+    "STATE": "MADHYA PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "TIKAMGARH",
+    "STATE": "MADHYA PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "VIDISHA",
+    "STATE": "MADHYA PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "AMRAVATI",
+    "STATE": "MAHARASHTRA",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "AURANGABAD",
+    "STATE": "MAHARASHTRA",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "JALGAON",
+    "STATE": "MAHARASHTRA",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "MUMBAI",
+    "STATE": "MAHARASHTRA",
+    "flood_pentad_occurrence": 16
+  },
+  {
+    "DISTRICT": "MUMBAI SUBURBAN",
+    "STATE": "MAHARASHTRA",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "NASHIK",
+    "STATE": "MAHARASHTRA",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "PUNE",
+    "STATE": "MAHARASHTRA",
+    "flood_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "RAIGARH",
+    "STATE": "MAHARASHTRA",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "RATNAGIRI",
+    "STATE": "MAHARASHTRA",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "SOLAPUR",
+    "STATE": "MAHARASHTRA",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "THANE",
+    "STATE": "MAHARASHTRA",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "WARDHA",
+    "STATE": "MAHARASHTRA",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "BISHNUPUR",
+    "STATE": "MANIPUR",
+    "flood_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "CHANDEL",
+    "STATE": "MANIPUR",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "IMPHAL EAST",
+    "STATE": "MANIPUR",
+    "flood_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "IMPHAL WEST",
+    "STATE": "MANIPUR",
+    "flood_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "THOUBAL",
+    "STATE": "MANIPUR",
+    "flood_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "EAST GARO HILLS",
+    "STATE": "MEGHALAYA",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "JAINTIA HILLS",
+    "STATE": "MEGHALAYA",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "SOUTH GARO HILLS",
+    "STATE": "MEGHALAYA",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "AIZAWL",
+    "STATE": "MIZORAM",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "DIMAPUR",
+    "STATE": "NAGALAND",
+    "flood_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "KIPHIRE",
+    "STATE": "NAGALAND",
+    "flood_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "MOKOKCHUNG",
+    "STATE": "NAGALAND",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "NEW DELHI",
+    "STATE": "NCT OF DELHI",
+    "flood_pentad_occurrence": 7
+  },
+  {
+    "DISTRICT": "ANUGUL",
+    "STATE": "ODISHA",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "BALANGIR",
+    "STATE": "ODISHA",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "BALESHWAR",
+    "STATE": "ODISHA",
+    "flood_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "BARGARH",
+    "STATE": "ODISHA",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "BAUDA",
+    "STATE": "ODISHA",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "BHADRAK",
+    "STATE": "ODISHA",
+    "flood_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "CUTTACK",
+    "STATE": "ODISHA",
+    "flood_pentad_occurrence": 7
+  },
+  {
+    "DISTRICT": "GAJAPATI",
+    "STATE": "ODISHA",
+    "flood_pentad_occurrence": 8
+  },
+  {
+    "DISTRICT": "GANJAM",
+    "STATE": "ODISHA",
+    "flood_pentad_occurrence": 8
+  },
+  {
+    "DISTRICT": "JAGATSINGHAPUR",
+    "STATE": "ODISHA",
+    "flood_pentad_occurrence": 9
+  },
+  {
+    "DISTRICT": "JAJAPUR",
+    "STATE": "ODISHA",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "KALAHANDI",
+    "STATE": "ODISHA",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "KANDHAMAL",
+    "STATE": "ODISHA",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "KENDRAPARA",
+    "STATE": "ODISHA",
+    "flood_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "KENDUJHAR",
+    "STATE": "ODISHA",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KHORDHA",
+    "STATE": "ODISHA",
+    "flood_pentad_occurrence": 16
+  },
+  {
+    "DISTRICT": "KORAPUT",
+    "STATE": "ODISHA",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "MALKANGIRI",
+    "STATE": "ODISHA",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "MAYURBHANJ",
+    "STATE": "ODISHA",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "NAYAGARH",
+    "STATE": "ODISHA",
+    "flood_pentad_occurrence": 18
+  },
+  {
+    "DISTRICT": "PURI",
+    "STATE": "ODISHA",
+    "flood_pentad_occurrence": 18
+  },
+  {
+    "DISTRICT": "RAYAGADA",
+    "STATE": "ODISHA",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "KARAIKAL",
+    "STATE": "PUDUCHERRY",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "PUDUCHERRY",
+    "STATE": "PUDUCHERRY",
+    "flood_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "LUDHIANA",
+    "STATE": "PUNJAB",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "AJMER",
+    "STATE": "RAJASTHAN",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "BARMER",
+    "STATE": "RAJASTHAN",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "BHILWARA",
+    "STATE": "RAJASTHAN",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "CHURU",
+    "STATE": "RAJASTHAN",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "JAISALMER",
+    "STATE": "RAJASTHAN",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "JODHPUR",
+    "STATE": "RAJASTHAN",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "NAGAUR",
+    "STATE": "RAJASTHAN",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "PALI",
+    "STATE": "RAJASTHAN",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "UDAIPUR",
+    "STATE": "RAJASTHAN",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "NORTH SIKKIM",
+    "STATE": "SIKKIM",
+    "flood_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "SOUTH SIKKIM",
+    "STATE": "SIKKIM",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "CHENNAI",
+    "STATE": "TAMIL NADU",
+    "flood_pentad_occurrence": 17
+  },
+  {
+    "DISTRICT": "COIMBATORE",
+    "STATE": "TAMIL NADU",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "CUDDALORE",
+    "STATE": "TAMIL NADU",
+    "flood_pentad_occurrence": 9
+  },
+  {
+    "DISTRICT": "KANCHEEPURAM",
+    "STATE": "TAMIL NADU",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "KANNIYAKUMARI",
+    "STATE": "TAMIL NADU",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "MADURAI",
+    "STATE": "TAMIL NADU",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "NAGAPPATTINAM",
+    "STATE": "TAMIL NADU",
+    "flood_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "PUDUKKOTTAI",
+    "STATE": "TAMIL NADU",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "RAMANATHAPURAM",
+    "STATE": "TAMIL NADU",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "THANJAVUR",
+    "STATE": "TAMIL NADU",
+    "flood_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "THE NILGIRIS",
+    "STATE": "TAMIL NADU",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "THIRUVALLUR",
+    "STATE": "TAMIL NADU",
+    "flood_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "THOOTHUKKUDI",
+    "STATE": "TAMIL NADU",
+    "flood_pentad_occurrence": 7
+  },
+  {
+    "DISTRICT": "TIRUNELVELI",
+    "STATE": "TAMIL NADU",
+    "flood_pentad_occurrence": 7
+  },
+  {
+    "DISTRICT": "VILUPPURAM",
+    "STATE": "TAMIL NADU",
+    "flood_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "VIRUDUNAGAR",
+    "STATE": "TAMIL NADU",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "ADILABAD",
+    "STATE": "ANDHRA PRADESH",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "HYDERABAD",
+    "STATE": "ANDHRA PRADESH",
+    "flood_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "KARIMNAGAR",
+    "STATE": "ANDHRA PRADESH",
+    "flood_pentad_occurrence": 8
+  },
+  {
+    "DISTRICT": "KHAMMAM",
+    "STATE": "ANDHRA PRADESH",
+    "flood_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "MAHBUBNAGAR",
+    "STATE": "ANDHRA PRADESH",
+    "flood_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "MEDAK",
+    "STATE": "ANDHRA PRADESH",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "NALGONDA",
+    "STATE": "ANDHRA PRADESH",
+    "flood_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "NIZAMABAD",
+    "STATE": "ANDHRA PRADESH",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "RANGAREDDY",
+    "STATE": "ANDHRA PRADESH",
+    "flood_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "WARANGAL",
+    "STATE": "ANDHRA PRADESH",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "DHALAI",
+    "STATE": "TRIPURA",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "NORTH TRIPURA",
+    "STATE": "TRIPURA",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "WEST TRIPURA",
+    "STATE": "TRIPURA",
+    "flood_pentad_occurrence": 17
+  },
+  {
+    "DISTRICT": "AGRA",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "ALIGARH",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "ALLAHABAD",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "AMBEDKAR NAGAR",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "AURAIYA",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "AZAMGARH",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "BAHRAICH",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "BALLIA",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "BALRAMPUR",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "BANDA",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "BARA BANKI",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 8
+  },
+  {
+    "DISTRICT": "BAREILLY",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "BASTI",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "BIJNOR",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "BUDAUN",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "CHANDAULI",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "DEORIA",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "FAIZABAD",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "FARRUKHABAD",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "GHAZIABAD",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "GHAZIPUR",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "GONDA",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "GORAKHPUR",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "HAMIRPUR",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "HARDOI",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "JALAUN",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "JHANSI",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "JYOTIBA PHULE NAGAR",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KANNAUJ",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KANPUR DEHAT",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "KHERI",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "KUSHINAGAR",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 10
+  },
+  {
+    "DISTRICT": "LUCKNOW",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "MAHARAJGANJ",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "MAINPURI",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "MAU",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "MEERUT",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "MIRZAPUR",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "MORADABAD",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "MUZAFFARNAGAR",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "PILIBHIT",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "SANT KABIR NAGAR",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "SHAHJAHANPUR",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "SHRAWASTI",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "SITAPUR",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "SULTANPUR",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "VARANASI",
+    "STATE": "UTTAR PRADESH",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "ALMORA",
+    "STATE": "UTTARAKHAND",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "CHAMOLI",
+    "STATE": "UTTARAKHAND",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "DEHRADUN",
+    "STATE": "UTTARAKHAND",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "HARDWAR",
+    "STATE": "UTTARAKHAND",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "NAINITAL",
+    "STATE": "UTTARAKHAND",
+    "flood_pentad_occurrence": 7
+  },
+  {
+    "DISTRICT": "PITHORAGARH",
+    "STATE": "UTTARAKHAND",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "TEHRI GARHWAL",
+    "STATE": "UTTARAKHAND",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "UTTARKASHI",
+    "STATE": "UTTARAKHAND",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "BANKURA",
+    "STATE": "WEST BENGAL",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "BARDDHAMAN",
+    "STATE": "WEST BENGAL",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "BIRBHUM",
+    "STATE": "WEST BENGAL",
+    "flood_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "DARJILING",
+    "STATE": "WEST BENGAL",
+    "flood_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "HAORA",
+    "STATE": "WEST BENGAL",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "HUGLI",
+    "STATE": "WEST BENGAL",
+    "flood_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "JALPAIGURI",
+    "STATE": "WEST BENGAL",
+    "flood_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "KOCH BIHAR",
+    "STATE": "WEST BENGAL",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KOLKATA",
+    "STATE": "WEST BENGAL",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "MALDAH",
+    "STATE": "WEST BENGAL",
+    "flood_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "MURSHIDABAD",
+    "STATE": "WEST BENGAL",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "NADIA",
+    "STATE": "WEST BENGAL",
+    "flood_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "NORTH 24 PARGANAS",
+    "STATE": "WEST BENGAL",
+    "flood_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "PASCHIM MEDINIPUR",
+    "STATE": "WEST BENGAL",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "PASHCHIM MEDINIPUR",
+    "STATE": "WEST BENGAL",
+    "flood_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "PURULIYA",
+    "STATE": "WEST BENGAL",
+    "flood_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "SOUTH 24 PARGANAS",
+    "STATE": "WEST BENGAL",
+    "flood_pentad_occurrence": 2
+  }
+ ]

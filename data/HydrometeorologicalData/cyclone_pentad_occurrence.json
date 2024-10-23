@@ -1,0 +1,557 @@
+[
+  {
+    "DISTRICT": "NICOBAR",
+    "STATE": "ANDAMAN & NICOBAR ISLAND",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "NORTH 24 PARGANAS",
+    "STATE": "ANDAMAN & NICOBAR ISLAND",
+    "cyclone_pentad_occurrence": 7
+  },
+  {
+    "DISTRICT": "SOUTH ANDAMAN",
+    "STATE": "ANDAMAN & NICOBAR ISLAND",
+    "cyclone_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "EAST GODAVARI",
+    "STATE": "ANDHRA PRADESH",
+    "cyclone_pentad_occurrence": 11
+  },
+  {
+    "DISTRICT": "GUNTUR",
+    "STATE": "ANDHRA PRADESH",
+    "cyclone_pentad_occurrence": 8
+  },
+  {
+    "DISTRICT": "KRISHNA",
+    "STATE": "ANDHRA PRADESH",
+    "cyclone_pentad_occurrence": 10
+  },
+  {
+    "DISTRICT": "PRAKASAM",
+    "STATE": "ANDHRA PRADESH",
+    "cyclone_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "SRI POTTI SRIRAMULU NELLORE",
+    "STATE": "ANDHRA PRADESH",
+    "cyclone_pentad_occurrence": 12
+  },
+  {
+    "DISTRICT": "SRIKAKULAM",
+    "STATE": "ANDHRA PRADESH",
+    "cyclone_pentad_occurrence": 11
+  },
+  {
+    "DISTRICT": "VISAKHAPATNAM",
+    "STATE": "ANDHRA PRADESH",
+    "cyclone_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "VIZIANAGARAM",
+    "STATE": "ANDHRA PRADESH",
+    "cyclone_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "WEST GODAVARI",
+    "STATE": "ANDHRA PRADESH",
+    "cyclone_pentad_occurrence": 7
+  },
+  {
+    "DISTRICT": "Y.S.R",
+    "STATE": "ANDHRA PRADESH",
+    "cyclone_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "CACHAR",
+    "STATE": "ASSAM",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "NAGAON",
+    "STATE": "ASSAM",
+    "cyclone_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "TINSUKIA",
+    "STATE": "ASSAM",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "ARWAL",
+    "STATE": "BIHAR",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "BANKA",
+    "STATE": "BIHAR",
+    "cyclone_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "BEGUSARAI",
+    "STATE": "BIHAR",
+    "cyclone_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "BHAGALPUR",
+    "STATE": "BIHAR",
+    "cyclone_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "BHOJPUR",
+    "STATE": "BIHAR",
+    "cyclone_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "BUXAR",
+    "STATE": "BIHAR",
+    "cyclone_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "DARBHANGA",
+    "STATE": "BIHAR",
+    "cyclone_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "PURBA CHAMPARAN",
+    "STATE": "BIHAR",
+    "cyclone_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "ROHTAS",
+    "STATE": "BIHAR",
+    "cyclone_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "SAHARSA",
+    "STATE": "BIHAR",
+    "cyclone_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "SHEIKHPURA",
+    "STATE": "BIHAR",
+    "cyclone_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "SHEOHAR",
+    "STATE": "BIHAR",
+    "cyclone_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "NORTH GOA",
+    "STATE": "GOA",
+    "cyclone_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "SOUTH GOA",
+    "STATE": "GOA",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "AMRELI",
+    "STATE": "GUJARAT",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "BANAS KANTHA",
+    "STATE": "GUJARAT",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "BHARUCH",
+    "STATE": "GUJARAT",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "BHAVNAGAR",
+    "STATE": "GUJARAT",
+    "cyclone_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "JAMNAGAR",
+    "STATE": "GUJARAT",
+    "cyclone_pentad_occurrence": 7
+  },
+  {
+    "DISTRICT": "JUNAGADH",
+    "STATE": "GUJARAT",
+    "cyclone_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "KACHCHH",
+    "STATE": "GUJARAT",
+    "cyclone_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "NAVSARI",
+    "STATE": "GUJARAT",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "PORBANDAR",
+    "STATE": "GUJARAT",
+    "cyclone_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "RAJKOT",
+    "STATE": "GUJARAT",
+    "cyclone_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "SABAR KANTHA",
+    "STATE": "GUJARAT",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "SURAT",
+    "STATE": "GUJARAT",
+    "cyclone_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "SURENDRANAGAR",
+    "STATE": "GUJARAT",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "VALSAD",
+    "STATE": "GUJARAT",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "DODA",
+    "STATE": "JAMMU & KASHMIR",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "JAMMU",
+    "STATE": "JAMMU & KASHMIR",
+    "cyclone_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "KUPWARA",
+    "STATE": "JAMMU & KASHMIR",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "PURBI SINGHBHUM",
+    "STATE": "JHARKHAND",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "RAMGARH",
+    "STATE": "JHARKHAND",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "SAHIBGANJ",
+    "STATE": "JHARKHAND",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "DAKSHINA KANNADA",
+    "STATE": "KARNATAKA",
+    "cyclone_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "UTTARA KANNADA",
+    "STATE": "KARNATAKA",
+    "cyclone_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "KANYAKUMARI",
+    "STATE": "KERALA",
+    "cyclone_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "KOLLAM",
+    "STATE": "KERALA",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KOZHIKODE",
+    "STATE": "KERALA",
+    "cyclone_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "MALAPPURAM",
+    "STATE": "KERALA",
+    "cyclone_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "THIRUVANANTHAPURAM",
+    "STATE": "KERALA",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "AURANGABAD",
+    "STATE": "MAHARASHTRA",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "MUMBAI",
+    "STATE": "MAHARASHTRA",
+    "cyclone_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "RATNAGIRI",
+    "STATE": "MAHARASHTRA",
+    "cyclone_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "THANE",
+    "STATE": "MAHARASHTRA",
+    "cyclone_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "IMPHAL EAST",
+    "STATE": "MANIPUR",
+    "cyclone_pentad_occurrence": 7
+  },
+  {
+    "DISTRICT": "EAST KHASI HILLS",
+    "STATE": "MEGHALAYA",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "NEW DELHI",
+    "STATE": "NCT OF DELHI",
+    "cyclone_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "BALESHWAR",
+    "STATE": "ODISHA",
+    "cyclone_pentad_occurrence": 13
+  },
+  {
+    "DISTRICT": "BHADRAK",
+    "STATE": "ODISHA",
+    "cyclone_pentad_occurrence": 13
+  },
+  {
+    "DISTRICT": "CUTTACK",
+    "STATE": "ODISHA",
+    "cyclone_pentad_occurrence": 13
+  },
+  {
+    "DISTRICT": "DHENKANAL",
+    "STATE": "ODISHA",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "GAJAPATI",
+    "STATE": "ODISHA",
+    "cyclone_pentad_occurrence": 13
+  },
+  {
+    "DISTRICT": "GANJAM",
+    "STATE": "ODISHA",
+    "cyclone_pentad_occurrence": 13
+  },
+  {
+    "DISTRICT": "JAGATSINGHAPUR",
+    "STATE": "ODISHA",
+    "cyclone_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "KALAHANDI",
+    "STATE": "ODISHA",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KANDHAMAL",
+    "STATE": "ODISHA",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KENDRAPARA",
+    "STATE": "ODISHA",
+    "cyclone_pentad_occurrence": 4
+  },
+  {
+    "DISTRICT": "KENDUJHAR",
+    "STATE": "ODISHA",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KHORDHA",
+    "STATE": "ODISHA",
+    "cyclone_pentad_occurrence": 17
+  },
+  {
+    "DISTRICT": "KORAPUT",
+    "STATE": "ODISHA",
+    "cyclone_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "MAYURBHANJ",
+    "STATE": "ODISHA",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "NAYAGARH",
+    "STATE": "ODISHA",
+    "cyclone_pentad_occurrence": 18
+  },
+  {
+    "DISTRICT": "PURI",
+    "STATE": "ODISHA",
+    "cyclone_pentad_occurrence": 18
+  },
+  {
+    "DISTRICT": "SAMBALPUR",
+    "STATE": "ODISHA",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "SUNDARGARH",
+    "STATE": "ODISHA",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "PUDUCHERRY",
+    "STATE": "PUDUCHERRY",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "YANAM",
+    "STATE": "PUDUCHERRY",
+    "cyclone_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "BARMER",
+    "STATE": "RAJASTHAN",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "JALOR",
+    "STATE": "RAJASTHAN",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "UDAIPUR",
+    "STATE": "RAJASTHAN",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "CHENNAI",
+    "STATE": "TAMIL NADU",
+    "cyclone_pentad_occurrence": 14
+  },
+  {
+    "DISTRICT": "KANNUR",
+    "STATE": "TAMIL NADU",
+    "cyclone_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "NAGAPPATTINAM",
+    "STATE": "TAMIL NADU",
+    "cyclone_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "PUDUKKOTTAI",
+    "STATE": "TAMIL NADU",
+    "cyclone_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "RAMANATHAPURAM",
+    "STATE": "TAMIL NADU",
+    "cyclone_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "SIVAGANGA",
+    "STATE": "TAMIL NADU",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "THANJAVUR",
+    "STATE": "TAMIL NADU",
+    "cyclone_pentad_occurrence": 5
+  },
+  {
+    "DISTRICT": "THENI",
+    "STATE": "TAMIL NADU",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "THIRUVALLUR",
+    "STATE": "TAMIL NADU",
+    "cyclone_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "THOOTHUKKUDI",
+    "STATE": "TAMIL NADU",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "TIRUCHIRAPPALLI",
+    "STATE": "TAMIL NADU",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "HYDERABAD",
+    "STATE": "ANDHRA PRADESH",
+    "cyclone_pentad_occurrence": 3
+  },
+  {
+    "DISTRICT": "SHRAWASTI",
+    "STATE": "UTTAR PRADESH",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "SITAPUR",
+    "STATE": "UTTAR PRADESH",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "VARANASI",
+    "STATE": "UTTAR PRADESH",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "HAORA",
+    "STATE": "WEST BENGAL",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "HUGLI",
+    "STATE": "WEST BENGAL",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "KOLKATA",
+    "STATE": "WEST BENGAL",
+    "cyclone_pentad_occurrence": 6
+  },
+  {
+    "DISTRICT": "MIDNAPORE",
+    "STATE": "WEST BENGAL",
+    "cyclone_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "MURSHIDABAD",
+    "STATE": "WEST BENGAL",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "NORTH AND MIDDLE ANDAMAN",
+    "STATE": "WEST BENGAL",
+    "cyclone_pentad_occurrence": 2
+  },
+  {
+    "DISTRICT": "PASHCHIM MEDINIPUR",
+    "STATE": "WEST BENGAL",
+    "cyclone_pentad_occurrence": 9
+  },
+  {
+    "DISTRICT": "SOUTH 24 PARGANAS",
+    "STATE": "WEST BENGAL",
+    "cyclone_pentad_occurrence": 1
+  },
+  {
+    "DISTRICT": "UTTAR DINAJPUR",
+    "STATE": "WEST BENGAL",
+    "cyclone_pentad_occurrence": 1
+  }
+ ]

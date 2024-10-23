@@ -1,0 +1,299 @@
+[
+  {
+    "DISTRICT": "Ahmadnagar",
+    "STATE": "Maharashtra",
+    "historical_hazard": 0.82,
+    "hazard": 0.73,
+    "exposure": 0.97,
+    "vulnerability": 0.53,
+    "risk": 0.78
+  },
+  {
+    "DISTRICT": "Akola",
+    "STATE": "Maharashtra",
+    "historical_hazard": 0.44,
+    "hazard": 0.15,
+    "exposure": 0.84,
+    "vulnerability": 0.89,
+    "risk": 0.33
+  },
+  {
+    "DISTRICT": "Amravati",
+    "STATE": "Maharashtra",
+    "historical_hazard": 0.6,
+    "hazard": 0.19,
+    "exposure": 0.55,
+    "vulnerability": 0.71,
+    "risk": 0.31
+  },
+  {
+    "DISTRICT": "Aurangabad",
+    "STATE": "Maharashtra",
+    "historical_hazard": 0.84,
+    "hazard": 0.66,
+    "exposure": 0.86,
+    "vulnerability": 0.72,
+    "risk": 0.77
+  },
+  {
+    "DISTRICT": "Bhandara",
+    "STATE": "Maharashtra",
+    "historical_hazard": 0.21,
+    "hazard": 0.36,
+    "exposure": 0.79,
+    "vulnerability": 0,
+    "risk": 0.11
+  },
+  {
+    "DISTRICT": "Bid",
+    "STATE": "Maharashtra",
+    "historical_hazard": 0.77,
+    "hazard": 0.99,
+    "exposure": 1,
+    "vulnerability": 0.64,
+    "risk": 0.88
+  },
+  {
+    "DISTRICT": "Buldana",
+    "STATE": "Maharashtra",
+    "historical_hazard": 0.69,
+    "hazard": 0.46,
+    "exposure": 0.83,
+    "vulnerability": 0.83,
+    "risk": 0.59
+  },
+  {
+    "DISTRICT": "Chandrapur",
+    "STATE": "Maharashtra",
+    "historical_hazard": 0.49,
+    "hazard": 0.07,
+    "exposure": 0.37,
+    "vulnerability": 0.65,
+    "risk": 0.18
+  },
+  {
+    "DISTRICT": "Dhule",
+    "STATE": "Maharashtra",
+    "historical_hazard": 0.67,
+    "hazard": 0.39,
+    "exposure": 0.52,
+    "vulnerability": 0.78,
+    "risk": 0.38
+  },
+  {
+    "DISTRICT": "Garhchiroli",
+    "STATE": "Maharashtra",
+    "historical_hazard": 0.51,
+    "hazard": 0,
+    "exposure": 0.03,
+    "vulnerability": 0.65,
+    "risk": 0.07
+  },
+  {
+    "DISTRICT": "Gondiya",
+    "STATE": "Maharashtra",
+    "historical_hazard": 0.23,
+    "hazard": 0.46,
+    "exposure": 0.65,
+    "vulnerability": 0.26,
+    "risk": 0.13
+  },
+  {
+    "DISTRICT": "Hingoli",
+    "STATE": "Maharashtra",
+    "historical_hazard": 0.79,
+    "hazard": 0.78,
+    "exposure": 0.85,
+    "vulnerability": 0.87,
+    "risk": 0.81
+  },
+  {
+    "DISTRICT": "Jalgaon",
+    "STATE": "Maharashtra",
+    "historical_hazard": 0.85,
+    "hazard": 0.54,
+    "exposure": 0.74,
+    "vulnerability": 0.63,
+    "risk": 0.64
+  },
+  {
+    "DISTRICT": "Jalna",
+    "STATE": "Maharashtra",
+    "historical_hazard": 0.72,
+    "hazard": 0.72,
+    "exposure": 0.84,
+    "vulnerability": 0.78,
+    "risk": 0.68
+  },
+  {
+    "DISTRICT": "Kolhapur",
+    "STATE": "Maharashtra",
+    "historical_hazard": 0.18,
+    "hazard": 0.48,
+    "exposure": 0.99,
+    "vulnerability": 0.25,
+    "risk": 0.15
+  },
+  {
+    "DISTRICT": "Latur",
+    "STATE": "Maharashtra",
+    "historical_hazard": 0.74,
+    "hazard": 0.87,
+    "exposure": 0.98,
+    "vulnerability": 0.7,
+    "risk": 0.82
+  },
+  {
+    "DISTRICT": "Nagpur",
+    "STATE": "Maharashtra",
+    "historical_hazard": 0.31,
+    "hazard": 0.42,
+    "exposure": 0.5,
+    "vulnerability": 0.57,
+    "risk": 0.16
+  },
+  {
+    "DISTRICT": "Nanded",
+    "STATE": "Maharashtra",
+    "historical_hazard": 0.67,
+    "hazard": 0.91,
+    "exposure": 0.97,
+    "vulnerability": 0.72,
+    "risk": 0.75
+  },
+  {
+    "DISTRICT": "Nandurbar",
+    "STATE": "Maharashtra",
+    "historical_hazard": 0.87,
+    "hazard": 0.52,
+    "exposure": 0.62,
+    "vulnerability": 0.81,
+    "risk": 0.6
+  },
+  {
+    "DISTRICT": "Nashik",
+    "STATE": "Maharashtra",
+    "historical_hazard": 0.8,
+    "hazard": 0.61,
+    "exposure": 0.62,
+    "vulnerability": 0.43,
+    "risk": 0.49
+  },
+  {
+    "DISTRICT": "Osmanabad",
+    "STATE": "Maharashtra",
+    "historical_hazard": 0.97,
+    "hazard": 0.87,
+    "exposure": 0.91,
+    "vulnerability": 0.63,
+    "risk": 0.98
+  },
+  {
+    "DISTRICT": "Parbhani",
+    "STATE": "Maharashtra",
+    "historical_hazard": 0.87,
+    "hazard": 1,
+    "exposure": 0.86,
+    "vulnerability": 0.91,
+    "risk": 1
+  },
+  {
+    "DISTRICT": "Pune",
+    "STATE": "Maharashtra",
+    "historical_hazard": 1,
+    "hazard": 0.27,
+    "exposure": 0.78,
+    "vulnerability": 0.51,
+    "risk": 0.63
+  },
+  {
+    "DISTRICT": "Raigad",
+    "STATE": "Maharashtra",
+    "historical_hazard": 0.22,
+    "hazard": 0.16,
+    "exposure": 0.2,
+    "vulnerability": 0.77,
+    "risk": 0.06
+  },
+  {
+    "DISTRICT": "Ratnagiri",
+    "STATE": "Maharashtra",
+    "historical_hazard": 0.26,
+    "hazard": 0.24,
+    "exposure": 0,
+    "vulnerability": 1,
+    "risk": 0.04
+  },
+  {
+    "DISTRICT": "Sangli",
+    "STATE": "Maharashtra",
+    "historical_hazard": 0.67,
+    "hazard": 0.36,
+    "exposure": 0.87,
+    "vulnerability": 0.31,
+    "risk": 0.44
+  },
+  {
+    "DISTRICT": "Satara",
+    "STATE": "Maharashtra",
+    "historical_hazard": 0.51,
+    "hazard": 0.48,
+    "exposure": 0.91,
+    "vulnerability": 0.72,
+    "risk": 0.46
+  },
+  {
+    "DISTRICT": "Sindhudurg",
+    "STATE": "Maharashtra",
+    "historical_hazard": 0,
+    "hazard": 0.22,
+    "exposure": 0.02,
+    "vulnerability": 0.91,
+    "risk": 0
+  },
+  {
+    "DISTRICT": "Solapur",
+    "STATE": "Maharashtra",
+    "historical_hazard": 0.99,
+    "hazard": 0.69,
+    "exposure": 0.79,
+    "vulnerability": 0.42,
+    "risk": 0.75
+  },
+  {
+    "DISTRICT": "Thane",
+    "STATE": "Maharashtra",
+    "historical_hazard": 0.53,
+    "hazard": 0.39,
+    "exposure": 0.63,
+    "vulnerability": 0.91,
+    "risk": 0.37
+  },
+  {
+    "DISTRICT": "Wardha",
+    "STATE": "Maharashtra",
+    "historical_hazard": 0.52,
+    "hazard": 0.34,
+    "exposure": 0.52,
+    "vulnerability": 0.75,
+    "risk": 0.29
+  },
+  {
+    "DISTRICT": "Washim",
+    "STATE": "Maharashtra",
+    "historical_hazard": 0.38,
+    "hazard": 0.22,
+    "exposure": 0.74,
+    "vulnerability": 0.95,
+    "risk": 0.29
+  },
+  {
+    "DISTRICT": "Yavatmal",
+    "STATE": "Maharashtra",
+    "historical_hazard": 0.51,
+    "hazard": 0.37,
+    "exposure": 0.38,
+    "vulnerability": 0.88,
+    "risk": 0.25
+  }
+ ]

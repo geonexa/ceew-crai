@@ -1,0 +1,374 @@
+:root {
+    --theme-color: #86be40;
+    --theme-hover-clor: #4d8c01;
+    --accordion-text-color: #ffffff;
+    /* --accordion-background-color: #FFAAC9 !important; */
+    --accordion-background-color: #86be40 !important;
+
+}
+
+
+@media screen and (min-width: 1600px) {
+
+}
+
+
+
+@media screen and (max-width: 1600px) {
+
+}
+
+
+@media screen and (max-width: 1200px) {
+
+}
+
+
+@media screen and (max-width: 992px) {
+
+    .main_dashboard {
+        width: 100%;
+        height: 100%;
+        display: block;
+
+
+    }
+
+    .home_btn {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .left_panel {
+        width: 100vw;
+        padding: 10px;
+        /* overflow-y: scroll; */
+        background-color: whitesmoke;
+
+
+    }
+
+    .right_panel {
+        width: 100vw;
+        /* padding: 10px; */
+        height: calc(100vh - 130px);
+        background-color: whitesmoke;
+
+    }
+
+    .decision_maps_container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* creates two columns */
+        grid-template-rows: repeat(4, 1fr);
+        /* creates two rows */
+        gap: 10px;
+        /* adds space between the grid items */
+        width: 100vw;
+        height: 300vh;
+        /* adjusts the height */
+        padding: 5px 10px;
+    }
+
+    .decision_maps {
+        background-color: whitesmoke;
+        border: 1px solid rgb(212, 212, 212);
+        /* The width and height are now controlled by the grid layout */
+    }
+
+    .decision_map_heading {
+        padding: 5px;
+        z-index: 1000;
+        background-color: rgba(238, 238, 238, 0.7);
+        position: absolute;
+        top: 10px;
+        width: 200px;
+        right: calc(50% - 100px);
+        border-radius: 5px;
+    }
+
+    .decision_map_heading p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .dasboard_page_container {
+        height: 100%;
+        margin-top: 80px;
+        /* overflow-y: scroll; */
+    }
+
+    .page_container {
+
+        margin: 0px 10px;
+        margin-top: 50px;
+
+    }
+
+    .coordinates_container {
+        display: none;
+    }
+
+    .main_preloader {
+        height: 100vh;
+        width: 100%;
+        top: 0px;
+    }
+
+    .page_heading_container {
+        margin-top: 80px;
+    }
+
+    .main_page_container {
+        margin-top: 75px;
+        /* overflow-y: scroll; */
+
+    }
+
+
+    .banner-content h1 {
+        font-size: 44px;
+    }
+
+    .banner-content h2 {
+        font-size: 28px;
+
+
+    }
+
+    .banner-content h3 {
+        font-size: 16px;
+
+    }
+
+
+    .short_nav_container {
+        justify-content: space-between;
+        background-color: #ffffff;
+        padding: 0px 10px;
+    }
+
+    .main_nav_logo {
+        width: 180px;
+    }
+
+    .navbar_logo {
+        display: block;
+    }
+
+    .logo_text h1 {
+        color: black;
+        font-size: 18px;
+        text-align: left;
+        display: none;
+    }
+
+
+    .navbar_toggle {
+        display: block;
+    }
+
+    .navbar_container {
+        height: 0px;
+        padding: 0px 10px;
+        justify-content: space-between;
+        width: 100vw;
+        background-color: white;
+    }
+
+    .main_nav {
+        display: block;
+        position: fixed;
+        top: 75px;
+        left: -100%;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 100%;
+        padding: 0px 0px;
+
+        z-index: 10;
+        transition: 0.5s;
+        overflow-y: auto;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-top: 2px solid var(--theme-color);
+        z-index: 10000000000 !important;
+    }
+
+    .nav_content {
+        display: block;
+        z-index: 10000000000 !important;
+    }
+
+    .main_nav_logo {
+        height: 45px;
+        margin-left: 0px;
+        /* text-align:right ; */
+        /* width: 100%; */
+    }
+    .main_nav_logo h1{
+        font-size: 48px;
+        line-height: 45px;
+
+      }
+
+
+    .ceew_logo {
+        display: none;
+    }
+
+    .main_nav_logo img {
+        height: 100%;
+        width: auto;
+    }
+
+    .show {
+        left: 0;
+    }
+
+
+    .nav_list {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin: 20px;
+    }
+
+    .nav_item {
+        width: 100%;
+        padding: 15px 0px;
+        padding: 10px 0px;
+        border-bottom: 1px solid rgb(223, 223, 223);
+        font-size: 16px;
+
+        /* border-bottom   : 1px solid rgb(223, 223, 223); */
+    }
+
+    .active_nav {
+        width: 100%;
+        padding: 15px 0px;
+        padding: 10px 0px;
+        border-bottom: 1px solid rgb(223, 223, 223);
+        background-color: white;
+        font-size: 16px;
+        /* border-bottom   : 1px solid rgb(223, 223, 223); */
+    }
+
+    .nav_list a {
+        color: black;
+    }
+
+    .dropdown_nav_container {
+        width: 100%;
+    }
+
+    .site-button,
+    .site-button-secondry {
+        width: 100% !important;
+    }
+
+    .dropdown_content {
+        display: none;
+        position: relative;
+        top: 0px;
+        z-index: 10;
+        background-color: rgb(245, 245, 245);
+        /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); */
+        border-radius: 3px 3px 0px 0px;
+        border-top: none;
+        width: 100%;
+        padding: 10px 0px;
+    }
+
+
+    .about_para {
+        margin: 10px 10px;
+    }
+
+    .about_para_p {
+        font-size: 16px;
+        color: #424242;
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+
+    /* ******************************* */
+    /* Footer */
+    /* ******************************* */
+
+    .footer_container {
+        margin: 0px 20px;
+    }
+
+
+    .footer_logo img {
+        max-width: 150px;
+    }
+
+    .footer-text p {
+        font-size: 14px;
+    }
+
+    .footer-text a {
+        font-size: 14px;
+    }
+
+
+    .copyright_text p {
+        font-size: 14px;
+    }
+
+    .map_loader_container {
+        position: fixed;
+      
+      
+      }
+      .legend_container {
+
+        max-width: 150px;
+        z-index: 1000 !important;
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+        width: 250px;
+      }
+      .legend_heading p{
+        font-size: 11px;
+      }
+
+      .time_series_container {
+        z-index: 1000;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(246, 245, 245);
+        padding: 10px;
+        bottom: 0px;
+        right: 0px;
+        border: none;
+      
+      }
+      .legend-label{
+        font-size: 10px;
+      }
+
+.map_print_btn {
+    display: none;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 576px) {
+
+}

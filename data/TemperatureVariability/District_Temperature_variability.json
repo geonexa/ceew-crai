@@ -1,0 +1,5126 @@
+[
+  {
+    "ID": 543,
+    "DISTRICT": "ADILABAD",
+    "STATE": "TELANGANA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 362,
+    "DISTRICT": "AGAR MALWA",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 607,
+    "DISTRICT": "AGRA",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 380,
+    "DISTRICT": "AHAMADNAGAR",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 163,
+    "DISTRICT": "AHMADABAD",
+    "STATE": "GUJARAT",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 432,
+    "DISTRICT": "AIZAWL",
+    "STATE": "MIZORAM",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 532,
+    "DISTRICT": "AJMER",
+    "STATE": "RAJASTHAN",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 373,
+    "DISTRICT": "AKOLA",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 307,
+    "DISTRICT": "ALAPPUZHA",
+    "STATE": "KERALA",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 594,
+    "DISTRICT": "ALIGARH",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 689,
+    "DISTRICT": "ALIPUR DUAR",
+    "STATE": "WEST BENGAL",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 355,
+    "DISTRICT": "ALIRAJPUR",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 668,
+    "DISTRICT": "ALMORA",
+    "STATE": "UTTARAKHAND",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 510,
+    "DISTRICT": "ALWAR",
+    "STATE": "RAJASTHAN",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 398,
+    "DISTRICT": "AMARAVATI",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 210,
+    "DISTRICT": "AMBALA",
+    "STATE": "HARYANA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 624,
+    "DISTRICT": "AMBEDKARNAGAR",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 644,
+    "DISTRICT": "AMETHI",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 157,
+    "DISTRICT": "AMRELI",
+    "STATE": "GUJARAT",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 5
+  },
+  {
+    "ID": 486,
+    "DISTRICT": "AMRITSAR",
+    "STATE": "PUNJAB",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 5
+  },
+  {
+    "ID": 584,
+    "DISTRICT": "AMROHA",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 182,
+    "DISTRICT": "ANAND",
+    "STATE": "GUJARAT",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 14,
+    "DISTRICT": "ANANTAPUR",
+    "STATE": "ANDHRA PRADESH",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 227,
+    "DISTRICT": "ANANTNAG",
+    "STATE": "JAMMU & KASHMIR",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 20,
+    "DISTRICT": "ANJAW",
+    "STATE": "ARUNACHAL PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 468,
+    "DISTRICT": "ANUGUL",
+    "STATE": "ODISHA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 346,
+    "DISTRICT": "ANUPPUR",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 109,
+    "DISTRICT": "ARARIA",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 172,
+    "DISTRICT": "ARAVALLI",
+    "STATE": "GUJARAT",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 707,
+    "DISTRICT": "ARIYALUR",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 101,
+    "DISTRICT": "ARWAL",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 327,
+    "DISTRICT": "ASHOKNAGAR",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 619,
+    "DISTRICT": "AURAIYA",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 114,
+    "DISTRICT": "AURANGABAD",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 401,
+    "DISTRICT": "AURANGABAD",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 6
+  },
+  {
+    "ID": 627,
+    "DISTRICT": "AZAMGARH",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 230,
+    "DISTRICT": "BADGAM",
+    "STATE": "JAMMU & KASHMIR",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 273,
+    "DISTRICT": "BAGALKOT",
+    "STATE": "KARNATAKA",
+    "Extreme_warm_nights": 8,
+    "Extreme_hot_days": 5
+  },
+  {
+    "ID": 665,
+    "DISTRICT": "BAGESHWAR",
+    "STATE": "UTTARAKHAND",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 651,
+    "DISTRICT": "BAGHPAT",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 592,
+    "DISTRICT": "BAHRAICH",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 54,
+    "DISTRICT": "BAKSA",
+    "STATE": "ASSAM",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 360,
+    "DISTRICT": "BALAGHAT",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 475,
+    "DISTRICT": "BALASORE (BALESHWAR)",
+    "STATE": "ODISHA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 277,
+    "DISTRICT": "BALLARI",
+    "STATE": "KARNATAKA",
+    "Extreme_warm_nights": 7,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 630,
+    "DISTRICT": "BALLIA",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 126,
+    "DISTRICT": "BALOD",
+    "STATE": "CHHATTISGARH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 135,
+    "DISTRICT": "BALODA BAZAR",
+    "STATE": "CHHATTISGARH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 138,
+    "DISTRICT": "BALRAMPUR",
+    "STATE": "CHHATTISGARH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 656,
+    "DISTRICT": "BALRAMPUR",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 159,
+    "DISTRICT": "BANAS KANTHA",
+    "STATE": "GUJARAT",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 5
+  },
+  {
+    "ID": 633,
+    "DISTRICT": "BANDA",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 224,
+    "DISTRICT": "BANDIPURA",
+    "STATE": "JAMMU & KASHMIR",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 92,
+    "DISTRICT": "BANKA",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 682,
+    "DISTRICT": "BANKURA",
+    "STATE": "WEST BENGAL",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 531,
+    "DISTRICT": "BANSWARA",
+    "STATE": "RAJASTHAN",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 609,
+    "DISTRICT": "BARABANKI",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 477,
+    "DISTRICT": "BARAGARH",
+    "STATE": "ODISHA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 225,
+    "DISTRICT": "BARAMULA",
+    "STATE": "JAMMU & KASHMIR",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 527,
+    "DISTRICT": "BARAN",
+    "STATE": "RAJASTHAN",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 586,
+    "DISTRICT": "BAREILLY",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 518,
+    "DISTRICT": "BARMER",
+    "STATE": "RAJASTHAN",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 499,
+    "DISTRICT": "BARNALA",
+    "STATE": "PUNJAB",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 58,
+    "DISTRICT": "BARPETA",
+    "STATE": "ASSAM",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 361,
+    "DISTRICT": "BARWANI",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 120,
+    "DISTRICT": "BASTAR",
+    "STATE": "CHHATTISGARH",
+    "Extreme_warm_nights": 7,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 613,
+    "DISTRICT": "BASTI",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 500,
+    "DISTRICT": "BATHINDA",
+    "STATE": "PUNJAB",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 456,
+    "DISTRICT": "BAUDH (BAUDA)",
+    "STATE": "ODISHA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 0
+  },
+  {
+    "ID": 97,
+    "DISTRICT": "BEGUSARAI",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 271,
+    "DISTRICT": "BELAGAVI",
+    "STATE": "KARNATAKA",
+    "Extreme_warm_nights": 7,
+    "Extreme_hot_days": 7
+  },
+  {
+    "ID": 132,
+    "DISTRICT": "BEMETARA",
+    "STATE": "CHHATTISGARH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 289,
+    "DISTRICT": "BENGALURU RURAL",
+    "STATE": "KARNATAKA",
+    "Extreme_warm_nights": 7,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 291,
+    "DISTRICT": "BENGALURU URBAN",
+    "STATE": "KARNATAKA",
+    "Extreme_warm_nights": 7,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 366,
+    "DISTRICT": "BETUL",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 640,
+    "DISTRICT": "BHADOHI",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 573,
+    "DISTRICT": "BHADRADRI KOTHAGUDEM",
+    "STATE": "TELANGANA",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 450,
+    "DISTRICT": "BHADRAK",
+    "STATE": "ODISHA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 98,
+    "DISTRICT": "BHAGALPUR",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 369,
+    "DISTRICT": "BHANDARA",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 513,
+    "DISTRICT": "BHARATPUR",
+    "STATE": "RAJASTHAN",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 167,
+    "DISTRICT": "BHARUCH",
+    "STATE": "GUJARAT",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 6
+  },
+  {
+    "ID": 183,
+    "DISTRICT": "BHAVNAGAR",
+    "STATE": "GUJARAT",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 5
+  },
+  {
+    "ID": 522,
+    "DISTRICT": "BHILWARA",
+    "STATE": "RAJASTHAN",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 318,
+    "DISTRICT": "BHIND",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 207,
+    "DISTRICT": "BHIWANI",
+    "STATE": "HARYANA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 85,
+    "DISTRICT": "BHOJPUR",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 340,
+    "DISTRICT": "BHOPAL",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 5
+  },
+  {
+    "ID": 385,
+    "DISTRICT": "BID",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 5
+  },
+  {
+    "ID": 269,
+    "DISTRICT": "BIDAR",
+    "STATE": "KARNATAKA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 139,
+    "DISTRICT": "BIJAPUR",
+    "STATE": "CHHATTISGARH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 649,
+    "DISTRICT": "BIJNOR",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 537,
+    "DISTRICT": "BIKANER",
+    "STATE": "RAJASTHAN",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 141,
+    "DISTRICT": "BILASPUR",
+    "STATE": "CHHATTISGARH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 222,
+    "DISTRICT": "BILASPUR",
+    "STATE": "HIMACHAL PRADESH",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 678,
+    "DISTRICT": "BIRBHUM",
+    "STATE": "WEST BENGAL",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 409,
+    "DISTRICT": "BISHNUPUR",
+    "STATE": "MANIPUR",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 72,
+    "DISTRICT": "BISWANATH",
+    "STATE": "ASSAM",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 257,
+    "DISTRICT": "BOKARO",
+    "STATE": "JHARKHAND",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 455,
+    "DISTRICT": "BOLANGIR (BALANGIR)",
+    "STATE": "ODISHA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 62,
+    "DISTRICT": "BONGAIGAON",
+    "STATE": "ASSAM",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 173,
+    "DISTRICT": "BOTAD",
+    "STATE": "GUJARAT",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 5
+  },
+  {
+    "ID": 591,
+    "DISTRICT": "BUDAUN",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 588,
+    "DISTRICT": "BULANDSHAHR",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 372,
+    "DISTRICT": "BULDHANA",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 5
+  },
+  {
+    "ID": 524,
+    "DISTRICT": "BUNDI",
+    "STATE": "RAJASTHAN",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 316,
+    "DISTRICT": "BURHANPUR",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 5
+  },
+  {
+    "ID": 86,
+    "DISTRICT": "BUXAR",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 67,
+    "DISTRICT": "CACHAR",
+    "STATE": "ASSAM",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 148,
+    "DISTRICT": "CENTRAL",
+    "STATE": "DELHI",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 293,
+    "DISTRICT": "CHAMARAJANAGAR",
+    "STATE": "KARNATAKA",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 212,
+    "DISTRICT": "CHAMBA",
+    "STATE": "HIMACHAL PRADESH",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 660,
+    "DISTRICT": "CHAMOLI",
+    "STATE": "UTTARAKHAND",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 670,
+    "DISTRICT": "CHAMPAWAT",
+    "STATE": "UTTARAKHAND",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 434,
+    "DISTRICT": "CHAMPHAI",
+    "STATE": "MIZORAM",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 639,
+    "DISTRICT": "CHANDAULI",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 410,
+    "DISTRICT": "CHANDEL",
+    "STATE": "MANIPUR",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 115,
+    "DISTRICT": "CHANDIGARH",
+    "STATE": "CHANDIGARH",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 377,
+    "DISTRICT": "CHANDRAPUR",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 21,
+    "DISTRICT": "CHANGLANG",
+    "STATE": "ARUNACHAL PRADESH",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 70,
+    "DISTRICT": "CHARAIDEO",
+    "STATE": "ASSAM",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 196,
+    "DISTRICT": "CHARKHI DADRI",
+    "STATE": "HARYANA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 252,
+    "DISTRICT": "CHATRA",
+    "STATE": "JHARKHAND",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 731,
+    "DISTRICT": "CHENGALPATTU",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 696,
+    "DISTRICT": "CHENNAI",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 8,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 364,
+    "DISTRICT": "CHHATARPUR",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 356,
+    "DISTRICT": "CHHINDWARA",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 174,
+    "DISTRICT": "CHHOTA UDEPUR",
+    "STATE": "GUJARAT",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 286,
+    "DISTRICT": "CHIK BALLAPUR",
+    "STATE": "KARNATAKA",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 285,
+    "DISTRICT": "CHIKKAMAGALURU",
+    "STATE": "KARNATAKA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 53,
+    "DISTRICT": "CHIRANG",
+    "STATE": "ASSAM",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 281,
+    "DISTRICT": "CHITRADURGA",
+    "STATE": "KARNATAKA",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 638,
+    "DISTRICT": "CHITRAKOOT",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 534,
+    "DISTRICT": "CHITTAURGARH",
+    "STATE": "RAJASTHAN",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 18,
+    "DISTRICT": "CHITTOOR",
+    "STATE": "ANDHRA PRADESH",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 411,
+    "DISTRICT": "CHURACHANDPUR",
+    "STATE": "MANIPUR",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 506,
+    "DISTRICT": "CHURU",
+    "STATE": "RAJASTHAN",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 705,
+    "DISTRICT": "COIMBATORE",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 719,
+    "DISTRICT": "CUDDALORE",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 457,
+    "DISTRICT": "CUTTACK",
+    "STATE": "ODISHA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 0,
+    "DISTRICT": "DADRA & NAGAR HAVELI",
+    "STATE": "DADRA & NAGAR HAVE",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 165,
+    "DISTRICT": "DAHOD",
+    "STATE": "GUJARAT",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 119,
+    "DISTRICT": "DAKSHIN BASTAR DANTEWADA",
+    "STATE": "CHHATTISGARH",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 675,
+    "DISTRICT": "DAKSHIN DINAJPUR",
+    "STATE": "WEST BENGAL",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 290,
+    "DISTRICT": "DAKSHINA  KANNADA",
+    "STATE": "KARNATAKA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 1,
+    "DISTRICT": "DAMAN",
+    "STATE": "DAMAN & DIU",
+    "Extreme_warm_nights": 0,
+    "Extreme_hot_days": 0
+  },
+  {
+    "ID": 332,
+    "DISTRICT": "DAMOH",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 158,
+    "DISTRICT": "DANGS",
+    "STATE": "GUJARAT",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 5
+  },
+  {
+    "ID": 87,
+    "DISTRICT": "DARBHANGA",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 673,
+    "DISTRICT": "DARJILING",
+    "STATE": "WEST BENGAL",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 57,
+    "DISTRICT": "DARRANG",
+    "STATE": "ASSAM",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 363,
+    "DISTRICT": "DATIA",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 515,
+    "DISTRICT": "DAUSA",
+    "STATE": "RAJASTHAN",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 282,
+    "DISTRICT": "DAVANGERE",
+    "STATE": "KARNATAKA",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 661,
+    "DISTRICT": "DEHRADUN",
+    "STATE": "UTTARAKHAND",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 478,
+    "DISTRICT": "DEOGARH",
+    "STATE": "ODISHA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 250,
+    "DISTRICT": "DEOGHAR",
+    "STATE": "JHARKHAND",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 622,
+    "DISTRICT": "DEORIA",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 186,
+    "DISTRICT": "DEVBHUMI DWARKA",
+    "STATE": "GUJARAT",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 345,
+    "DISTRICT": "DEWAS",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 577,
+    "DISTRICT": "DHALAI",
+    "STATE": "TRIPURA",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 125,
+    "DISTRICT": "DHAMTARI",
+    "STATE": "CHHATTISGARH",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 255,
+    "DISTRICT": "DHANBAD",
+    "STATE": "JHARKHAND",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 350,
+    "DISTRICT": "DHAR",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 699,
+    "DISTRICT": "DHARMAPURI",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 278,
+    "DISTRICT": "DHARWAD",
+    "STATE": "KARNATAKA",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 5
+  },
+  {
+    "ID": 517,
+    "DISTRICT": "DHAULPUR",
+    "STATE": "RAJASTHAN",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 45,
+    "DISTRICT": "DHEMAJI",
+    "STATE": "ASSAM",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 451,
+    "DISTRICT": "DHENKANAL",
+    "STATE": "ODISHA",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 63,
+    "DISTRICT": "DHUBRI",
+    "STATE": "ASSAM",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 399,
+    "DISTRICT": "DHULE",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 36,
+    "DISTRICT": "DIBANG VALLEY",
+    "STATE": "ARUNACHAL PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 46,
+    "DISTRICT": "DIBRUGARH",
+    "STATE": "ASSAM",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 66,
+    "DISTRICT": "DIMA HASAO",
+    "STATE": "ASSAM",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 449,
+    "DISTRICT": "DIMAPUR",
+    "STATE": "NAGALAND",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 712,
+    "DISTRICT": "DINDIGUL",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 7,
+    "Extreme_hot_days": 0
+  },
+  {
+    "ID": 348,
+    "DISTRICT": "DINDORI",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 2,
+    "DISTRICT": "DIU",
+    "STATE": "DAMAN & DIU",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 8
+  },
+  {
+    "ID": 238,
+    "DISTRICT": "DODA",
+    "STATE": "JAMMU & KASHMIR",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 249,
+    "DISTRICT": "DUMKA",
+    "STATE": "JHARKHAND",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 530,
+    "DISTRICT": "DUNGARPUR",
+    "STATE": "RAJASTHAN",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 124,
+    "DISTRICT": "DURG",
+    "STATE": "CHHATTISGARH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 146,
+    "DISTRICT": "EAST",
+    "STATE": "DELHI",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 542,
+    "DISTRICT": "EAST DISTRICT",
+    "STATE": "SIKKIM",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 426,
+    "DISTRICT": "EAST GARO HILLS",
+    "STATE": "MEGHALAYA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 11,
+    "DISTRICT": "EAST GODAVARI",
+    "STATE": "ANDHRA PRADESH",
+    "Extreme_warm_nights": 8,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 422,
+    "DISTRICT": "EAST JAINTIA HILLS",
+    "STATE": "MEGHALAYA",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 29,
+    "DISTRICT": "EAST KAMENG",
+    "STATE": "ARUNACHAL PRADESH",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 423,
+    "DISTRICT": "EAST KHASI HILLS",
+    "STATE": "MEGHALAYA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 359,
+    "DISTRICT": "EAST NIMAR",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 25,
+    "DISTRICT": "EAST SIANG",
+    "STATE": "ARUNACHAL PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 264,
+    "DISTRICT": "EAST SINGHBHUM",
+    "STATE": "JHARKHAND",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 306,
+    "DISTRICT": "ERNAKULAM",
+    "STATE": "KERALA",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 701,
+    "DISTRICT": "ERODE",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 8,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 600,
+    "DISTRICT": "ETAH",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 617,
+    "DISTRICT": "ETAWAH",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 620,
+    "DISTRICT": "FAIZABAD",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 191,
+    "DISTRICT": "FARIDABAD",
+    "STATE": "HARYANA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 495,
+    "DISTRICT": "FARIDKOT",
+    "STATE": "PUNJAB",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 602,
+    "DISTRICT": "FARRUKHABAD",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 203,
+    "DISTRICT": "FATEHABAD",
+    "STATE": "HARYANA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 496,
+    "DISTRICT": "FATEHGARH SAHIB",
+    "STATE": "PUNJAB",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 629,
+    "DISTRICT": "FATEHPUR",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 491,
+    "DISTRICT": "FAZILKA",
+    "STATE": "PUNJAB",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 603,
+    "DISTRICT": "FIROZABAD",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 503,
+    "DISTRICT": "FIROZPUR",
+    "STATE": "PUNJAB",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 276,
+    "DISTRICT": "GADAG",
+    "STATE": "KARNATAKA",
+    "Extreme_warm_nights": 7,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 375,
+    "DISTRICT": "GADCHIROLI",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 471,
+    "DISTRICT": "GAJAPATI",
+    "STATE": "ODISHA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 226,
+    "DISTRICT": "GANDERBAL",
+    "STATE": "JAMMU & KASHMIR",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 162,
+    "DISTRICT": "GANDHINAGAR",
+    "STATE": "GUJARAT",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 5
+  },
+  {
+    "ID": 535,
+    "DISTRICT": "GANGANAGAR",
+    "STATE": "RAJASTHAN",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 470,
+    "DISTRICT": "GANJAM",
+    "STATE": "ODISHA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 253,
+    "DISTRICT": "GARHWA",
+    "STATE": "JHARKHAND",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 667,
+    "DISTRICT": "GARHWAL",
+    "STATE": "UTTARAKHAND",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 122,
+    "DISTRICT": "GARIYABAND",
+    "STATE": "CHHATTISGARH",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 589,
+    "DISTRICT": "GAUTAMBUDHNAGAR",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 94,
+    "DISTRICT": "GAYA",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 634,
+    "DISTRICT": "GAZIPUR",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 645,
+    "DISTRICT": "GHAZIABAD",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 176,
+    "DISTRICT": "GIR SOMNATH",
+    "STATE": "GUJARAT",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 6
+  },
+  {
+    "ID": 248,
+    "DISTRICT": "GIRIDIH",
+    "STATE": "JHARKHAND",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 65,
+    "DISTRICT": "GOALPARA",
+    "STATE": "ASSAM",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 246,
+    "DISTRICT": "GODDA",
+    "STATE": "JHARKHAND",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 51,
+    "DISTRICT": "GOLAGHAT",
+    "STATE": "ASSAM",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 579,
+    "DISTRICT": "GOMATI",
+    "STATE": "TRIPURA",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 608,
+    "DISTRICT": "GONDA",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 368,
+    "DISTRICT": "GONDIA",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 81,
+    "DISTRICT": "GOPALGANJ",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 614,
+    "DISTRICT": "GORAKHPUR",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 261,
+    "DISTRICT": "GUMLA",
+    "STATE": "JHARKHAND",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 326,
+    "DISTRICT": "GUNA",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 10,
+    "DISTRICT": "GUNTUR",
+    "STATE": "ANDHRA PRADESH",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 484,
+    "DISTRICT": "GURDASPUR",
+    "STATE": "PUNJAB",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 190,
+    "DISTRICT": "GURUGRAM",
+    "STATE": "HARYANA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 319,
+    "DISTRICT": "GWALIOR",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 69,
+    "DISTRICT": "HAILAKANDI",
+    "STATE": "ASSAM",
+    "Extreme_warm_nights": 7,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 221,
+    "DISTRICT": "HAMIRPUR",
+    "STATE": "HIMACHAL PRADESH",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 657,
+    "DISTRICT": "HAMIRPUR",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 536,
+    "DISTRICT": "HANUMANGARH",
+    "STATE": "RAJASTHAN",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 686,
+    "DISTRICT": "HAORA",
+    "STATE": "WEST BENGAL",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 585,
+    "DISTRICT": "HAPUR",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 357,
+    "DISTRICT": "HARDA",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 601,
+    "DISTRICT": "HARDOI",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 666,
+    "DISTRICT": "HARIDWAR",
+    "STATE": "UTTARAKHAND",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 287,
+    "DISTRICT": "HASSAN",
+    "STATE": "KARNATAKA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 599,
+    "DISTRICT": "HATHRAS",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 280,
+    "DISTRICT": "HAVERI",
+    "STATE": "KARNATAKA",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 268,
+    "DISTRICT": "HAZARIBAGH",
+    "STATE": "JHARKHAND",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 381,
+    "DISTRICT": "HINGOLI",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 204,
+    "DISTRICT": "HISAR",
+    "STATE": "HARYANA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 73,
+    "DISTRICT": "HOJAI",
+    "STATE": "ASSAM",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 353,
+    "DISTRICT": "HOSHANGABAD",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 485,
+    "DISTRICT": "HOSHIARPUR",
+    "STATE": "PUNJAB",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 684,
+    "DISTRICT": "HUGLI",
+    "STATE": "WEST BENGAL",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 544,
+    "DISTRICT": "HYDERABAD",
+    "STATE": "TELANGANA",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 0
+  },
+  {
+    "ID": 305,
+    "DISTRICT": "IDUKKI",
+    "STATE": "KERALA",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 412,
+    "DISTRICT": "IMPHAL EAST",
+    "STATE": "MANIPUR",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 407,
+    "DISTRICT": "IMPHAL WEST",
+    "STATE": "MANIPUR",
+    "Extreme_warm_nights": null,
+    "Extreme_hot_days": null
+  },
+  {
+    "ID": 351,
+    "DISTRICT": "INDORE",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 344,
+    "DISTRICT": "JABALPUR",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 462,
+    "DISTRICT": "JAGATSINGHPUR",
+    "STATE": "ODISHA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 545,
+    "DISTRICT": "JAGTIAL",
+    "STATE": "TELANGANA",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 102,
+    "DISTRICT": "JAHANABAD",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 511,
+    "DISTRICT": "JAIPUR",
+    "STATE": "RAJASTHAN",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 508,
+    "DISTRICT": "JAISALMER",
+    "STATE": "RAJASTHAN",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 452,
+    "DISTRICT": "JAJAPUR",
+    "STATE": "ODISHA",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 487,
+    "DISTRICT": "JALANDHAR",
+    "STATE": "PUNJAB",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 626,
+    "DISTRICT": "JALAUN",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 370,
+    "DISTRICT": "JALGAON",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 5
+  },
+  {
+    "ID": 379,
+    "DISTRICT": "JALNA",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 5
+  },
+  {
+    "ID": 523,
+    "DISTRICT": "JALOR",
+    "STATE": "RAJASTHAN",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 674,
+    "DISTRICT": "JALPAIGURI",
+    "STATE": "WEST BENGAL",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 239,
+    "DISTRICT": "JAMMU",
+    "STATE": "JAMMU & KASHMIR",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 185,
+    "DISTRICT": "JAMNAGAR",
+    "STATE": "GUJARAT",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 5
+  },
+  {
+    "ID": 254,
+    "DISTRICT": "JAMTARA",
+    "STATE": "JHARKHAND",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 91,
+    "DISTRICT": "JAMUI",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 546,
+    "DISTRICT": "JANGAON",
+    "STATE": "TELANGANA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 131,
+    "DISTRICT": "JANJGIR - CHAMPA",
+    "STATE": "CHHATTISGARH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 128,
+    "DISTRICT": "JASHPUR",
+    "STATE": "CHHATTISGARH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 631,
+    "DISTRICT": "JAUNPUR",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 574,
+    "DISTRICT": "JAYASHANKAR BHUPALAPALLY",
+    "STATE": "TELANGANA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 347,
+    "DISTRICT": "JHABUA",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 189,
+    "DISTRICT": "JHAJJAR",
+    "STATE": "HARYANA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 529,
+    "DISTRICT": "JHALAWAR",
+    "STATE": "RAJASTHAN",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 632,
+    "DISTRICT": "JHANSI",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 692,
+    "DISTRICT": "JHARGRAM",
+    "STATE": "WEST BENGAL",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 476,
+    "DISTRICT": "JHARSUGUDA",
+    "STATE": "ODISHA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 507,
+    "DISTRICT": "JHUNJHUNUN",
+    "STATE": "RAJASTHAN",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 202,
+    "DISTRICT": "JIND",
+    "STATE": "HARYANA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 413,
+    "DISTRICT": "JIRIBAM",
+    "STATE": "MANIPUR",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 512,
+    "DISTRICT": "JODHPUR",
+    "STATE": "RAJASTHAN",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 548,
+    "DISTRICT": "JOGULAMBA GADWAL",
+    "STATE": "TELANGANA",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 49,
+    "DISTRICT": "JORHAT",
+    "STATE": "ASSAM",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 184,
+    "DISTRICT": "JUNAGADH",
+    "STATE": "GUJARAT",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 130,
+    "DISTRICT": "KABIRDHAM",
+    "STATE": "CHHATTISGARH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 178,
+    "DISTRICT": "KACHCHH",
+    "STATE": "GUJARAT",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 6
+  },
+  {
+    "ID": 89,
+    "DISTRICT": "KAIMUR",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 199,
+    "DISTRICT": "KAITHAL",
+    "STATE": "HARYANA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 408,
+    "DISTRICT": "KAKCHING",
+    "STATE": "MANIPUR",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 270,
+    "DISTRICT": "KALABURAGI",
+    "STATE": "KARNATAKA",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 5
+  },
+  {
+    "ID": 461,
+    "DISTRICT": "KALAHANDI",
+    "STATE": "ODISHA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 691,
+    "DISTRICT": "KALIMPONG",
+    "STATE": "WEST BENGAL",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 724,
+    "DISTRICT": "KALLAKKURICHI",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 549,
+    "DISTRICT": "KAMAREDDY",
+    "STATE": "TELANGANA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 404,
+    "DISTRICT": "KAMJONG",
+    "STATE": "MANIPUR",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 43,
+    "DISTRICT": "KAMLE",
+    "STATE": "ARUNACHAL PRADESH",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 64,
+    "DISTRICT": "KAMRUP METRO",
+    "STATE": "ASSAM",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 61,
+    "DISTRICT": "KAMRUP RURAL",
+    "STATE": "ASSAM",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 730,
+    "DISTRICT": "KANCHIPURAM",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 458,
+    "DISTRICT": "KANDHAMAL",
+    "STATE": "ODISHA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 0
+  },
+  {
+    "ID": 414,
+    "DISTRICT": "KANGPOKPI",
+    "STATE": "MANIPUR",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 213,
+    "DISTRICT": "KANGRA",
+    "STATE": "HIMACHAL PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 611,
+    "DISTRICT": "KANNAUJ",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 312,
+    "DISTRICT": "KANNUR",
+    "STATE": "KERALA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 618,
+    "DISTRICT": "KANPUR",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 621,
+    "DISTRICT": "KANPUR DEHAT",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 717,
+    "DISTRICT": "KANYAKUMARI",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 505,
+    "DISTRICT": "KAPURTHALA",
+    "STATE": "PUNJAB",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 481,
+    "DISTRICT": "KARAIKAL",
+    "STATE": "PUDUCHERRY",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 516,
+    "DISTRICT": "KARAULI",
+    "STATE": "RAJASTHAN",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 75,
+    "DISTRICT": "KARBI ANGLONG",
+    "STATE": "ASSAM",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 314,
+    "DISTRICT": "KARGIL",
+    "STATE": "LADAKH",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 68,
+    "DISTRICT": "KARIMGANJ",
+    "STATE": "ASSAM",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 550,
+    "DISTRICT": "KARIMNAGAR",
+    "STATE": "TELANGANA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 201,
+    "DISTRICT": "KARNAL",
+    "STATE": "HARYANA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 710,
+    "DISTRICT": "KARUR",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 9,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 299,
+    "DISTRICT": "KASARAGOD",
+    "STATE": "KERALA",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 595,
+    "DISTRICT": "KASGANJ",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 240,
+    "DISTRICT": "KATHUA",
+    "STATE": "JAMMU & KASHMIR",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 83,
+    "DISTRICT": "KATIHAR",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 337,
+    "DISTRICT": "KATNI",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 635,
+    "DISTRICT": "KAUSHAMBI",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 469,
+    "DISTRICT": "KENDRAPARHA",
+    "STATE": "ODISHA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 474,
+    "DISTRICT": "KEONJHAR (KENDUJHAR)",
+    "STATE": "ODISHA",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 84,
+    "DISTRICT": "KHAGARIA",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 551,
+    "DISTRICT": "KHAMMAM",
+    "STATE": "TELANGANA",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 181,
+    "DISTRICT": "KHEDA",
+    "STATE": "GUJARAT",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 590,
+    "DISTRICT": "KHERI",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 460,
+    "DISTRICT": "KHORDHA",
+    "STATE": "ODISHA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 580,
+    "DISTRICT": "KHOWAI",
+    "STATE": "TRIPURA",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 262,
+    "DISTRICT": "KHUNTI",
+    "STATE": "JHARKHAND",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 216,
+    "DISTRICT": "KINNAUR",
+    "STATE": "HIMACHAL PRADESH",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 443,
+    "DISTRICT": "KIPHIRE",
+    "STATE": "NAGALAND",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 113,
+    "DISTRICT": "KISHANGANJ",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 228,
+    "DISTRICT": "KISHTWAR",
+    "STATE": "JAMMU & KASHMIR",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 693,
+    "DISTRICT": "KOCH BIHAR",
+    "STATE": "WEST BENGAL",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 292,
+    "DISTRICT": "KODAGU",
+    "STATE": "KARNATAKA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 267,
+    "DISTRICT": "KODARMA",
+    "STATE": "JHARKHAND",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 448,
+    "DISTRICT": "KOHIMA",
+    "STATE": "NAGALAND",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 56,
+    "DISTRICT": "KOKRAJHAR",
+    "STATE": "ASSAM",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 288,
+    "DISTRICT": "KOLAR",
+    "STATE": "KARNATAKA",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 431,
+    "DISTRICT": "KOLASIB",
+    "STATE": "MIZORAM",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 0
+  },
+  {
+    "ID": 393,
+    "DISTRICT": "KOLHAPUR",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 6
+  },
+  {
+    "ID": 687,
+    "DISTRICT": "KOLKATA",
+    "STATE": "WEST BENGAL",
+    "Extreme_warm_nights": null,
+    "Extreme_hot_days": null
+  },
+  {
+    "ID": 310,
+    "DISTRICT": "KOLLAM",
+    "STATE": "KERALA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 121,
+    "DISTRICT": "KONDAGAON",
+    "STATE": "CHHATTISGARH",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 275,
+    "DISTRICT": "KOPPAL",
+    "STATE": "KARNATAKA",
+    "Extreme_warm_nights": 8,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 466,
+    "DISTRICT": "KORAPUT",
+    "STATE": "ODISHA",
+    "Extreme_warm_nights": 7,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 129,
+    "DISTRICT": "KORBA",
+    "STATE": "CHHATTISGARH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 127,
+    "DISTRICT": "KOREA",
+    "STATE": "CHHATTISGARH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 525,
+    "DISTRICT": "KOTA",
+    "STATE": "RAJASTHAN",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 308,
+    "DISTRICT": "KOTTAYAM",
+    "STATE": "KERALA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 301,
+    "DISTRICT": "KOZHIKODE",
+    "STATE": "KERALA",
+    "Extreme_warm_nights": 0,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 31,
+    "DISTRICT": "KRA DAADI",
+    "STATE": "ARUNACHAL PRADESH",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 9,
+    "DISTRICT": "KRISHNA",
+    "STATE": "ANDHRA PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 697,
+    "DISTRICT": "KRISHNAGIRI",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 234,
+    "DISTRICT": "KULGAM",
+    "STATE": "JAMMU & KASHMIR",
+    "Extreme_warm_nights": 7,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 214,
+    "DISTRICT": "KULLU",
+    "STATE": "HIMACHAL PRADESH",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 552,
+    "DISTRICT": "KUMURAM BHEEM",
+    "STATE": "TELANGANA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 223,
+    "DISTRICT": "KUPWARA",
+    "STATE": "JAMMU & KASHMIR",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 13,
+    "DISTRICT": "KURNOOL",
+    "STATE": "ANDHRA PRADESH",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 198,
+    "DISTRICT": "KURUKSHETRA",
+    "STATE": "HARYANA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 27,
+    "DISTRICT": "KURUNG KUMEY",
+    "STATE": "ARUNACHAL PRADESH",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 610,
+    "DISTRICT": "KUSHINAGAR",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 211,
+    "DISTRICT": "LAHUL & SPITI",
+    "STATE": "HIMACHAL PRADESH",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 47,
+    "DISTRICT": "LAKHIMPUR",
+    "STATE": "ASSAM",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 99,
+    "DISTRICT": "LAKHISARAI",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 315,
+    "DISTRICT": "LAKSHADWEEP",
+    "STATE": "LAKSHADWEEP",
+    "Extreme_warm_nights": null,
+    "Extreme_hot_days": null
+  },
+  {
+    "ID": 642,
+    "DISTRICT": "LALITPUR",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 256,
+    "DISTRICT": "LATEHAR",
+    "STATE": "JHARKHAND",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 387,
+    "DISTRICT": "LATUR",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 438,
+    "DISTRICT": "LAWNGTLAI",
+    "STATE": "MIZORAM",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 313,
+    "DISTRICT": "LEH",
+    "STATE": "LADAKH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 42,
+    "DISTRICT": "LEPA RADA",
+    "STATE": "ARUNACHAL PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 260,
+    "DISTRICT": "LOHARDAGA",
+    "STATE": "JHARKHAND",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 26,
+    "DISTRICT": "LOHIT",
+    "STATE": "ARUNACHAL PRADESH",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 33,
+    "DISTRICT": "LONGDING",
+    "STATE": "ARUNACHAL PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 440,
+    "DISTRICT": "LONGLENG",
+    "STATE": "NAGALAND",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 37,
+    "DISTRICT": "LOWER DIBANG VALLEY",
+    "STATE": "ARUNACHAL PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 35,
+    "DISTRICT": "LOWER SIANG",
+    "STATE": "ARUNACHAL PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 28,
+    "DISTRICT": "LOWER SUBANSIRI",
+    "STATE": "ARUNACHAL PRADESH",
+    "Extreme_warm_nights": 7,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 612,
+    "DISTRICT": "LUCKNOW",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 493,
+    "DISTRICT": "LUDHIANA",
+    "STATE": "PUNJAB",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 436,
+    "DISTRICT": "LUNGLEI",
+    "STATE": "MIZORAM",
+    "Extreme_warm_nights": 7,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 108,
+    "DISTRICT": "MADHEPURA",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 111,
+    "DISTRICT": "MADHUBANI",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 713,
+    "DISTRICT": "MADURAI",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 0
+  },
+  {
+    "ID": 553,
+    "DISTRICT": "MAHABUBABAD",
+    "STATE": "TELANGANA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 554,
+    "DISTRICT": "MAHABUBNAGAR",
+    "STATE": "TELANGANA",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 606,
+    "DISTRICT": "MAHARAJGANJ",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 116,
+    "DISTRICT": "MAHASAMUND",
+    "STATE": "CHHATTISGARH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 482,
+    "DISTRICT": "MAHE",
+    "STATE": "PUDUCHERRY",
+    "Extreme_warm_nights": 0,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 192,
+    "DISTRICT": "MAHENDRAGARH",
+    "STATE": "HARYANA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 161,
+    "DISTRICT": "MAHESANA",
+    "STATE": "GUJARAT",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 5
+  },
+  {
+    "ID": 175,
+    "DISTRICT": "MAHISAGAR",
+    "STATE": "GUJARAT",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 647,
+    "DISTRICT": "MAHOBA",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 605,
+    "DISTRICT": "MAINPURI",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 71,
+    "DISTRICT": "MAJULI",
+    "STATE": "ASSAM",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 302,
+    "DISTRICT": "MALAPPURAM",
+    "STATE": "KERALA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 676,
+    "DISTRICT": "MALDAH",
+    "STATE": "WEST BENGAL",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 467,
+    "DISTRICT": "MALKANGIRI",
+    "STATE": "ODISHA",
+    "Extreme_warm_nights": 9,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 433,
+    "DISTRICT": "MAMIT",
+    "STATE": "MIZORAM",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 555,
+    "DISTRICT": "MANCHERIAL",
+    "STATE": "TELANGANA",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 215,
+    "DISTRICT": "MANDI",
+    "STATE": "HIMACHAL PRADESH",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 352,
+    "DISTRICT": "MANDLA",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 328,
+    "DISTRICT": "MANDSAUR",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 296,
+    "DISTRICT": "MANDYA",
+    "STATE": "KARNATAKA",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 502,
+    "DISTRICT": "MANSA",
+    "STATE": "PUNJAB",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 60,
+    "DISTRICT": "MARIGAON",
+    "STATE": "ASSAM",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 596,
+    "DISTRICT": "MATHURA",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 628,
+    "DISTRICT": "MAU",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 472,
+    "DISTRICT": "MAYURBHANJ",
+    "STATE": "ODISHA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 556,
+    "DISTRICT": "MEDAK",
+    "STATE": "TELANGANA",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 557,
+    "DISTRICT": "MEDCHAL-MALKAJGIRI",
+    "STATE": "TELANGANA",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 0
+  },
+  {
+    "ID": 685,
+    "DISTRICT": "MEDINIPUR WEST",
+    "STATE": "WEST BENGAL",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 652,
+    "DISTRICT": "MEERUT",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 244,
+    "DISTRICT": "MIRPUR",
+    "STATE": "JAMMU & KASHMIR",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 641,
+    "DISTRICT": "MIRZAPUR",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 492,
+    "DISTRICT": "MOGA",
+    "STATE": "PUNJAB",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 441,
+    "DISTRICT": "MOKOKCHUNG",
+    "STATE": "NAGALAND",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 439,
+    "DISTRICT": "MON",
+    "STATE": "NAGALAND",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 653,
+    "DISTRICT": "MORADABAD",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 187,
+    "DISTRICT": "MORBI",
+    "STATE": "GUJARAT",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 317,
+    "DISTRICT": "MORENA",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 547,
+    "DISTRICT": "MULUGU",
+    "STATE": "TELANGANA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 386,
+    "DISTRICT": "MUMBAI CITY",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": null,
+    "Extreme_hot_days": null
+  },
+  {
+    "ID": 136,
+    "DISTRICT": "MUNGELI",
+    "STATE": "CHHATTISGARH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 95,
+    "DISTRICT": "MUNGER",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 677,
+    "DISTRICT": "MURSHIDABAD",
+    "STATE": "WEST BENGAL",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 243,
+    "DISTRICT": "MUZAFFARABAD",
+    "STATE": "JAMMU & KASHMIR",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 650,
+    "DISTRICT": "MUZAFFARNAGAR",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 107,
+    "DISTRICT": "MUZAFFARPUR",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 297,
+    "DISTRICT": "MYSURU",
+    "STATE": "KARNATAKA",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 464,
+    "DISTRICT": "NABARANGAPUR",
+    "STATE": "ODISHA",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 679,
+    "DISTRICT": "NADIA",
+    "STATE": "WEST BENGAL",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 55,
+    "DISTRICT": "NAGAON",
+    "STATE": "ASSAM",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 723,
+    "DISTRICT": "NAGAPATTINAM",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 558,
+    "DISTRICT": "NAGARKURNOOL",
+    "STATE": "TELANGANA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 514,
+    "DISTRICT": "NAGAUR",
+    "STATE": "RAJASTHAN",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 400,
+    "DISTRICT": "NAGPUR",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 669,
+    "DISTRICT": "NAINITAL",
+    "STATE": "UTTARAKHAND",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 103,
+    "DISTRICT": "NALANDA",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 59,
+    "DISTRICT": "NALBARI",
+    "STATE": "ASSAM",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 559,
+    "DISTRICT": "NALGONDA",
+    "STATE": "TELANGANA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 703,
+    "DISTRICT": "NAMAKKAL",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 8,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 32,
+    "DISTRICT": "NAMSAI",
+    "STATE": "ARUNACHAL PRADESH",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 382,
+    "DISTRICT": "NANDED",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 397,
+    "DISTRICT": "NANDURBAR",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 5
+  },
+  {
+    "ID": 118,
+    "DISTRICT": "NARAINPUR",
+    "STATE": "CHHATTISGARH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 575,
+    "DISTRICT": "NARAYANPET",
+    "STATE": "TELANGANA",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 169,
+    "DISTRICT": "NARMADA",
+    "STATE": "GUJARAT",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 5
+  },
+  {
+    "ID": 349,
+    "DISTRICT": "NARSHIMAPURA",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 374,
+    "DISTRICT": "NASHIK",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 188,
+    "DISTRICT": "NAVSARI",
+    "STATE": "GUJARAT",
+    "Extreme_warm_nights": 8,
+    "Extreme_hot_days": 9
+  },
+  {
+    "ID": 93,
+    "DISTRICT": "NAWADA",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 459,
+    "DISTRICT": "NAYAGARH",
+    "STATE": "ODISHA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 149,
+    "DISTRICT": "NEW DELHI",
+    "STATE": "DELHI",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 5,
+    "DISTRICT": "NICOBAR",
+    "STATE": "ANDAMAN & NICOBAR",
+    "Extreme_warm_nights": 8,
+    "Extreme_hot_days": 7
+  },
+  {
+    "ID": 702,
+    "DISTRICT": "NILGIRIS",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 323,
+    "DISTRICT": "NIMACH",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 560,
+    "DISTRICT": "NIRMAL",
+    "STATE": "TELANGANA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 367,
+    "DISTRICT": "NIVARI",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 561,
+    "DISTRICT": "NIZAMABAD",
+    "STATE": "TELANGANA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 418,
+    "DISTRICT": "NONEI",
+    "STATE": "MANIPUR",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 143,
+    "DISTRICT": "NORTH",
+    "STATE": "DELHI",
+    "Extreme_warm_nights": null,
+    "Extreme_hot_days": null
+  },
+  {
+    "ID": 3,
+    "DISTRICT": "NORTH & MIDDLE ANDAMAN",
+    "STATE": "ANDAMAN & NICOBAR",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 539,
+    "DISTRICT": "NORTH DISTRICT",
+    "STATE": "SIKKIM",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 144,
+    "DISTRICT": "NORTH EAST",
+    "STATE": "DELHI",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 429,
+    "DISTRICT": "NORTH GARO HILLS",
+    "STATE": "MEGHALAYA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 154,
+    "DISTRICT": "NORTH GOA",
+    "STATE": "GOA",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 576,
+    "DISTRICT": "NORTH TRIPURA",
+    "STATE": "TRIPURA",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 683,
+    "DISTRICT": "NORTH TWENTY-FOUR PARGANAS",
+    "STATE": "WEST BENGAL",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 153,
+    "DISTRICT": "NORTH WEST",
+    "STATE": "DELHI",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 454,
+    "DISTRICT": "NUAPARHA",
+    "STATE": "ODISHA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 194,
+    "DISTRICT": "NUH",
+    "STATE": "HARYANA",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 40,
+    "DISTRICT": "PAKKE KESSANG",
+    "STATE": "ARUNACHAL PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 247,
+    "DISTRICT": "PAKUR",
+    "STATE": "JHARKHAND",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 303,
+    "DISTRICT": "PALAKKAD",
+    "STATE": "KERALA",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 251,
+    "DISTRICT": "PALAMU",
+    "STATE": "JHARKHAND",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 396,
+    "DISTRICT": "PALGHAR",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 521,
+    "DISTRICT": "PALI",
+    "STATE": "RAJASTHAN",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 195,
+    "DISTRICT": "PALWAL",
+    "STATE": "HARYANA",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 164,
+    "DISTRICT": "PANCH MAHALS",
+    "STATE": "GUJARAT",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 209,
+    "DISTRICT": "PANCHKULA",
+    "STATE": "HARYANA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 205,
+    "DISTRICT": "PANIPAT",
+    "STATE": "HARYANA",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 365,
+    "DISTRICT": "PANNA",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 23,
+    "DISTRICT": "PAPUMPARE",
+    "STATE": "ARUNACHAL PRADESH",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 383,
+    "DISTRICT": "PARBHANI",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 444,
+    "DISTRICT": "PAREN",
+    "STATE": "NAGALAND",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 690,
+    "DISTRICT": "PASCHIM BARDDHAMAN",
+    "STATE": "WEST BENGAL",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 77,
+    "DISTRICT": "PASHCHIMI CHAMPARAN",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 160,
+    "DISTRICT": "PATAN",
+    "STATE": "GUJARAT",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 5
+  },
+  {
+    "ID": 504,
+    "DISTRICT": "PATHANKOT",
+    "STATE": "PUNJAB",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 501,
+    "DISTRICT": "PATIALA",
+    "STATE": "PUNJAB",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 104,
+    "DISTRICT": "PATNA",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 309,
+    "DISTRICT": "PATTANAMTHITTA",
+    "STATE": "KERALA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 562,
+    "DISTRICT": "PEDDAPALLI",
+    "STATE": "TELANGANA",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 704,
+    "DISTRICT": "PERAMBALUR",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 447,
+    "DISTRICT": "PHEK",
+    "STATE": "NAGALAND",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 419,
+    "DISTRICT": "PHERZAWL",
+    "STATE": "MANIPUR",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 587,
+    "DISTRICT": "PILIBHIT",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 664,
+    "DISTRICT": "PITHORAGARH",
+    "STATE": "UTTARAKHAND",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 168,
+    "DISTRICT": "PORBANDAR",
+    "STATE": "GUJARAT",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 15,
+    "DISTRICT": "POTTI SRIRAMULU NELLORE",
+    "STATE": "ANDHRA PRADESH",
+    "Extreme_warm_nights": 7,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 12,
+    "DISTRICT": "PRAKASAM",
+    "STATE": "ANDHRA PRADESH",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 538,
+    "DISTRICT": "PRATAPGARH",
+    "STATE": "RAJASTHAN",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 658,
+    "DISTRICT": "PRATAPGARH",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 636,
+    "DISTRICT": "PRAYAGRAJ",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 480,
+    "DISTRICT": "PUDUCHERRY",
+    "STATE": "PUDUCHERRY",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 720,
+    "DISTRICT": "PUDUKKOTTAI",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 8,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 231,
+    "DISTRICT": "PULWAMA",
+    "STATE": "JAMMU & KASHMIR",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 232,
+    "DISTRICT": "PUNCH",
+    "STATE": "JAMMU & KASHMIR",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 384,
+    "DISTRICT": "PUNE",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 680,
+    "DISTRICT": "PURBA BARDDHAMAN",
+    "STATE": "WEST BENGAL",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 688,
+    "DISTRICT": "PURBA MEDINIPUR",
+    "STATE": "WEST BENGAL",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 78,
+    "DISTRICT": "PURBI CHAMPARAN",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 463,
+    "DISTRICT": "PURI",
+    "STATE": "ODISHA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 112,
+    "DISTRICT": "PURNIA",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 681,
+    "DISTRICT": "PURULIYA",
+    "STATE": "WEST BENGAL",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 625,
+    "DISTRICT": "RAIBEARELI",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 274,
+    "DISTRICT": "RAICHUR",
+    "STATE": "KARNATAKA",
+    "Extreme_warm_nights": 7,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 140,
+    "DISTRICT": "RAIGARH",
+    "STATE": "CHHATTISGARH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 402,
+    "DISTRICT": "RAIGARH",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 6
+  },
+  {
+    "ID": 123,
+    "DISTRICT": "RAIPUR",
+    "STATE": "CHHATTISGARH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 342,
+    "DISTRICT": "RAISEN",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 133,
+    "DISTRICT": "RAJ NANDGAON",
+    "STATE": "CHHATTISGARH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 533,
+    "DISTRICT": "RAJ SAMAND",
+    "STATE": "RAJASTHAN",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 235,
+    "DISTRICT": "RAJAURI",
+    "STATE": "JAMMU & KASHMIR",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 335,
+    "DISTRICT": "RAJGARH",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 180,
+    "DISTRICT": "RAJKOT",
+    "STATE": "GUJARAT",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 295,
+    "DISTRICT": "RAMANAGARAM",
+    "STATE": "KARNATAKA",
+    "Extreme_warm_nights": 7,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 722,
+    "DISTRICT": "RAMANATHAPURAM",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 0
+  },
+  {
+    "ID": 236,
+    "DISTRICT": "RAMBAN",
+    "STATE": "JAMMU & KASHMIR",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 258,
+    "DISTRICT": "RAMGARH",
+    "STATE": "JHARKHAND",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 654,
+    "DISTRICT": "RAMPUR",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 259,
+    "DISTRICT": "RANCHI",
+    "STATE": "JHARKHAND",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 564,
+    "DISTRICT": "RANGAREDDY",
+    "STATE": "TELANGANA",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 728,
+    "DISTRICT": "RANIPPETTAI",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 563,
+    "DISTRICT": "RANJANNA SIRCILLA",
+    "STATE": "TELANGANA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 339,
+    "DISTRICT": "RATLAM",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 391,
+    "DISTRICT": "RATNAGIRI",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 7,
+    "Extreme_hot_days": 6
+  },
+  {
+    "ID": 465,
+    "DISTRICT": "RAYAGARHA",
+    "STATE": "ODISHA",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 324,
+    "DISTRICT": "REWA",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 193,
+    "DISTRICT": "REWARI",
+    "STATE": "HARYANA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 420,
+    "DISTRICT": "RI-BHOI",
+    "STATE": "MEGHALAYA",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 237,
+    "DISTRICT": "RIASI",
+    "STATE": "JAMMU & KASHMIR",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 208,
+    "DISTRICT": "ROHTAK",
+    "STATE": "HARYANA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 90,
+    "DISTRICT": "ROHTAS",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 663,
+    "DISTRICT": "RUDRAPRAYAG",
+    "STATE": "UTTARAKHAND",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 489,
+    "DISTRICT": "RUPNAGAR",
+    "STATE": "PUNJAB",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 177,
+    "DISTRICT": "SABAR KANTHA",
+    "STATE": "GUJARAT",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 331,
+    "DISTRICT": "SAGAR",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 648,
+    "DISTRICT": "SAHARANPUR",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 88,
+    "DISTRICT": "SAHARSA",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 245,
+    "DISTRICT": "SAHIBGANJ",
+    "STATE": "JHARKHAND",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 437,
+    "DISTRICT": "SAIHA",
+    "STATE": "MIZORAM",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 700,
+    "DISTRICT": "SALEM",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 82,
+    "DISTRICT": "SAMASTIPUR",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 242,
+    "DISTRICT": "SAMBA",
+    "STATE": "JAMMU & KASHMIR",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 479,
+    "DISTRICT": "SAMBALPUR",
+    "STATE": "ODISHA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 646,
+    "DISTRICT": "SAMBHAL",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 565,
+    "DISTRICT": "SANGAREDDY",
+    "STATE": "TELANGANA",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 392,
+    "DISTRICT": "SANGLI",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 5
+  },
+  {
+    "ID": 498,
+    "DISTRICT": "SANGRUR",
+    "STATE": "PUNJAB",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 615,
+    "DISTRICT": "SANTKABIRNAGAR",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 263,
+    "DISTRICT": "SARAIKELA-KHARSAWAN",
+    "STATE": "JHARKHAND",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 105,
+    "DISTRICT": "SARAN",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 494,
+    "DISTRICT": "SAS NAGAR (SAHIBZADA AJIT SINGH NAGAR)",
+    "STATE": "PUNJAB",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 390,
+    "DISTRICT": "SATARA",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 325,
+    "DISTRICT": "SATNA",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 519,
+    "DISTRICT": "SAWAI MADHOPUR",
+    "STATE": "RAJASTHAN",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 343,
+    "DISTRICT": "SEHORE",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 5
+  },
+  {
+    "ID": 405,
+    "DISTRICT": "SENAPATI",
+    "STATE": "MANIPUR",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 354,
+    "DISTRICT": "SEONI",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 578,
+    "DISTRICT": "SEPAHIJALA",
+    "STATE": "TRIPURA",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 435,
+    "DISTRICT": "SERCHHIP",
+    "STATE": "MIZORAM",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 151,
+    "DISTRICT": "SHAHADRA",
+    "STATE": "DELHI",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 336,
+    "DISTRICT": "SHAHDOL",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 490,
+    "DISTRICT": "SHAHID BHAGAT SINGH NAGAR",
+    "STATE": "PUNJAB",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 593,
+    "DISTRICT": "SHAHJAHANPUR",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 333,
+    "DISTRICT": "SHAJAPUR",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 5
+  },
+  {
+    "ID": 655,
+    "DISTRICT": "SHAMLI",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 100,
+    "DISTRICT": "SHEIKHPURA",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 80,
+    "DISTRICT": "SHEOHAR",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 320,
+    "DISTRICT": "SHEOPUR",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 39,
+    "DISTRICT": "SHI YOMI",
+    "STATE": "ARUNACHAL PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 218,
+    "DISTRICT": "SHIMLA",
+    "STATE": "HIMACHAL PRADESH",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 283,
+    "DISTRICT": "SHIVAMOGGA",
+    "STATE": "KARNATAKA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 321,
+    "DISTRICT": "SHIVPURI",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 597,
+    "DISTRICT": "SHRAWASTI",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 233,
+    "DISTRICT": "SHUPIYAN",
+    "STATE": "JAMMU & KASHMIR",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 38,
+    "DISTRICT": "SIANG",
+    "STATE": "ARUNACHAL PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 48,
+    "DISTRICT": "SIBSAGAR",
+    "STATE": "ASSAM",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 604,
+    "DISTRICT": "SIDDHARTHNAGAR",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 566,
+    "DISTRICT": "SIDDIPET",
+    "STATE": "TELANGANA",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 0
+  },
+  {
+    "ID": 330,
+    "DISTRICT": "SIDHI",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 509,
+    "DISTRICT": "SIKAR",
+    "STATE": "RAJASTHAN",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 266,
+    "DISTRICT": "SIMDEGA",
+    "STATE": "JHARKHAND",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 394,
+    "DISTRICT": "SINDHUDURG",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 6
+  },
+  {
+    "ID": 329,
+    "DISTRICT": "SINGRAULI",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 220,
+    "DISTRICT": "SIRMAUR",
+    "STATE": "HIMACHAL PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 526,
+    "DISTRICT": "SIROHI",
+    "STATE": "RAJASTHAN",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 5
+  },
+  {
+    "ID": 200,
+    "DISTRICT": "SIRSA",
+    "STATE": "HARYANA",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 79,
+    "DISTRICT": "SITAMARHI",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 598,
+    "DISTRICT": "SITAPUR",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 721,
+    "DISTRICT": "SIVAGANGA",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 0
+  },
+  {
+    "ID": 106,
+    "DISTRICT": "SIWAN",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 219,
+    "DISTRICT": "SOLAN",
+    "STATE": "HIMACHAL PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 389,
+    "DISTRICT": "SOLAPUR",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 643,
+    "DISTRICT": "SONBHADRA",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 206,
+    "DISTRICT": "SONIPAT",
+    "STATE": "HARYANA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 50,
+    "DISTRICT": "SONITPUR",
+    "STATE": "ASSAM",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 150,
+    "DISTRICT": "SOUTH",
+    "STATE": "DELHI",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 4,
+    "DISTRICT": "SOUTH ANDAMAN",
+    "STATE": "ANDAMAN & NICOBAR",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 541,
+    "DISTRICT": "SOUTH DISTRICT",
+    "STATE": "SIKKIM",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 152,
+    "DISTRICT": "SOUTH EAST",
+    "STATE": "DELHI",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 424,
+    "DISTRICT": "SOUTH GARO HILLS",
+    "STATE": "MEGHALAYA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 155,
+    "DISTRICT": "SOUTH GOA",
+    "STATE": "GOA",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 5
+  },
+  {
+    "ID": 74,
+    "DISTRICT": "SOUTH SALMARA MANCACHAR",
+    "STATE": "ASSAM",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 582,
+    "DISTRICT": "SOUTH TRIPURA",
+    "STATE": "TRIPURA",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 672,
+    "DISTRICT": "SOUTH TWENTY-FOUR PARGANAS",
+    "STATE": "WEST BENGAL",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 147,
+    "DISTRICT": "SOUTH WEST",
+    "STATE": "DELHI",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 430,
+    "DISTRICT": "SOUTH WEST GARO HILLS",
+    "STATE": "MEGHALAYA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 428,
+    "DISTRICT": "SOUTH WEST KHASI HILLS",
+    "STATE": "MEGHALAYA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 497,
+    "DISTRICT": "SRI MUKTSAR SAHIB",
+    "STATE": "PUNJAB",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 6,
+    "DISTRICT": "SRIKAKULAM",
+    "STATE": "ANDHRA PRADESH",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 229,
+    "DISTRICT": "SRINAGAR",
+    "STATE": "JAMMU & KASHMIR",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 403,
+    "DISTRICT": "SUB URBAN MUMBAI",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 8,
+    "Extreme_hot_days": 6
+  },
+  {
+    "ID": 453,
+    "DISTRICT": "SUBARNAPUR",
+    "STATE": "ODISHA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 142,
+    "DISTRICT": "SUKMA",
+    "STATE": "CHHATTISGARH",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 623,
+    "DISTRICT": "SULTANPUR",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 473,
+    "DISTRICT": "SUNDARGARH",
+    "STATE": "ODISHA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 110,
+    "DISTRICT": "SUPAUL",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 134,
+    "DISTRICT": "SURAJPUR",
+    "STATE": "CHHATTISGARH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 170,
+    "DISTRICT": "SURAT",
+    "STATE": "GUJARAT",
+    "Extreme_warm_nights": 8,
+    "Extreme_hot_days": 8
+  },
+  {
+    "ID": 179,
+    "DISTRICT": "SURENDRANAGAR",
+    "STATE": "GUJARAT",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 5
+  },
+  {
+    "ID": 137,
+    "DISTRICT": "SURGUJA",
+    "STATE": "CHHATTISGARH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 567,
+    "DISTRICT": "SURYAPET",
+    "STATE": "TELANGANA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 406,
+    "DISTRICT": "TAMENGLONG",
+    "STATE": "MANIPUR",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 171,
+    "DISTRICT": "TAPI",
+    "STATE": "GUJARAT",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 5
+  },
+  {
+    "ID": 488,
+    "DISTRICT": "TARN TARAN",
+    "STATE": "PUNJAB",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 5
+  },
+  {
+    "ID": 22,
+    "DISTRICT": "TAWANG",
+    "STATE": "ARUNACHAL PRADESH",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 662,
+    "DISTRICT": "TEHRI GARHWAL",
+    "STATE": "UTTARAKHAND",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 416,
+    "DISTRICT": "TENGNOUPAL",
+    "STATE": "MANIPUR",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 714,
+    "DISTRICT": "TENI",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 725,
+    "DISTRICT": "TENKASI",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 395,
+    "DISTRICT": "THANE",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 709,
+    "DISTRICT": "THANJAVUR",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 311,
+    "DISTRICT": "THIRUVANANTHAPURAM",
+    "STATE": "KERALA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 711,
+    "DISTRICT": "THIRUVARUR",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 415,
+    "DISTRICT": "THOUBAL",
+    "STATE": "MANIPUR",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 322,
+    "DISTRICT": "TIKAMGARH",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 44,
+    "DISTRICT": "TINSUKIA",
+    "STATE": "ASSAM",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 24,
+    "DISTRICT": "TIRAP",
+    "STATE": "ARUNACHAL PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 706,
+    "DISTRICT": "TIRUCHIRAPALLI",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 8,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 726,
+    "DISTRICT": "TIRUNELVELI",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 729,
+    "DISTRICT": "TIRUPPATTUR",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 708,
+    "DISTRICT": "TIRUPPUR",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 8,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 695,
+    "DISTRICT": "TIRUVALLUR",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 7,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 698,
+    "DISTRICT": "TIRUVANNAMALAI",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 520,
+    "DISTRICT": "TONK",
+    "STATE": "RAJASTHAN",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 304,
+    "DISTRICT": "TRISSUR",
+    "STATE": "KERALA",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 442,
+    "DISTRICT": "TUENSANG",
+    "STATE": "NAGALAND",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 294,
+    "DISTRICT": "TUMAKURU",
+    "STATE": "KARNATAKA",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 716,
+    "DISTRICT": "TUTICORIN",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 528,
+    "DISTRICT": "UDAIPUR",
+    "STATE": "RAJASTHAN",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 52,
+    "DISTRICT": "UDALGURI",
+    "STATE": "ASSAM",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 671,
+    "DISTRICT": "UDHAM SINGH NAGAR",
+    "STATE": "UTTARAKHAND",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 241,
+    "DISTRICT": "UDHAMPUR",
+    "STATE": "JAMMU & KASHMIR",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 284,
+    "DISTRICT": "UDUPI",
+    "STATE": "KARNATAKA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 341,
+    "DISTRICT": "UJJAIN",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 417,
+    "DISTRICT": "UKHRUL",
+    "STATE": "MANIPUR",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 338,
+    "DISTRICT": "UMARIA",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 217,
+    "DISTRICT": "UNA",
+    "STATE": "HIMACHAL PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 616,
+    "DISTRICT": "UNNAO",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 583,
+    "DISTRICT": "UNOKOTI",
+    "STATE": "TRIPURA",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 34,
+    "DISTRICT": "UPPER SIANG",
+    "STATE": "ARUNACHAL PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 19,
+    "DISTRICT": "UPPER SUBANSIRI",
+    "STATE": "ARUNACHAL PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 388,
+    "DISTRICT": "USMANABAD",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 117,
+    "DISTRICT": "UTTAR BASTAR KANKER",
+    "STATE": "CHHATTISGARH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 694,
+    "DISTRICT": "UTTAR DINAJPUR",
+    "STATE": "WEST BENGAL",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 279,
+    "DISTRICT": "UTTARA  KANNADA",
+    "STATE": "KARNATAKA",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 659,
+    "DISTRICT": "UTTARKASHI",
+    "STATE": "UTTARAKHAND",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 166,
+    "DISTRICT": "VADODARA",
+    "STATE": "GUJARAT",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 96,
+    "DISTRICT": "VAISHALI",
+    "STATE": "BIHAR",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 156,
+    "DISTRICT": "VALSAD",
+    "STATE": "GUJARAT",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 5
+  },
+  {
+    "ID": 637,
+    "DISTRICT": "VARANASI",
+    "STATE": "UTTAR PRADESH",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 727,
+    "DISTRICT": "VELLORE",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 334,
+    "DISTRICT": "VIDISHA",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 298,
+    "DISTRICT": "VIJAYAPURA",
+    "STATE": "KARNATAKA",
+    "Extreme_warm_nights": 7,
+    "Extreme_hot_days": 5
+  },
+  {
+    "ID": 568,
+    "DISTRICT": "VIKARABAD",
+    "STATE": "TELANGANA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 718,
+    "DISTRICT": "VILLUPURAM",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 715,
+    "DISTRICT": "VIRUDHUNAGAR",
+    "STATE": "TAMIL NADU",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 8,
+    "DISTRICT": "VISAKHAPATNAM",
+    "STATE": "ANDHRA PRADESH",
+    "Extreme_warm_nights": 8,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 7,
+    "DISTRICT": "VIZIANAGARAM",
+    "STATE": "ANDHRA PRADESH",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 569,
+    "DISTRICT": "WANAPARTHY",
+    "STATE": "TELANGANA",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 570,
+    "DISTRICT": "WARANGAL (RURAL)",
+    "STATE": "TELANGANA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 571,
+    "DISTRICT": "WARANGAL (URBAN)",
+    "STATE": "TELANGANA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 0
+  },
+  {
+    "ID": 371,
+    "DISTRICT": "WARDHA",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 376,
+    "DISTRICT": "WASHIM",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 300,
+    "DISTRICT": "WAYANAD",
+    "STATE": "KERALA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 145,
+    "DISTRICT": "WEST",
+    "STATE": "DELHI",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 540,
+    "DISTRICT": "WEST DISTRICT",
+    "STATE": "SIKKIM",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 425,
+    "DISTRICT": "WEST GARO HILLS",
+    "STATE": "MEGHALAYA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 16,
+    "DISTRICT": "WEST GODAVARI",
+    "STATE": "ANDHRA PRADESH",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 427,
+    "DISTRICT": "WEST JAINTIA HILLS",
+    "STATE": "MEGHALAYA",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 30,
+    "DISTRICT": "WEST KAMENG",
+    "STATE": "ARUNACHAL PRADESH",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 76,
+    "DISTRICT": "WEST KARBI ANGLONG",
+    "STATE": "ASSAM",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 421,
+    "DISTRICT": "WEST KHASI HILLS",
+    "STATE": "MEGHALAYA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 358,
+    "DISTRICT": "WEST NIMAR",
+    "STATE": "MADHYA PRADESH",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 5
+  },
+  {
+    "ID": 41,
+    "DISTRICT": "WEST SIANG",
+    "STATE": "ARUNACHAL PRADESH",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 265,
+    "DISTRICT": "WEST SINGHBHUM",
+    "STATE": "JHARKHAND",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 581,
+    "DISTRICT": "WEST TRIPURA",
+    "STATE": "TRIPURA",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 3
+  },
+  {
+    "ID": 445,
+    "DISTRICT": "WOKHA",
+    "STATE": "NAGALAND",
+    "Extreme_warm_nights": 4,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 17,
+    "DISTRICT": "Y S R KADAPA",
+    "STATE": "ANDHRA PRADESH",
+    "Extreme_warm_nights": 5,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 572,
+    "DISTRICT": "YADADRI BHUVANAGIRI",
+    "STATE": "TELANGANA",
+    "Extreme_warm_nights": 1,
+    "Extreme_hot_days": 0
+  },
+  {
+    "ID": 272,
+    "DISTRICT": "YADGIR",
+    "STATE": "KARNATAKA",
+    "Extreme_warm_nights": 6,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 197,
+    "DISTRICT": "YAMUNANAGAR",
+    "STATE": "HARYANA",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 1
+  },
+  {
+    "ID": 483,
+    "DISTRICT": "YANAM",
+    "STATE": "PUDUCHERRY",
+    "Extreme_warm_nights": 10,
+    "Extreme_hot_days": 4
+  },
+  {
+    "ID": 378,
+    "DISTRICT": "YAVATMAL",
+    "STATE": "MAHARASHTRA",
+    "Extreme_warm_nights": 2,
+    "Extreme_hot_days": 2
+  },
+  {
+    "ID": 446,
+    "DISTRICT": "ZUNHEBOTO",
+    "STATE": "NAGALAND",
+    "Extreme_warm_nights": 3,
+    "Extreme_hot_days": 3
+  }
+ ]
